@@ -1,0 +1,44 @@
+{
+  "last_update": "28/03/2026 à 19:03",
+  "last_update_iso": "2026-03-28T19:04:12.100220",
+  "sources_fetched": [
+    "palmares",
+    "dividendes",
+    "actualites",
+    "communiques",
+    "indices",
+    "cotation_SNTS.sn",
+    "cotation_ORAC.ci",
+    "cotation_BOAC.ci",
+    "cotation_BOABF.bf",
+    "cotation_BOAS.sn",
+    "cotation_ECOC.ci",
+    "cotation_SGBC.ci",
+    "cotation_TTLC.ci",
+    "cotation_SIBC.ci",
+    "cotation_CBIBF.bf",
+    "cotation_NSBC.ci"
+  ],
+  "tickers_fetched": [
+    "SONATEL",
+    "ORANGE CI",
+    "BOA CI",
+    "BOA BF",
+    "BOA SN",
+    "ECOBANK CI",
+    "SG CI",
+    "TOTAL CI",
+    "SIB CI",
+    "CORIS BANK",
+    "NSIA BANQUE"
+  ],
+  "fetch_errors": [],
+  "warning": "Toujours re-fetcher sikafinance.com avant toute analyse. Ce fichier indique QUAND les données ont été mises à jour, pas leur valeur exacte.",
+  "urls": {
+    "palmares": "https://www.sikafinance.com/marches/palmares",
+    "dividendes": "https://www.sikafinance.com/marches/dividendes",
+    "actualites": "https://www.sikafinance.com/marches/actualites_bourse_brvm",
+    "communiques": "https://www.sikafinance.com/marches/communiques_brvm",
+    "indices": "https://www.sikafinance.com/marches/indices_afrique"
+  }
+}
