@@ -64,7 +64,7 @@ Extraire systématiquement : cours, variation, beta, RSI, volumes, perfs (1sem/1
 
 ## 4. ANALYSE FONDAMENTALE
 
-### PER
+### PER (Price Earnings Ratio)
 - <8 : Très bon marché 🟢 | 8–15 : Juste | 15–25 : Cher | >25 : Très cher 🔴
 - Moyenne BRVM historique : 8–12x
 
@@ -73,6 +73,136 @@ Extraire systématiquement : cours, variation, beta, RSI, volumes, perfs (1sem/1
 
 ### Capitalisation
 - >500 Mds : Grande cap sûre | 100–500 Mds : Équilibrée | <100 Mds : Risque liquidité
+
+---
+
+## 4B. ANALYSE FONDAMENTALE APPROFONDIE
+
+Quand l'utilisateur demande une analyse fondamentale complète d'une action, appliquer ce framework en 5 étapes. Commencer par fetcher les données live (section 1), puis chercher le rapport annuel sur sikafinance.
+
+**Source rapports financiers BRVM :**
+- Fiches valeur : `https://www.sikafinance.com/marches/cotation_[TICKER]` (onglet "Fondamentaux")
+- Rapports annuels : `https://www.sikafinance.com/marches/publications`
+- Communiqués CREPMF : `https://www.sikafinance.com/marches/communiques_brvm`
+
+---
+
+### ÉTAPE 1 — COMPRENDRE LE BUSINESS (Qualitatif)
+
+Répondre à ces 5 questions avant tout chiffre :
+1. **Activité** : Que vend/produit exactement la société ? Quels marchés ?
+2. **Positionnement** : Leader, challenger, ou niche ? Part de marché estimée ?
+3. **Avantage concurrentiel (moat)** : Marque forte ? Réseau ? Licences ? Coûts de changement ?
+4. **Actionnariat** : Groupe international (ex. Orange, BNP, Total) = stabilité. Actionnariat local concentré = risque governance.
+5. **Régulation** : Secteur régulé (banque, télécom, énergie) = barrières à l'entrée, mais aussi risque réglementaire.
+
+---
+
+### ÉTAPE 2 — RENTABILITÉ (Compte de résultat)
+
+| Indicateur | Formule | Seuils BRVM |
+|---|---|---|
+| **ROE** | Bénéfice net / Capitaux propres | >15% excellent, 8–15% correct, <8% faible |
+| **ROA** | Bénéfice net / Total actifs | >5% bon (banques : >1%) |
+| **Marge nette** | Bénéfice net / Chiffre d'affaires | >10% solide, >20% exceptionnel |
+| **Marge opérationnelle** | EBIT / CA | >15% confortable |
+| **Croissance BPA** | (BPA n – BPA n-3) / BPA n-3 | >30% sur 3 ans = dynamique 🟢 |
+
+**Règle de cohérence** : ROE élevé + faible endettement = qualité réelle. ROE élevé + dette excessive = illusion de performance.
+
+---
+
+### ÉTAPE 3 — SOLIDITÉ DU BILAN
+
+| Indicateur | Formule | Seuils (hors banques) |
+|---|---|---|
+| **Ratio D/E** | Dette financière nette / Capitaux propres | <1x sain, 1–2x acceptable, >2x risqué |
+| **Dette nette / EBITDA** | Dette nette / EBITDA | <2x bon, 2–4x vigilance, >4x danger |
+| **Ratio courant** | Actif courant / Passif courant | >1.2x minimum |
+| **Payout ratio** | Dividende total / Bénéfice net | <70% = dividende soutenable, >90% = risque de coupe |
+
+*Pour les banques* : indicateurs spécifiques — ratio Tier 1 (>10% = solide), NPL ratio (<5% bon), ROE bancaire (>12% excellent).
+
+---
+
+### ÉTAPE 4 — VALORISATION MULTI-CRITÈRES
+
+| Multiple | Formule | Seuil bas (opportunité) | Seuil haut (cher) |
+|---|---|---|---|
+| **PER** | Cours / BPA | <10x | >20x |
+| **P/B (Price-to-Book)** | Cours / Actif net par action | <1x = décote sur actifs | >3x = prime élevée |
+| **EV/EBITDA** | Valeur d'entreprise / EBITDA | <5x | >12x |
+| **Rendement FCF** | Free Cash Flow / Capitalisation | >8% = généreux | <3% = cher |
+
+**Comparaison sectorielle** : Toujours comparer le PER de la valeur à la médiane de son secteur sur la BRVM, pas à une norme globale.
+
+---
+
+### ÉTAPE 5 — CATALYSEURS & RISQUES
+
+**Catalyseurs haussiers à identifier** :
+- Expansion géographique (ex. banque qui ouvre dans un nouveau pays UEMOA)
+- Hausse des dividendes annoncée
+- Contrat ou concession majeure
+- Rachat d'actions (rare sur BRVM mais très positif)
+- Amélioration macro UEMOA (croissance PIB, baisse taux BCEAO)
+
+**Risques à quantifier** :
+- Risque pays (instabilité politique au Mali, Burkina, Niger → valeurs exposées)
+- Risque de change indirect (intrants importés en USD/EUR vs revenus en FCFA)
+- Risque de concentration client (un seul gros client = vulnérabilité)
+- Risque réglementaire (hausse de taxe, changement de licence)
+- Risque de dilution (augmentation de capital non annoncée)
+
+---
+
+### SCORE FONDAMENTAL ÉTENDU /10
+
+| Critère | Condition | Points |
+|---|---|---|
+| Valorisation | PER < 12x | +2 |
+| Rentabilité | ROE > 12% | +2 |
+| Dividende | Yield > 5% ET payout < 75% | +2 |
+| Bilan | D/E < 1x (ou Tier 1 > 10% pour banques) | +1 |
+| Croissance | BPA en hausse 3 ans consécutifs | +1 |
+| Moat | Avantage concurrentiel identifiable | +1 |
+| Actionnariat | Groupe international solide | +1 |
+
+**Grille** : 9–10 → Fondamentaux excellents 🟢 | 6–8 → Solides 🟡 | <6 → Fragiles 🔴
+
+---
+
+### FORMAT DE RÉPONSE — ANALYSE FONDAMENTALE COMPLÈTE
+
+```
+📊 ANALYSE FONDAMENTALE — [NOM VALEUR] ([TICKER])
+────────────────────────────────────────────────
+
+🏢 BUSINESS
+  Activité : [description]
+  Moat : [avantage concurrentiel]
+  Actionnariat : [groupe/locaux]
+
+💰 RENTABILITÉ (derniers résultats connus)
+  CA : [X Mds FCFA] | Croissance : [X%]
+  Bénéfice net : [X Mds] | Marge nette : [X%]
+  ROE : [X%] | ROA : [X%]
+  BPA : [X FCFA] | Croissance BPA 3 ans : [X%]
+
+🏦 BILAN
+  D/E : [X] | Dette nette/EBITDA : [X]
+  Payout ratio : [X%] | Dividende soutenable : [Oui/Non]
+
+📐 VALORISATION
+  PER : [X] | P/B : [X] | EV/EBITDA : [X]
+  vs. médiane sectorielle BRVM : [sous-évalué / juste / surévalué]
+
+⚡ CATALYSEURS : [liste]
+⚠️ RISQUES : [liste]
+
+🎯 SCORE FONDAMENTAL : [X/10]
+   VERDICT FONDAMENTAL : [SOLIDE / CORRECT / FRAGILE]
+```
 
 ## 5. STRATÉGIES DE TRADING
 
@@ -123,6 +253,7 @@ Volume > moyenne : +1 | Trend YTD positif : +1
 ### Score Fondamental /5
 Yield >5% : +1 | Bénéfices croissants 3 ans : +1
 Cap >200 Mds : +1 | Backing groupe international : +1 | PER <15 : +1
+→ Pour une analyse fondamentale détaillée, appliquer le Score Étendu /10 de la section 4B
 
 ### Décision
 ≥8/10 → ACHAT FORT 🟢 | 6–7/10 → ACHAT PARTIEL (DCA) 🟡 | ≤5/10 → PASSER 🔴
