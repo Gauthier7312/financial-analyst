@@ -16,3 +16,4 @@ venv/
 # Temp files
 *.tmp
 *.log
+logs/
