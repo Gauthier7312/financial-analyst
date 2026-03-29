@@ -132,9 +132,30 @@ TOP VOLUMES
 
 ---
 
-## Règle de fraîcheur des données
+## Règle de fraîcheur des données — Protocole cache
 
-- Toujours fetcher en live avant d'afficher des cours
-- Ne jamais utiliser des données cachées de plus de 30 minutes pour une analyse d'achat/vente
+### Répertoire cache
+Tous les fichiers cache sont dans `skills/brvm-trader/data/cache/`.
+Format de nommage : `YYYY-MM-DD_[source].md`
+Exemples : `2026-03-29_palmares.md`, `2026-03-29_cotation_SNTS.sn.md`
+
+### AVANT de fetcher (obligatoire)
+1. Construire le nom : `YYYY-MM-DD_[source].md` avec la date du jour
+2. Tenter de lire ce fichier dans `skills/brvm-trader/data/cache/`
+3. Si le fichier **existe** → utiliser ses données, ne pas refetcher, afficher `[cache du JJ/MM/YYYY]`
+4. Si le fichier **n'existe pas** → fetcher, puis sauvegarder immédiatement
+
+### APRÈS chaque fetch réussi (obligatoire)
+1. Créer `skills/brvm-trader/data/cache/YYYY-MM-DD_[source].md` avec le contenu extrait
+2. Format minimal :
+```
+# Cache [source] — [JJ/MM/YYYY HH:MM]
+Source : [URL]
+
+[contenu : cours, variation, RSI, beta, volumes, perfs, etc.]
+```
+3. Mettre à jour `skills/brvm-trader/data/data_freshness.json`
+
+### Règles complémentaires
+- Ne jamais utiliser un cache de plus d'1 jour pour une analyse d'achat/vente
 - Si sikafinance.com est inaccessible, indiquer clairement "Données non disponibles — site inaccessible"
-- Mettre à jour `.claude/skills/brvm-trader/data/data_freshness.json` après chaque fetch réussi
