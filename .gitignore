@@ -13,6 +13,15 @@ __pycache__/
 .env
 venv/
 
+# Données personnelles BRVM (ne jamais distribuer)
+*.xlsx
+*.xls
+skills/brvm-trader/data/watch_list.md
+.claude/courses/progress.md
+
+# Snapshots de marché (données périmées, régénérées en live)
+brvm-trader/references/market_snapshot.md
+
 # Temp files
 *.tmp
 *.log

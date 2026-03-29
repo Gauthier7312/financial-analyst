@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "test -f \"$HOME/.claude/courses/progress.md\" && echo '{\"systemMessage\": \"📊 Progression BRVM chargée — /formation pour continuer ton parcours\"}' || echo '{\"systemMessage\": \"👋 Bienvenue ! Lance /brvm-trader pour initialiser ton parcours de formation BRVM.\"}'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath // empty' | grep -q 'courses/progress\\.md' && echo '{\"systemMessage\": \"✅ Progression sauvegardée\"}' || true",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath // empty' | grep -q 'watch_list\\.md' && echo '{\"systemMessage\": \"💼 Watch list mise à jour\"}' || true",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

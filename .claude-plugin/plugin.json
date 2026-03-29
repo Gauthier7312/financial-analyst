@@ -1,7 +1,7 @@
 {
   "name": "brvm-trader",
-  "version": "1.0.0",
-  "description": "Expert BRVM pour Claude Code — Analyse technique & fondamentale + Formation interactive 3 niveaux (débutant → stratège)",
+  "version": "2.0.0",
+  "description": "Expert BRVM pour Claude Code — Analyse technique & fondamentale live + Formation interactive 3 niveaux (débutant → stratège BRVM)",
   "author": {
     "name": "elysee15",
     "url": "https://github.com/elysee15"
@@ -17,7 +17,11 @@
     "finance",
     "afrique",
     "formation",
-    "investissement"
+    "investissement",
+    "analyse-technique",
+    "subagents"
   ],
-  "skills": ["./skills/"]
+  "agents": ["./agents/"],
+  "skills": ["./skills/"],
+  "commands": ["./commands/"]
 }

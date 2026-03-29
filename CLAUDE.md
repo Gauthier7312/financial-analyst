@@ -1,4 +1,4 @@
-# Contexte Projet — Formation BRVM
+# Contexte Projet — Formation & Trading BRVM
 
 ## Qui je suis
 - **Apprenant** — je me forme au fonctionnement du marché boursier et de la BRVM
@@ -10,25 +10,47 @@
 - En phase de formation et d'apprentissage
 - Pas encore de SGI, pas de portefeuille réel
 
-## Module de formation
-- `formations/parcours.json` — Suivi du parcours apprenant (progression, scores, journal)
-- `formations/tracker.py` — Script CLI de gestion du parcours
-- `formations/niveau1/` — Initiation à la Bourse & BRVM (4 modules + quiz)
-- `formations/niveau2/` — Analyser et choisir ses actions (4 modules + quiz)
-- `formations/niveau3/` — Stratégies d'investissement (4 modules + quiz)
+## Architecture du plugin
 
-## Fichiers du projet
-- `brvm-trader/SKILL.md` — Skill expert BRVM (analyse technique + fondamentale + stratégies)
-- `brvm-trader/references/valeurs_brvm.md` — Tickers et snapshot marché
-- `brvm-trader/references/news_et_communiques.md` — Actualités et communiqués live
-- `brvm-trader/references/strategies_avancees.md` — Patterns de trading avancés
-- `brvm-trader/references/watch_list.md` — Liste de surveillance avec alertes prix
+Ce projet est un **plugin Claude Code** installable et distribuable.
+
+### Agents spécialisés (`agents/`)
+| Agent | Rôle |
+|-------|------|
+| `brvm-marche` | Données live sikafinance.com (cours, palmarès, dividendes) |
+| `brvm-stratege` | Score /10, verdict ACHAT/ATTENDRE/ÉVITER, stratégies |
+| `brvm-formateur` | Formation interactive, quiz, progression |
+| `brvm-portefeuille` | Positions, stop-loss, alertes, watch list |
+
+### Commandes disponibles (`commands/`)
+| Commande | Usage |
+|----------|-------|
+| `/analyse [VALEUR]` | Analyse complète d'une action BRVM |
+| `/marche` | Palmarès et indices du jour |
+| `/formation [module]` | Formation interactive + tableau de bord |
+| `/portefeuille` | État des positions et alertes |
+| `/dividendes` | Calendrier dividendes 2026 |
+| `/brvm-trader` | Point d'entrée principal |
+
+### Données de référence (`skills/brvm-trader/data/`)
+- `valeurs_brvm.md` — tickers et profils fondamentaux
+- `strategies_avancees.md` — patterns de trading avancés
+- `news_et_communiques.md` — actualités et alertes
+- `watch_list.md` — positions personnelles (ignoré par git)
+- `data_freshness.json` — timestamp du dernier fetch
+
+### Formation (`skills/brvm-trader/courses/`)
+- `niveau1/` — 5 modules initiation (vocabulaire, BRVM, acteurs, ordres)
+- `niveau2/` — 4 modules analyse (graphiques, RSI, fondamentale, timing)
+- `niveau3/` — 4 modules stratégies (portefeuille, risque, DCA, dividendes)
+
+### Progression
+- `.claude/courses/progress.md` — créé automatiquement au premier `/brvm-trader`
 
 ## Instructions pour Claude
-- Toujours activer le skill `brvm-trader` pour toute question BRVM
+- Utiliser `/brvm-trader` comme point d'entrée principal
+- Déléguer systématiquement aux agents spécialisés selon l'intention
 - Toujours fetcher les données live sur sikafinance.com avant toute analyse
-- Adapter les explications à un profil débutant : vulgariser, expliquer les concepts, donner des exemples concrets
-- Quand on parle d'actions ou de stratégies, préciser qu'il s'agit d'exemples pédagogiques, pas de conseils d'investissement réels
-- Parler franchement, avec des chiffres précis, mais sans présupposer qu'un achat ou vente va avoir lieu
-- Après chaque session de formation, proposer de mettre à jour `formations/parcours.json` via `python formations/tracker.py`
-- Si l'apprenant répond à un quiz, l'aider à s'auto-évaluer et lui suggérer d'enregistrer son score
+- Adapter les explications au profil débutant : vulgariser, exemples concrets
+- Mentionner que les analyses sont des exemples pédagogiques, pas des conseils d'investissement
+- Lier chaque analyse à un module de formation pertinent
