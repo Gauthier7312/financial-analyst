@@ -1,0 +1,59 @@
+---
+module: "1.1"
+titre: "Pourquoi investir en bourse ?"
+niveau: 1
+duree: "45 min"
+prerequis: aucun
+suivant: "1.2"
+---
+
+# Module 1.1 — Pourquoi investir en bourse ?
+
+## Objectifs pédagogiques
+À la fin de ce module, l'apprenant doit pouvoir :
+- Expliquer pourquoi laisser son argent à la banque n'est pas neutre (inflation)
+- Comprendre ce que sont les intérêts composés avec un exemple chiffré
+- Citer 3 avantages spécifiques de la BRVM
+- Définir : action, dividende, plus-value, capitalisation
+
+## Concepts à enseigner (dans cet ordre)
+
+### 1. L'inflation — l'ennemi silencieux
+- Définition simple : la hausse des prix qui érode le pouvoir d'achat
+- En UEMOA : inflation ~2–4%/an
+- Exemple : 100 000 FCFA en 2026 = ~83 000 FCFA de pouvoir d'achat en 2031
+- Message clé : ne pas investir, c'est déjà perdre
+
+### 2. Les 3 façons de faire fructifier son argent
+- Livret bancaire : 3–5%, risque nul, liquidité immédiate
+- Obligations : 5.5–7.5%, risque faible, peu liquide
+- Actions BRVM : 8–15%/an en moyenne (exceptionnellement +42% en 2025–2026)
+
+### 3. Pourquoi la BRVM spécifiquement ?
+- Risque de change nul (FCFA arrimé Euro à 655.957)
+- Économie UEMOA en croissance (+6%/an)
+- Dividendes généreux (5–8% sur les meilleures valeurs)
+- Accessible dès ~50 000 FCFA via une SGI
+- Régulé par le CREPMF
+
+### 4. Les intérêts composés — concept fondamental
+- Formule : Capital × (1 + taux)^années
+- Exemple : 100 000 FCFA à 10%/an → 259 374 FCFA en 10 ans, 672 750 FCFA en 20 ans
+- Message clé : commencer tôt, réinvestir les dividendes
+
+### 5. Vocabulaire de base
+- Action = part de propriété d'une entreprise
+- Dividende = part des bénéfices distribuée aux actionnaires
+- Plus-value = gain quand le cours monte
+- Capitalisation = valeur totale de toutes les actions d'une entreprise
+
+## Quiz de fin de module (5 questions orales)
+1. Qu'arrive-t-il à 100 000 FCFA non investi en 5 ans si l'inflation est à 3% ?
+2. Quelle est la différence entre un dividende et une plus-value ?
+3. Si tu investis 200 000 FCFA à 8%/an, combien auras-tu après 3 ans ?
+4. Cite 2 avantages spécifiques de la BRVM par rapport à d'autres marchés.
+5. Explique les intérêts composés avec tes propres mots.
+
+## Barème et validation
+- Score ≥ 7/10 : module validé → débloquer 1.2
+- Score < 7/10 : revoir les concepts faibles, recommencer le quiz

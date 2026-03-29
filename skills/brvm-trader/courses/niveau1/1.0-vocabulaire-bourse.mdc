@@ -1,0 +1,153 @@
+---
+module: "1.0"
+titre: "Introduction & Vocabulaire de la Bourse"
+niveau: 1
+duree: "30 min"
+prerequis: aucun
+suivant: "1.1"
+---
+
+# Module 1.0 — Introduction & Vocabulaire de la Bourse
+
+## Objectifs pédagogiques
+À la fin de ce module, l'apprenant doit pouvoir :
+- Expliquer ce qu'est une bourse en termes simples
+- Définir les 30 termes fondamentaux du vocabulaire boursier
+- Distinguer les principaux instruments financiers (actions, obligations, fonds)
+- Comprendre qui sont les acteurs d'un marché financier
+- Lire une fiche de cotation basique
+
+---
+
+## Concepts à enseigner (dans cet ordre)
+
+### BLOC 1 — Qu'est-ce que la bourse ?
+
+**La bourse en une phrase**
+Un marché organisé où des acheteurs et des vendeurs s'échangent des titres
+financiers (actions, obligations) à des prix fixés par l'offre et la demande.
+
+**Pourquoi les entreprises vont en bourse ?**
+- Lever des capitaux pour financer leur croissance
+- Sans rembourser comme un prêt bancaire
+- En échange d'une part de propriété (actions)
+
+**Pourquoi les investisseurs achètent des actions ?**
+- Partager les bénéfices de l'entreprise (dividendes)
+- Profiter de la hausse de la valeur de l'action (plus-value)
+- Diversifier leur patrimoine
+
+---
+
+### BLOC 2 — Les instruments financiers
+
+| Instrument | Définition simple | Risque | Rendement |
+|---|---|---|---|
+| **Action** | Part de propriété d'une entreprise | Modéré à élevé | Variable |
+| **Obligation** | Prêt fait à une entreprise ou un État | Faible | Fixe |
+| **FCP / SICAV** | Panier de plusieurs titres géré par un professionnel | Variable | Variable |
+| **ETF** | Fonds qui réplique un indice boursier | Variable | Variable |
+| **Bon du Trésor** | Prêt court terme à l'État | Très faible | Faible |
+
+---
+
+### BLOC 3 — Vocabulaire essentiel (30 termes)
+
+#### Les titres
+- **Action** : titre représentant une part du capital d'une société
+- **Actionnaire** : personne qui détient une ou plusieurs actions
+- **Obligation** : titre de créance — tu prêtes, on te rembourse avec intérêts
+- **Coupon** : intérêt versé périodiquement sur une obligation
+- **Dividende** : part des bénéfices distribuée aux actionnaires
+- **Plus-value** : gain réalisé lors de la vente d'un titre à un prix supérieur au prix d'achat
+- **Moins-value** : perte réalisée lors de la vente d'un titre à un prix inférieur au prix d'achat
+
+#### Les prix
+- **Cours** : prix actuel d'un titre sur le marché
+- **Cours d'ouverture** : premier prix coté en début de séance
+- **Cours de clôture** : dernier prix coté en fin de séance
+- **Plus haut / Plus bas** : cours extrêmes sur une période donnée
+- **Fourchette bid/ask** : écart entre le prix d'achat proposé (bid) et le prix de vente demandé (ask)
+- **Spread** : écart entre bid et ask — plus il est petit, plus le marché est liquide
+
+#### Le marché
+- **Séance** : journée de cotation (9h–15h30 GMT sur la BRVM)
+- **Liquidité** : facilité à acheter ou vendre rapidement sans impacter le prix
+- **Volume** : nombre de titres échangés sur une période
+- **Capitalisation boursière** : valeur totale de toutes les actions d'une entreprise = Cours × Nombre d'actions
+- **Indice** : panier de valeurs représentatives d'un marché (ex: BRVM Composite)
+- **IPO** (Introduction en Bourse) : première cotation d'une société sur un marché
+- **Marché primaire** : émission de nouveaux titres (IPO, augmentation de capital)
+- **Marché secondaire** : échange de titres déjà existants entre investisseurs
+
+#### Les ordres
+- **Ordre d'achat** : instruction donnée à la SGI d'acheter des titres
+- **Ordre de vente** : instruction donnée à la SGI de vendre des titres
+- **Ordre limité** : ordre avec un prix maximum (achat) ou minimum (vente)
+- **Ordre au marché** : ordre exécuté immédiatement au meilleur prix disponible
+- **Carnet d'ordres** : liste des ordres d'achat et de vente en attente
+
+#### La performance
+- **Rendement** : gain total d'un investissement (dividendes + plus-value) en %
+- **PER** (Price Earnings Ratio) : rapport entre le cours et le bénéfice par action
+- **Volatilité** : mesure des fluctuations d'un titre — plus c'est volatil, plus c'est risqué
+- **Benchmark** : indice de référence utilisé pour comparer la performance d'un portefeuille
+
+#### La gestion du risque
+- **Stop-loss** : ordre automatique de vente si le cours descend sous un seuil
+- **Diversification** : répartir son capital sur plusieurs titres pour réduire le risque
+- **Portefeuille** : ensemble des titres détenus par un investisseur
+
+---
+
+### BLOC 4 — Les acteurs d'un marché financier
+
+```
+ÉTAT / ENTREPRISES          RÉGULATEUR           INVESTISSEURS
+(émettent des titres)  →   (contrôle)       ←   (achètent des titres)
+  Actions, Obligations      CREPMF (BRVM)         Particuliers, Fonds
+         ↓                                               ↓
+              ←——————— SGI (intermédiaire) ————————→
+                         BOURSE (BRVM)
+                    (place de marché organisée)
+```
+
+---
+
+### BLOC 5 — Lire une fiche de cotation sikafinance.com
+
+Exemple avec SONATEL (SNTS.sn) :
+
+```
+Cours          : 28 400 FCFA    ← Prix actuel
+Variation      : -0.09%         ← Par rapport à la clôture précédente
+Volume         : 7 988 titres   ← Nombre d'actions échangées aujourd'hui
+Capitalisation : 2 840 Mds      ← Valeur totale de l'entreprise en bourse
+RSI            : 49.55          ← Indicateur technique (30-70 = zone normale)
+Beta           : 0.83           ← Volatilité vs marché (<1 = moins volatil)
+Dividende      : 1 740 FCFA     ← Montant versé par action par an
+Rendement      : 6.13%          ← Dividende / Cours × 100
+PER            : 6.9x           ← Cours / Bénéfice par action
+Plus haut 52s  : 29 300 FCFA    ← Résistance naturelle
+Plus bas 52s   : 24 000 FCFA    ← Support naturel
+```
+
+---
+
+## Quiz de fin de module (10 questions orales)
+
+1. Quelle est la différence entre une action et une obligation ?
+2. Qu'est-ce qu'un dividende ? Et une plus-value ?
+3. Si SONATEL cote 28 400 FCFA et que tu en achètes 5, combien vaut ton investissement ?
+4. Qu'est-ce que la capitalisation boursière ? Comment la calcule-t-on ?
+5. Explique ce qu'est la liquidité d'un marché.
+6. Quelle est la différence entre un ordre limité et un ordre au marché ?
+7. Qu'est-ce qu'un stop-loss ? À quoi ça sert ?
+8. Qu'est-ce qu'un indice boursier ? Cite un exemple sur la BRVM.
+9. Qui sont les 3 acteurs principaux d'un marché financier et leur rôle ?
+10. Sur la fiche SONATEL, que signifie un PER de 6.9x ?
+
+## Barème et validation
+- 1 point par bonne réponse
+- Score ≥ 7/10 : module validé → débloquer 1.1
+- Score < 7/10 : revoir les blocs faibles, recommencer le quiz

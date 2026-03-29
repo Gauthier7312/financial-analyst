@@ -1,0 +1,57 @@
+---
+module: "2.3"
+titre: "Analyse fondamentale : PER, Dividendes, ROE"
+niveau: 2
+duree: "1h15"
+prerequis: "2.2"
+suivant: "2.4"
+---
+
+# Module 2.3 — Analyse Fondamentale
+
+## Objectifs pédagogiques
+- Calculer et interpréter le PER d'une valeur BRVM
+- Calculer le rendement dividende et évaluer sa soutenabilité (payout ratio)
+- Comprendre le ROE et ce qu'il dit sur la qualité d'une entreprise
+- Lire une capitalisation boursière et en déduire le profil de risque
+- Appliquer le score fondamental /5
+
+## Concepts à enseigner
+
+### 1. PER (Price Earnings Ratio)
+- Formule : Cours / Bénéfice par action (BPA)
+- <8 : très bon marché 🟢 | 8–15 : juste | 15–25 : cher | >25 : très cher 🔴
+- Exemple SONATEL : cours 28 400 / BPA 4 130 = PER 6.9x → bon marché
+- Moyenne BRVM historique : 8–12x | Mondiale : 15–20x
+
+### 2. Dividende et rendement
+- Rendement = Dividende / Cours × 100
+- >7% excellent | 5–7% très bon | 3–5% correct | <3% faible
+- Calendrier 2026 : BOA BF 7.21% (21/04) | SONATEL 6.13% (22/05) | BOA SN 6.83% (28/05)
+- Payout ratio = Dividende total / Bénéfice net
+  - <60% : soutenable ✅ | >85% : risque de coupe 🔴
+
+### 3. ROE (Return on Equity)
+- Formule : Bénéfice net / Capitaux propres × 100
+- >15% : excellent 🟢 | 10–15% : bon | 5–10% : correct | <5% : faible
+- Attention : ROE élevé + dette excessive = illusion de performance
+
+### 4. Capitalisation boursière
+- Formule : Cours × Nombre d'actions
+- >500 Mds FCFA : grande cap sûre (SONATEL 2 840 Mds, ORANGE CI 2 305 Mds)
+- 100–500 Mds : cap équilibrée (BOA CI 348 Mds, BOA BF 242 Mds)
+- <100 Mds : petite cap, risque liquidité → éviter en débutant
+
+### 5. Score fondamental /5
+- Yield >5% : +1 | Bénéfices croissants 3 ans : +1
+- Cap >200 Mds : +1 | Groupe international : +1 | PER <15 : +1
+- Application SONATEL : 5/5 → fondamentaux excellents
+
+## Quiz (5 questions)
+1. Calcule le rendement dividende de SONATEL (div. 1 740 FCFA, cours 28 400 FCFA).
+2. Un PER de 22x pour une valeur BRVM — est-ce cher ou bon marché ? Justifie.
+3. Qu'est-ce que le payout ratio ? Au-delà de quel seuil devient-il inquiétant ?
+4. ROE de 4% + D/E de 3.5 — est-ce un bon investissement ? Pourquoi ?
+5. Calcule le score fondamental /5 de BOA BF (yield 7.21%, backing BOA Group, cap 242 Mds).
+
+## Barème : ≥7/10 → débloquer 2.4

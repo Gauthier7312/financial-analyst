@@ -1,0 +1,41 @@
+---
+module: "3.4"
+titre: "Capture de dividendes BRVM 2026"
+niveau: 3
+duree: "45 min"
+prerequis: "3.3"
+suivant: "quiz-n3"
+---
+
+# Module 3.4 — Capture de Dividendes BRVM 2026
+
+## Concepts clés
+- Mécanique : acheter avant détachement → cours baisse du montant du dividende → gain si tendance haussière compense
+- Calendrier 2026 :
+  - BOA BF 7.21% → 21/04 → acheter avant 15/04 (⚠️ RSI 75.44 actuellement)
+  - SONATEL 6.13% → 22/05 → acheter avant 15/05 (✅ RSI 49.55)
+  - BOA SN 6.83% → 28/05 → acheter avant 20/05
+  - BOA ML 6.50% → 01/06 → acheter avant 24/05
+- 3 scénarios post-détachement : haussier (gain net positif) | neutre (gain ≈ 0) | baissier (perte)
+- Règle : ne faire la capture que sur valeurs en tendance haussière + RSI raisonnable
+
+## Cas pratique BOA BF
+- RSI 75.44 = suracheté → risque correction > dividende → déconseillé maintenant
+- Attendre RSI < 60 (cours ~5 000) pour reconsidérer
+
+## Cas pratique SONATEL
+- RSI 49.55 ✅ + tendance haussière + fondamentaux 9/10 → acheter avant 15/05
+
+## Quiz Final Niveau 3 (10 questions — validation globale)
+1. Avec 250 000 FCFA, combien de valeurs max recommandes-tu ?
+2. Construis un portefeuille simulé 500K FCFA avec 3 valeurs. Justifie chaque choix.
+3. Stop-loss BOA CI acheté à 8 700, profil débutant.
+4. Règle des 2% : capital 400 000 FCFA, risque/action 446 FCFA → combien d'actions max ?
+5. Cite 3 risques BRVM + mitigation.
+6. Critères d'entrée Buy & Hold Dividendes.
+7. Pourquoi la capture dividende sur BOA BF (RSI 75) est-elle déconseillée ?
+8. Décris la stratégie Contrarian — quand l'utiliser ?
+9. Score /10 de SONATEL au 28/03/2026 (RSI 49.55, beta 0.83, yield 6.13%, cap 2840 Mds, PER 6.9). Calcule et décide.
+10. Résume ta stratégie personnelle BRVM pour les 12 prochains mois (5 lignes max).
+
+## Barème : ≥7/10 → 🏆 STRATÈGE BRVM — FORMATION COMPLÈTE

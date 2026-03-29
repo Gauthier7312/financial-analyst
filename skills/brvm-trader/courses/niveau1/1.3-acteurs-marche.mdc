@@ -1,0 +1,54 @@
+---
+module: "1.3"
+titre: "Les acteurs : SGI, CREPMF, BRVM"
+niveau: 1
+duree: "30 min"
+prerequis: "1.2"
+suivant: "1.4"
+---
+
+# Module 1.3 — Les acteurs du marché
+
+## Objectifs pédagogiques
+- Savoir choisir une SGI selon des critères objectifs
+- Calculer le coût réel d'un achat (courtage + TVA + conservation)
+- Comprendre le rôle du DC/BR et de la dématérialisation
+- Distinguer actions et obligations comme instruments de levée de fonds
+
+## Concepts à enseigner
+
+### 1. Choisir sa SGI — les critères
+- Frais de courtage : % par transaction (standard : 0.6–1.2%)
+- Frais de conservation : %/an sur les titres détenus (standard : 0.25%)
+- Dépôt minimum pour ouvrir le compte
+- Interface : app mobile, web, ou téléphone uniquement
+- Solidité : groupe bancaire international = plus de garanties
+- Exemples : SG Capital (Société Générale), BICI Bourse (BNP), CGF Bourse, Coris Bourse
+
+### 2. Calculer le coût réel d'un achat
+- Exemple : 10 actions SONATEL à 28 400 FCFA via SG Capital (courtage 0.8%)
+  - Montant brut : 284 000 FCFA
+  - Courtage 0.8% : 2 272 FCFA
+  - TVA sur courtage 18% : 409 FCFA
+  - Total réel : 286 681 FCFA
+  - Prix de revient par action : 28 668 FCFA (pas 28 400)
+- Conservation annuelle 0.25% : ~716 FCFA/an
+- Message clé : le prix de revient réel est toujours supérieur au cours affiché
+
+### 3. Le DC/BR — dépositaire central
+- Les titres sont dématérialisés (pas de papier physique)
+- Conservés électroniquement chez le DC/BR
+- Le relevé de portefeuille SGI = preuve de propriété
+
+### 4. Les émetteurs sur la BRVM
+- Actions (capital) : SONATEL, BOA CI, ORANGE CI, TOTAL CI, PALMCI…
+- Obligations (dette) : États UEMOA, SONATEL, BOAD…
+
+## Quiz (5 questions)
+1. Tu achètes pour 500 000 FCFA d'actions (courtage 0.8%, TVA 18%). Calcule les frais totaux.
+2. Cite 3 critères pour choisir une SGI.
+3. Qu'est-ce que le DC/BR ? Pourquoi les titres ne sont-ils plus sur papier ?
+4. Quelle est la différence entre une action et une obligation pour l'entreprise émettrice ?
+5. Si SONATEL cote 28 400 et que tu l'achètes avec 0.8% de courtage + 18% TVA, quel est ton prix de revient réel par action ?
+
+## Barème : ≥7/10 → débloquer 1.4

@@ -1,0 +1,66 @@
+---
+module: "2.4"
+titre: "Quand acheter et quand vendre ?"
+niveau: 2
+duree: "1h"
+prerequis: "2.3"
+suivant: "quiz-n2"
+---
+
+# Module 2.4 — Quand acheter et quand vendre ?
+
+## Objectifs pédagogiques
+- Appliquer le score /10 (technique + fondamental) avant tout achat
+- Identifier les 5 situations qui signalent un achat
+- Identifier les 5 situations qui signalent une vente
+- Appliquer le DCA avec un exemple chiffré
+- Comprendre la saisonnalité de la BRVM
+
+## Concepts à enseigner
+
+### 1. Score global /10 — règle de décision
+- Technique /5 : RSI 30–60 (+1), Beta <0.9 (+1), momentum 1 mois + (+1), volume (+1), YTD + (+1)
+- Fondamental /5 : yield >5% (+1), bénéfices croissants (+1), cap >200 Mds (+1), groupe intl (+1), PER <15 (+1)
+- ≥8/10 → ACHAT FORT 🟢 | 6–7 → ACHAT PARTIEL 🟡 | ≤5 → PASSER 🔴
+
+### 2. Les 5 signaux d'achat
+1. RSI <35 + support solide (action survendue sur niveau historique)
+2. Avant détachement dividende >5% (acheter ≥5 jours ouvrables avant)
+3. Correction -10 à -20% dans une tendance haussière longue
+4. Golden Cross (MM20 croise MM50 à la hausse)
+5. Bons résultats publiés + cours pas encore réagi
+
+### 3. Les 5 signaux de vente
+1. Objectif de cours atteint (+15 à +25%)
+2. RSI >72 + résistance clé (action suracheté sur plafond historique)
+3. Stop-loss touché → vendre sans hésiter, sans exception
+4. Dégradation des fondamentaux (profit warning, dividende coupé)
+5. Besoin de l'argent (ne jamais investir de l'argent dont on a besoin)
+
+### 4. DCA — Dollar Cost Averaging
+- Investir en tranches régulières plutôt qu'en une seule fois
+- Exemple : 300 000 FCFA sur SONATEL
+  - Tranche 1 (maintenant) : 150 000 à 28 400 FCFA
+  - Tranche 2 (J+30) : 100 000 à 27 500 (si baisse)
+  - Tranche 3 (J+60) : 50 000 à 28 000
+  - Prix moyen lissé : 27 967 FCFA
+- Avantage : on achète plus quand c'est bas, moins quand c'est cher
+
+### 5. Saisonnalité BRVM
+- Jan–Avr : période dividendes → marché souvent haussier
+- Fév–Avr : publications résultats annuels → volatilité + opportunités
+- Déc : dégagement fiscal de certains fonds → baisses temporaires = opportunités
+
+## Quiz de validation Niveau 2 (10 questions)
+1. Score /10 de SONATEL (RSI 49.55, beta 0.83, yield 6.13%, cap 2840 Mds, PER 6.9). Calcule et décide.
+2. Tu as acheté BOA CI à 7 500. Il cote 8 700 (+16%). Que fais-tu ?
+3. Cite 3 signaux qui justifient de VENDRE une action.
+4. Explique le DCA avec 200 000 FCFA sur 2 tranches.
+5. Pourquoi la période Jan–Avr est-elle stratégique sur la BRVM ?
+6. Qu'est-ce qu'un Golden Cross ?
+7. RSI >72 sur BOA BF — achet-on pour le dividende de 7.21% ? Justifie.
+8. Définition du payout ratio + seuil d'alerte.
+9. Différence bougie rouge vs bougie verte.
+10. Règle du stop-loss débutant + exemple chiffré.
+
+## Barème : ≥7/10 → NIVEAU 3 DÉVERROUILLÉ 🔓
