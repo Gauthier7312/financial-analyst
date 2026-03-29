@@ -1,0 +1,63 @@
+---
+module: "2.1"
+titre: "Lire un graphique boursier"
+niveau: 2
+duree: "1h"
+prerequis: "quiz-n1"
+suivant: "2.2"
+---
+
+# Module 2.1 — Lire un graphique boursier
+
+## Objectifs pédagogiques
+- Lire un graphique en chandeliers japonais
+- Identifier les 3 tendances (haussière, baissière, latérale)
+- Repérer supports et résistances sur une valeur BRVM réelle
+- Comprendre le rôle du volume dans la fiabilité d'un signal
+
+## Concepts à enseigner
+
+### 1. Types de graphiques
+- Graphique en ligne : relie les clôtures, bonne vue tendance
+- Chandeliers japonais : corps (ouverture/clôture) + mèches (hauts/bas)
+  - Bougie verte : clôture > ouverture (hausse)
+  - Bougie rouge : clôture < ouverture (baisse)
+
+### 2. Les 3 tendances
+- Haussière : sommets et creux croissants ↗
+- Baissière : sommets et creux décroissants ↘
+- Latérale : oscillations dans un range ↔
+- Règle d'or : ne jamais acheter contre la tendance dominante
+
+### 3. Supports et résistances
+- Support : niveau où les acheteurs reviennent → plancher
+- Résistance : niveau où les vendeurs bloquent → plafond
+- Plus Haut 52 sem = résistance | Plus Bas 52 sem = support naturel
+- Validité : rebond 2x minimum sur le même niveau
+- Application SONATEL : support 24 000 FCFA | résistance 29 300 FCFA
+
+### 4. Le volume
+- Hausse + volume élevé = signal fiable ✅
+- Hausse + volume faible = signal suspect ⚠️
+- Baisse + volume élevé = vente de conviction 🔴
+- Baisse + volume faible = correction temporaire possible 🟡
+
+### 5. Figures chartistes de base
+- Double fond : 2 touches du support → rebond → signal achat
+- Double sommet : 2 touches de la résistance → retournement → signal vente
+- Triangle : compression → cassure violente à venir (direction à surveiller)
+
+## Exercice pratique
+Observer en live sur sikafinance.com/marches/cotation_BOAC.ci :
+- Identifier la tendance sur 6 mois
+- Repérer support et résistance les plus proches
+- Noter un moment de volume élevé et ce qui s'est passé
+
+## Quiz (5 questions)
+1. Décris une bougie rouge en chandeliers. Que signifie-t-elle ?
+2. TOTAL CI : plus bas 52 sem = 2 100, plus haut = 4 190. Identifie support et résistance.
+3. Une hausse avec volume très faible — que penses-tu de ce signal ?
+4. Décris la figure "double fond" et ce qu'elle signifie.
+5. Pourquoi la tendance est-elle plus importante que le cours d'un seul jour ?
+
+## Barème : ≥7/10 → débloquer 2.2

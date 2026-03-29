@@ -1,0 +1,44 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "brvm-trader",
+  "description": "Expert BRVM — Analyse technique & fondamentale des actions de la Bourse Régionale des Valeurs Mobilières (Zone UEMOA) + Formation interactive 3 niveaux",
+  "owner": {
+    "name": "elysee15",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "brvm-trader",
+      "source": "./",
+      "description": "Plugin Claude Code pour trader et apprendre la BRVM : score d'achat /10, analyse RSI/Beta/dividendes, 13 modules de formation progressifs (débutant → stratège), suivi de progression automatique.",
+      "version": "1.0.0",
+      "author": {
+        "name": "elysee15"
+      },
+      "homepage": "https://github.com/elysee15/financial-analyst",
+      "repository": "https://github.com/elysee15/financial-analyst",
+      "license": "MIT",
+      "keywords": [
+        "brvm",
+        "bourse",
+        "uemoa",
+        "trading",
+        "finance",
+        "afrique",
+        "formation",
+        "investissement",
+        "sonatel",
+        "boa"
+      ],
+      "category": "finance",
+      "tags": [
+        "brvm",
+        "trading",
+        "analyse-technique",
+        "formation",
+        "afrique-de-louest"
+      ],
+      "strict": false
+    }
+  ]
+}
