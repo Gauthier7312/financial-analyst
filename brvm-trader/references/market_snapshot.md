@@ -1,7 +1,7 @@
 # Snapshot Marché BRVM — Mis à jour le 28/03/2026 à 19:03
 ## Source : sikafinance.com (fetch automatique)
 
-> ⚠️ Ces données ont été fetchées automatiquement. Toujours vérifier sur sikafinance.com avant toute décision.
+> ⚠️ Ces données ont été fetchées automatiquement. Avant toute analyse, vérifier si un fichier cache du jour existe dans `brvm-trader/cache/YYYY-MM-DD_[source].md`. Si oui, utiliser le cache. Sinon, fetcher et sauvegarder.
 
 ---
 
