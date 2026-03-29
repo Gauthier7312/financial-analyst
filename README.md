@@ -94,7 +94,9 @@ financial-analyst/
 │           ├── strategies_avancees.md ← Patterns trading avancés
 │           ├── news_et_communiques.md ← Actualités et alertes
 │           ├── watch_list.md       ← Template positions (ignoré git)
-│           └── data_freshness.json ← Cache timestamp fetch
+│           ├── market_snapshot.md  ← Dernière valeur connue entre sessions
+│           ├── data_freshness.json ← Timestamps des derniers fetches
+│           └── cache/              ← Cache daté YYYY-MM-DD_[source].md
 │
 ├── .claude/
 │   └── settings.json               ← Hooks SessionStart + PostToolUse
@@ -119,6 +121,7 @@ structures normalisées consommables par les autres agents.
 - Palmarès du jour : top hausses/baisses/volumes + indices
 - Dividendes : calendrier complet avec yields
 - Actualités : news et alertes CREPMF
+- **Cache daté** : vérifie `skills/brvm-trader/data/cache/YYYY-MM-DD_[source].md` avant tout fetch — réutilise si disponible, sauvegarde après fetch réussi
 
 ### `brvm-stratege` — Analyse Stratégique
 
