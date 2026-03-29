@@ -1,0 +1,63 @@
+---
+module: "2.2"
+titre: "Analyse technique : RSI, Moyennes Mobiles, MACD, Beta"
+niveau: 2
+duree: "1h15"
+prerequis: "2.1"
+suivant: "2.3"
+---
+
+# Module 2.2 — Analyse Technique
+
+## Objectifs pédagogiques
+- Lire et interpréter le RSI sur une valeur BRVM
+- Comprendre les signaux des moyennes mobiles (Golden Cross / Death Cross)
+- Utiliser le MACD comme confirmateur
+- Interpréter le Beta selon son profil de risque
+- Combiner les indicateurs en 5 étapes
+
+## Concepts à enseigner
+
+### 1. RSI (Relative Strength Index)
+- Plage : 0 à 100 | Période standard : 14 séances
+- <30 : survendu → opportunité achat 🟢
+- 30–45 : zone d'opportunité 🟡
+- 45–60 : zone saine ✅
+- 60–70 : début surchauffe ⚠️
+- >70 : suracheté → ne pas acheter 🔴
+- Données réelles 28/03 : SONATEL 49.55 ✅ | BOA CI 60.54 ⚠️ | BOA BF 75.44 🔴
+- Piège : ne jamais utiliser le RSI seul
+- Divergence haussière : cours fait nouveau bas, RSI remonte → retournement probable
+
+### 2. Moyennes Mobiles
+- MM20 = moyenne 20 derniers cours | MM50 = moyenne 50 derniers cours
+- Cours > MM20 > MM50 : tendance haussière forte ✅
+- Golden Cross (MM20 croise MM50 à la hausse) : signal achat 🟢
+- Death Cross (MM20 croise MM50 à la baisse) : signal vente 🔴
+
+### 3. MACD
+- Ligne MACD + Ligne Signal + Histogramme
+- MACD croise Signal à la hausse + histogramme positif : achat 🟢
+- MACD croise Signal à la baisse : vente 🔴
+- Sur BRVM : plus fiable sur grandes caps (SONATEL, BOA CI, ORANGE CI)
+
+### 4. Beta
+- <0.5 : très défensif | 0.5–0.8 : défensif | 0.8–1.1 : neutre | >1.1 : risqué
+- Données réelles : TOTAL CI 0.29 | BOA CI 0.34 | SONATEL 0.83 | ORANGE CI 1.08
+- Débutant : privilégier Beta <0.9
+
+### 5. Méthode en 5 étapes
+1. Tendance (graphique 3–6 mois) : haussière ?
+2. RSI (30–60 ?) : zone d'achat ?
+3. Volume : mouvements récents avec volume ?
+4. Support : proche d'un support ?
+5. Beta : volatilité compatible avec mon profil ?
+
+## Quiz (5 questions)
+1. RSI à 72 pour une valeur → que fais-tu ?
+2. Qu'est-ce qu'un Golden Cross ? Quand se produit-il ?
+3. SONATEL Beta 0.83 — quel profil d'investisseur convient-il ?
+4. Pourquoi ne pas utiliser le RSI seul pour décider d'acheter ?
+5. Décris les 5 étapes de l'analyse technique dans l'ordre.
+
+## Barème : ≥7/10 → débloquer 2.3

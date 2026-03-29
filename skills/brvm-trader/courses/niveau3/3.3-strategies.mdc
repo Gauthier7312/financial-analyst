@@ -1,0 +1,45 @@
+---
+module: "3.3"
+titre: "Stratégies : DCA, Buy & Hold, Momentum, Contrarian"
+niveau: 3
+duree: "1h"
+prerequis: "3.2"
+suivant: "3.4"
+---
+
+# Module 3.3 — Stratégies de Trading
+
+## Les 5 stratégies
+
+### A — DCA (tous profils)
+Investir en tranches régulières. Lisse le prix d'entrée.
+
+### B — Buy & Hold Dividendes (conservateur)
+Critères : yield >5% + RSI 35–55 + beta <0.9 + bénéfices croissants
+Valeurs 2026 : SONATEL, BOA SN, BOA BF
+
+### C — Momentum (actif)
+Critères : RSI 50–65 + perf 1 mois >+5% + volume > moyenne
+Sortie : +15–25% ou RSI >72 | Stop : -10 à -12%
+
+### D — Capture Dividende (Jan–Mai)
+Acheter ≥5 jours ouvrables avant détachement
+Fonctionne mieux sur valeurs en tendance haussière
+
+### E — Contrarian (rebond)
+Correction >-20% + RSI <35 + dividende maintenu + baisse conjoncturelle (pas structurelle)
+Exemple : TOTAL CI -14.88%/1an mais rebond +27% YTD
+
+## Choix selon profil
+- Débutant / 30 min semaine : B + A
+- Intermédiaire / 1h semaine : B + D
+- Actif / plusieurs heures : C + E
+
+## Quiz (5 questions)
+1. Différence stratégie B vs stratégie C.
+2. Critères d'entrée valides pour un signal Momentum.
+3. Un ami achète TOTAL CI "parce qu'il a beaucoup baissé" — est-ce de la stratégie E ? Justifie.
+4. Risque principal de la capture dividende.
+5. Propose une allocation avec 200 000 FCFA, 2 valeurs, profil débutant.
+
+## Barème : ≥7/10 → débloquer 3.4

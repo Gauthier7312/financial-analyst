@@ -1,0 +1,32 @@
+---
+module: "3.1"
+titre: "Construire son portefeuille BRVM"
+niveau: 3
+duree: "1h"
+prerequis: "quiz-n2"
+suivant: "3.2"
+---
+
+# Module 3.1 — Construire son portefeuille BRVM
+
+## Concepts clés
+- Pyramide du capital : <200K → 1 valeur | 200–500K → 2–3 | >500K → 4–6
+- Règles de concentration : max 40% par valeur | max 60% par secteur | min 10–15% liquidités
+- 4 types de valeurs : défensives (50–60%), croissance (15–25%), dividende (20–30%), cash/oblig (10–15%)
+- Corrélation : mélanger secteurs différents (télécom + banque + agroalimentaire)
+- Rebalancement : 1–2 fois par an
+
+## Portefeuille simulé 500K FCFA
+- SONATEL 40% (200K) : défensif + dividende 6.13%
+- BOA CI 30% (150K) : croissance +42%/an
+- TOTAL CI 20% (100K) : ultra-défensif, rebond en cours
+- Liquidités 10% (50K) : réservées opportunités
+
+## Quiz (5 questions)
+1. Avec 350 000 FCFA, combien de valeurs recommandes-tu ? Pourquoi ?
+2. Pourquoi max 60% dans un seul secteur ?
+3. Différence valeur défensive vs valeur de croissance — exemple BRVM pour chacune.
+4. Qu'est-ce que la corrélation entre 2 actions ? Exemple.
+5. Qu'est-ce que le rebalancement et quand le faire ?
+
+## Barème : ≥7/10 → débloquer 3.2

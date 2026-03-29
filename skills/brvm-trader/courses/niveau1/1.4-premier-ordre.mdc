@@ -1,0 +1,59 @@
+---
+module: "1.4"
+titre: "Comment passer son premier ordre ?"
+niveau: 1
+duree: "45 min"
+prerequis: "1.3"
+suivant: "quiz-n1"
+---
+
+# Module 1.4 — Passer son premier ordre
+
+## Objectifs pédagogiques
+- Distinguer les 3 types d'ordres (marché, limité, stop)
+- Suivre les 6 étapes d'un achat en sécurité
+- Calculer et poser un stop-loss avant tout achat
+- Identifier les 5 erreurs classiques du débutant
+
+## Concepts à enseigner
+
+### 1. Les 3 types d'ordres
+- Au marché : exécution immédiate au cours disponible → rapide mais prix non maîtrisé
+- À cours limité : tu fixes le prix max (achat) ou min (vente) → contrôle du prix
+- À seuil de déclenchement (stop) : s'active quand le cours franchit un niveau → stop-loss
+- Recommandation débutant : toujours utiliser les ordres à cours limité
+
+### 2. Les 6 étapes d'un achat
+1. Ouvrir un compte SGI (CNI + justificatif domicile + formulaire)
+2. Alimenter le compte espèces (montant achat + frais)
+3. Identifier la valeur (ticker sur sikafinance.com)
+4. Checklist avant achat (marché ouvert ? cours vérifié ? stop-loss défini ? max 40% ?)
+5. Passer l'ordre (app, web ou téléphone)
+6. Confirmer et archiver (noter date, valeur, qté, prix, frais)
+
+### 3. Le stop-loss — règle fondamentale
+- Définir AVANT d'acheter, jamais après
+- Débutant : -15% du prix d'achat
+- Exemple : SONATEL à 28 400 → stop = 28 400 × 0.85 = 24 140 FCFA
+- Stop mental vs stop réel : le stop réel (ordre passé à la SGI) est toujours préférable
+
+### 4. Les 5 erreurs classiques
+1. Acheter sans avoir vérifié les fondamentaux (dividende, capitalisation)
+2. Ordre au marché sans vérifier le carnet → utiliser un ordre limité
+3. Tout investir d'un coup → DCA en 2 tranches minimum
+4. Ne pas noter son prix de revient réel (avec frais)
+5. Vérifier le cours 10x par jour → check hebdomadaire maximum
+
+## Quiz final Niveau 1 (10 questions — validation globale)
+1. Qu'arrive-t-il à 100 000 FCFA non investi en 5 ans (inflation 3%) ?
+2. Combien de pays dans l'UEMOA ? Citer 4.
+3. Que signifie T+3 si j'achète le mercredi ?
+4. Variation max par séance sur la BRVM ?
+5. Calcule les frais d'achat de 300 000 FCFA d'actions (courtage 0.8%, TVA 18%).
+6. Différence entre ordre au marché et ordre à cours limité ?
+7. Stop-loss de BOA CI acheté à 8 700 FCFA (profil débutant -15%) ?
+8. Qu'est-ce que le DC/BR ?
+9. Cite 2 avantages spécifiques de la BRVM.
+10. Pourquoi faut-il définir le stop-loss AVANT d'acheter ?
+
+## Barème : ≥7/10 → NIVEAU 2 DÉVERROUILLÉ 🔓

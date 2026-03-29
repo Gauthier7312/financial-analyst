@@ -1,0 +1,58 @@
+---
+module: "1.2"
+titre: "Organisation du marché BRVM"
+niveau: 1
+duree: "45 min"
+prerequis: "1.1"
+suivant: "1.3"
+---
+
+# Module 1.2 — Organisation du marché BRVM
+
+## Objectifs pédagogiques
+- Situer la BRVM dans la zone UEMOA (8 pays)
+- Connaître les règles du marché (horaires, T+3, variation max)
+- Distinguer les 3 acteurs principaux (BRVM, CREPMF, SGI)
+- Comprendre les 2 marchés (Principal et Alternatif)
+- Lire et interpréter un indice boursier
+
+## Concepts à enseigner
+
+### 1. Qu'est-ce que la BRVM ?
+- Bourse commune des 8 pays UEMOA (CI, SN, BF, ML, BJ, NE, TG, GW)
+- Siège : Abidjan | Fondée : 1998 | 80+ valeurs cotées
+- Volume quotidien : 3 à 10 milliards FCFA/jour
+
+### 2. Les règles du marché
+- Horaires : 9h00–15h30 GMT (heure Abidjan)
+- Jours : lundi–vendredi, hors jours fériés UEMOA
+- Variation max par séance : ±7.5% (coupe-circuit automatique)
+- Règlement T+3 : achat lundi → titres livrés jeudi
+- Devise : FCFA arrimé Euro (655.957)
+
+### 3. Les 3 acteurs du marché
+- CREPMF : régulateur (autorise SGI, protège investisseurs, sanctionne)
+- BRVM : place de marché (gère cotations, indices, information)
+- SGI : intermédiaire obligatoire (seules habilitées à passer des ordres)
+
+### 4. Les 2 marchés
+- Marché Principal : grandes capitalisations, conditions strictes, meilleure liquidité
+- Marché Alternatif (depuis 2017) : PME, conditions allégées, moins liquide
+
+### 5. Les indices BRVM
+- BRVM Composite : toutes valeurs → baromètre général
+- BRVM 30 : 30 premières capitalisations
+- BRVM Prestige : top 15 valeurs liquides
+- Performance actuelle : BRVM Composite +42%/an | +17.48% YTD (28/03/2026)
+
+### 6. Circuit d'un ordre d'achat
+Toi → SGI → BRVM (matching) → DC/BR (enregistrement) → J+3 livraison
+
+## Quiz (5 questions)
+1. Combien de pays composent l'UEMOA ? Les citer.
+2. Si j'achète une action le mardi, quand les titres arrivent-ils dans mon compte ?
+3. Quelle est la variation maximale autorisée par séance sur la BRVM ?
+4. Quelle est la différence entre le CREPMF et la BRVM ?
+5. Qu'est-ce que le BRVM Composite et que signifie +42%/an ?
+
+## Barème : ≥7/10 → débloquer 1.3
