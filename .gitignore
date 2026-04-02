@@ -26,3 +26,4 @@ brvm-trader/references/market_snapshot.md
 *.tmp
 *.log
 logs/
+.firecrawl/

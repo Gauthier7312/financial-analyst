@@ -1,0 +1,130 @@
+---
+module: "5.2"
+titre: "Les ratios financiers clés — ROE, ROA, EBITDA, dette nette"
+niveau: 5
+duree: "1h15"
+prerequis: "5.1"
+suivant: "5.3"
+---
+
+# Module 5.2 — Ratios Financiers Clés
+
+## Objectifs pédagogiques
+- Calculer et interpréter les ratios de rentabilité (ROE, ROA, marge nette)
+- Maîtriser les ratios de valorisation (PER, P/B, EV/EBITDA)
+- Comprendre les ratios de solvabilité et de liquidité
+- Comparer les ratios entre sociétés BRVM du même secteur
+
+## Concepts à enseigner
+
+### 1. Ratios de rentabilité — l'entreprise est-elle efficace ?
+
+**ROE — Return on Equity (Rentabilité des capitaux propres)**
+- Formule : Résultat net / Capitaux propres × 100
+- Mesure : combien l'entreprise génère pour chaque 100 FCFA investis par les actionnaires
+- Référence BRVM : ROE > 15% = excellent | 10–15% = bon | < 10% = faible
+- Exemples : SONATEL ~25% ✅✅ | BOA CI ~18% ✅
+
+**ROA — Return on Assets (Rentabilité des actifs)**
+- Formule : Résultat net / Actif total × 100
+- Mesure : efficacité dans l'utilisation de tous ses actifs
+- Référence : > 8% = très bon | 4–8% = acceptable | < 4% = inefficace
+- Banques BRVM ont naturellement un ROA faible (actifs gonflés par dépôts) → comparer intra-secteur
+
+**Marge nette**
+- Formule : Résultat net / CA × 100
+- Mesure : ce qu'il reste après toutes les charges
+- Télécoms BRVM (SONATEL, ORANGE CI) : marges ~20–30% ✅✅
+- Distribution : marges 2–5% (normal dans ce secteur)
+- Attention : comparer UNIQUEMENT entre sociétés du même secteur
+
+**Marge EBITDA**
+- Formule : EBITDA / CA × 100
+- Mesure la rentabilité opérationnelle pure (avant dette, impôts, amortissements)
+- Très utile pour comparer des sociétés avec des structures de financement différentes
+
+### 2. Ratios de valorisation — l'action est-elle chère ?
+
+**PER — Price-to-Earnings Ratio**
+- Formule : Cours / BPA (Bénéfice par action)
+- Mesure : combien d'années de bénéfices tu paies pour acheter l'action
+- BRVM : PER < 8 = très bon marché 🟢 | 8–15 = juste | 15–25 = cher | > 25 = très cher 🔴
+- Piège : PER bas peut signifier problème structurel → toujours chercher pourquoi
+- PER négatif : résultat net négatif → action non valorisable par cette méthode
+
+**P/B — Price-to-Book (Cours / Valeur comptable)**
+- Formule : Cours / (Capitaux propres / Nombre d'actions)
+- P/B < 1 : l'action se négocie sous sa valeur comptable → opportunité ? ou problème ?
+- P/B 1–2 : valorisation raisonnable
+- P/B > 3 : marché anticipe forte croissance future
+- Très utile pour les banques BRVM (BOA CI, SG CI, SIB CI)
+
+**EV/EBITDA — Enterprise Value / EBITDA**
+- EV = Capitalisation boursière + Dettes nettes
+- Mesure la valeur totale de l'entreprise (dette incluse) rapportée à sa rentabilité opérationnelle
+- BRVM : EV/EBITDA < 6× = bon marché | 6–10× = correct | > 12× = cher
+- Avantage sur PER : non faussé par la structure financière
+
+**Dividend Yield (Rendement dividende)**
+- Formule : Dividende / Cours × 100
+- BRVM : > 7% = excellent | 5–7% = très bon | 3–5% = correct | < 3% = faible
+- Exemples 2026 : BOA BF 7.21% ✅✅ | SONATEL 6.13% ✅ | BOA SN 6.83% ✅✅
+
+### 3. Ratios de solvabilité — l'entreprise peut-elle rembourser ses dettes ?
+
+**Gearing (Levier financier)**
+- Formule : Dettes nettes / Capitaux propres × 100
+- < 50% : très peu endetté ✅ | 50–100% : équilibré | > 150% : risqué ⚠️
+
+**Dette nette / EBITDA**
+- Formule : (Dettes financières − Trésorerie) / EBITDA
+- < 1× : très sain ✅✅ | 1–2× : normal | 2–3× : acceptable | > 3× : surveillé ⚠️ | > 5× : dangereux 🔴
+- Les banques : ce ratio ne s'applique pas (elles se financent avec les dépôts)
+
+**Ratio de couverture des intérêts**
+- Formule : EBIT / Charges financières
+- > 5× : très confortable ✅ | 2–5× : correct | < 2× : fragile ⚠️
+
+### 4. Ratios de liquidité — l'entreprise peut-elle payer ses factures ?
+
+**Ratio de liquidité courante**
+- Formule : Actif circulant / Dettes court terme
+- > 2× : très liquide ✅ | 1–2× : correct | < 1× : risque de tension de trésorerie ⚠️
+
+**Ratio de liquidité immédiate**
+- Formule : (Actif circulant − Stocks) / Dettes court terme
+- Plus conservateur car les stocks peuvent ne pas se vendre vite
+
+### 5. Dashboard de ratios — exemple BRVM comparatif
+
+| Ratio | SONATEL | BOA CI | ORANGE CI | TOTAL CI |
+|-------|---------|--------|-----------|---------|
+| PER | ~14× | ~8× | ~12× | ~10× |
+| P/B | ~3.5× | ~1.2× | ~2.0× | ~1.5× |
+| ROE | ~25% | ~18% | ~20% | ~22% |
+| Yield | 6.1% | 4.5% | 5.2% | 5.8% |
+| Dette/EBITDA | ~0.8× | ~1.5× | ~1.2× | ~0.5× |
+
+**Lecture :** BOA CI PER le plus bas mais P/B proche de 1 → valeur à creuser | SONATEL premium justifié par ROE élevé
+
+### 6. Pièges des ratios
+
+- **Comparer des secteurs différents** : PER d'une banque vs télécom = erreur
+- **Un seul ratio** : toujours utiliser un tableau de bord (5+ ratios)
+- **PER passé vs PER anticipé** : le marché valorise l'avenir, pas le passé
+- **Résultat exceptionnel** : un bénéfice gonflé par une vente d'actifs fausse le PER
+- **Normaliser** : utiliser la moyenne 3 ans pour lisser les variations
+
+## Quiz (10 questions)
+1. Formule du ROE et ce qu'il mesure.
+2. SONATEL ROE 25% vs BOA CI ROE 18% — lequel est plus rentable pour l'actionnaire ?
+3. Qu'est-ce que le PER et qu'est-ce qu'un PER de 8× signifie concrètement ?
+4. P/B < 1 → toujours une opportunité ? Explique le piège.
+5. Pourquoi ne pas comparer la marge nette d'une télécom avec celle d'un distributeur ?
+6. Dette nette/EBITDA = 4× → signal positif ou négatif ?
+7. Calcule le Dividend Yield : dividende 1 740 FCFA, cours 28 400 FCFA.
+8. Qu'est-ce que l'EV/EBITDA et pourquoi est-il meilleur que le PER pour certaines analyses ?
+9. Ratio de liquidité courante = 0.8× → quel risque ?
+10. Cite 3 pièges à éviter quand on utilise les ratios financiers.
+
+## Barème : ≥7/10 → débloquer 5.3

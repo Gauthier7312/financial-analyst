@@ -1,0 +1,132 @@
+---
+module: "5.1"
+titre: "Lire un bilan comptable & un compte de résultat"
+niveau: 5
+duree: "1h15"
+prerequis: "quiz-n4"
+suivant: "5.2"
+---
+
+# Module 5.1 — Bilan & Compte de Résultat
+
+## Objectifs pédagogiques
+- Comprendre la structure d'un bilan comptable et ce qu'il révèle
+- Lire un compte de résultat et tracer le chemin du chiffre d'affaires au bénéfice
+- Identifier les signaux d'alerte dans les états financiers
+- Appliquer ces lectures aux rapports annuels des sociétés cotées BRVM
+
+## Concepts à enseigner
+
+### 1. Le Bilan — la photo de l'entreprise à un instant T
+
+Le bilan répond à : "Que possède l'entreprise et comment est-ce financé ?"
+
+**Structure du bilan :**
+```
+ACTIF (ce que l'entreprise possède)      PASSIF (comment c'est financé)
+─────────────────────────────────────    ────────────────────────────────
+Actif immobilisé (long terme)            Capitaux propres (fonds propres)
+  - Immeubles, machines, brevets           - Capital social
+  - Participations                         - Réserves
+                                           - Résultat de l'exercice
+Actif circulant (court terme)            Dettes long terme
+  - Stocks                                 - Emprunts bancaires
+  - Créances clients                       - Obligations émises
+  - Trésorerie                           Dettes court terme
+                                           - Fournisseurs
+                                           - Découverts bancaires
+```
+
+**Règle d'or :** Actif total = Passif total (toujours en équilibre)
+
+**Ce qu'on cherche à voir :**
+- Capitaux propres positifs et croissants → entreprise saine
+- Dettes long terme < capitaux propres → pas trop endetté
+- Trésorerie positive → l'entreprise peut payer ses factures
+
+**Exemple BRVM — SONATEL 2025 (simplifié) :**
+- Actif total : ~900 Mds FCFA
+- Capitaux propres : ~450 Mds → ratio 50% → solide ✅
+- Dette nette : ~200 Mds → maîtrisée ✅
+
+### 2. Le Compte de Résultat — le film sur une année
+
+Le CR répond à : "Comment l'entreprise a-t-elle gagné (ou perdu) de l'argent ?"
+
+**Structure du compte de résultat :**
+```
+Chiffre d'affaires (CA)
+− Coût des ventes / achats
+= MARGE BRUTE
+
+− Charges d'exploitation (salaires, loyers, marketing)
+= EBITDA (bénéfice avant intérêts, impôts, dépréciation)
+
+− Dépréciation & amortissement (D&A)
+= EBIT (résultat opérationnel)
+
+− Intérêts sur dettes (charges financières)
+= Résultat avant impôt
+
+− Impôt sur les sociétés
+= RÉSULTAT NET (bénéfice ou perte)
+```
+
+**Les lignes clés à surveiller :**
+- **CA** : croissance ou déclin ? (tendance sur 3–5 ans)
+- **Marge brute** : % = marge brute / CA → reflète la compétitivité
+- **EBITDA** : la vraie rentabilité opérationnelle (avant éléments non cash)
+- **Résultat net** : ce qui revient aux actionnaires
+- **EPS** (Bénéfice par action) : résultat net / nombre d'actions
+
+### 3. Signaux d'alerte dans les états financiers
+
+🔴 **Alertes majeures :**
+- Résultat net négatif 2 années consécutives → pertes structurelles
+- Capitaux propres négatifs → faillite technique possible
+- Dette > 3× EBITDA → endettement dangereux
+- Trésorerie négative + dettes court terme élevées → risque de liquidité
+
+🟡 **Signaux de prudence :**
+- CA stagnant mais charges en hausse → compression des marges
+- Résultat net positif mais cash-flow négatif → résultat "comptable" sans cash réel
+- Changement d'auditeur → peut signaler un désaccord sur les comptes
+
+✅ **Signaux positifs :**
+- CA en croissance régulière (>5%/an)
+- Marge nette en hausse
+- Dette en diminution
+- Trésorerie nette positive
+
+### 4. Où trouver les états financiers des sociétés BRVM
+
+- Rapports annuels publiés sur le site de la BRVM (brvm.org)
+- Communiqués de résultats sur sikafinance.com/marches/actualites_bourse_brvm
+- Site de l'entreprise (section "Relations investisseurs")
+- Le CREPMF impose la publication dans les 4 mois suivant la clôture
+
+### 5. Lecture rapide — méthode des 5 minutes
+
+Pour évaluer rapidement une société BRVM :
+1. CA sur 3 ans : croît ou stagne ?
+2. Résultat net sur 3 ans : positif et croissant ?
+3. Capitaux propres : positifs ?
+4. Ratio dette/EBITDA : < 2× ?
+5. Dividende versé : régulier et croissant ?
+
+→ 5/5 ✅ : analyse fondamentale à approfondir
+→ < 3/5 : investiguer les raisons avant d'aller plus loin
+
+## Quiz (10 questions)
+1. Que représente le passif dans un bilan comptable ?
+2. Quelle est la règle d'or du bilan (équation) ?
+3. Définis l'EBITDA et pourquoi il est important.
+4. Capitaux propres négatifs → qu'est-ce que cela signifie ?
+5. Quelle différence entre résultat net et cash-flow ?
+6. Dans le compte de résultat, entre CA et résultat net, cite 3 étapes intermédiaires.
+7. Ratio dette/EBITDA = 4× → signal positif ou négatif ?
+8. Où trouver les rapports annuels des sociétés BRVM ?
+9. Trésorerie négative + dettes court terme élevées → quel risque ?
+10. Applique la méthode des 5 minutes : que cherches-tu en 1 et 2 ?
+
+## Barème : ≥7/10 → débloquer 5.2

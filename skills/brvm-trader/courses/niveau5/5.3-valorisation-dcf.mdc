@@ -1,0 +1,129 @@
+---
+module: "5.3"
+titre: "Valorisation d'une entreprise — DCF simplifié et méthode des comparables"
+niveau: 5
+duree: "1h15"
+prerequis: "5.2"
+suivant: "5.4"
+---
+
+# Module 5.3 — Valorisation d'Entreprise
+
+## Objectifs pédagogiques
+- Comprendre les 2 grandes méthodes de valorisation (DCF et comparables)
+- Appliquer le DCF simplifié à une société BRVM
+- Utiliser la méthode des comparables boursiers
+- Identifier si une action est surévaluée ou sous-évaluée
+
+## Concepts à enseigner
+
+### 1. Pourquoi valoriser une entreprise ?
+
+- Le cours de bourse = ce que le MARCHÉ pense que l'entreprise vaut aujourd'hui
+- La valeur intrinsèque = ce que l'entreprise vaut RÉELLEMENT selon ses fondamentaux
+- Si cours < valeur intrinsèque → action sous-évaluée → opportunité 🟢
+- Si cours > valeur intrinsèque → action surévaluée → prudence 🔴
+- Warren Buffett : "Le prix est ce que tu paies, la valeur est ce que tu obtiens."
+
+### 2. Méthode DCF — Discounted Cash Flow (Flux de trésorerie actualisés)
+
+**Principe :** une entreprise vaut la somme de tous ses cash-flows futurs, ramenés à aujourd'hui.
+
+**Concept d'actualisation :**
+- 1 000 FCFA dans 5 ans ≠ 1 000 FCFA aujourd'hui (inflation + opportunité manquée)
+- Taux d'actualisation = taux sans risque + prime de risque marché
+- Sur BRVM : taux d'actualisation typique = 10–12%
+
+**DCF Simplifié — 5 étapes :**
+
+1. **Estimer le Free Cash Flow (FCF) actuel**
+   FCF = EBITDA − Impôts − Investissements + Variation BFR
+
+2. **Projeter la croissance sur 5 ans**
+   - Croissance conservatrice BRVM télécoms : 5–8%/an
+   - Croissance conservatrice BRVM banques : 6–10%/an
+   - Appliquer un taux décroissant (l'entreprise ne peut pas croître à l'infini)
+
+3. **Calculer la valeur terminale**
+   Valeur terminale = FCF année 5 × (1 + g) / (r − g)
+   où g = taux croissance perpétuel (~3%), r = taux actualisation
+
+4. **Actualiser tous les flux**
+   Valeur présente = FCF1/(1+r) + FCF2/(1+r)² + ... + VT/(1+r)^5
+
+5. **Calculer la valeur par action**
+   Valeur intrinsèque/action = Valeur totale / Nombre d'actions
+
+**Exemple BRVM — SONATEL simplifié :**
+- FCF actuel : ~80 Mds FCFA
+- Croissance 5 ans : 6%/an
+- Taux actualisation : 11%
+- → Valeur intrinsèque estimée : ~27 500 FCFA/action
+- Cours actuel : 25 800 FCFA → légèrement sous-évalué 🟡
+
+**Limites du DCF :**
+- Très sensible aux hypothèses de croissance et d'actualisation
+- Changer la croissance de 6% à 8% → valeur peut augmenter de 30%
+- Utiliser des fourchettes, pas un chiffre unique
+- Ne pas utiliser pour les banques et assurances (modèle différent)
+
+### 3. Méthode des Comparables — la plus utilisée en pratique
+
+**Principe :** valoriser une société en la comparant à des pairs cotés similaires.
+
+**Étapes :**
+1. Identifier le groupe de comparables (même secteur, même taille)
+2. Calculer les multiples de valorisation du groupe (PER moyen, EV/EBITDA moyen)
+3. Appliquer ces multiples aux données de la société cible
+
+**Exemple — BOA CI :**
+- Groupe comparable : banques BRVM (BOA BF, BOA SN, SG CI, SIB CI)
+- PER médian du groupe : 10×
+- BPA BOA CI : 680 FCFA
+- Valeur implicite : 680 × 10 = 6 800 FCFA/action
+- Cours actuel : 6 200 FCFA → sous-évalué de ~10% 🟡
+
+**Avantages des comparables :**
+- Plus rapide que le DCF
+- Ancré dans la réalité du marché
+- Idéal pour un premier screening
+
+**Inconvénients :**
+- Si tout le secteur est surévalué, la méthode ne le détecte pas
+- Difficile de trouver des vrais comparables sur une petite bourse comme la BRVM
+
+### 4. Marge de sécurité — le principe de Buffett
+
+- Ne jamais acheter une action à sa valeur intrinsèque exacte
+- Acheter avec une marge de sécurité de 20–30% minimum
+- Exemple : valeur intrinsèque = 10 000 FCFA → n'acheter qu'à ≤ 7 000–8 000 FCFA
+- Protège contre les erreurs d'estimation et les surprises négatives
+- Plus la marge est grande, plus le risque est faible
+
+### 5. Combiner DCF + Comparables + AT
+
+**Méthode professionnelle complète :**
+1. Comparables → première fourchette de valeur (rapide)
+2. DCF → valeur intrinsèque (plus précis)
+3. Si les 2 méthodes convergent → conviction plus forte
+4. AT → timing d'entrée optimal dans cette fourchette de valeur
+
+**Exemple intégré — ORANGE CI :**
+- Comparables PER : valeur implicite 7 800–8 200 FCFA
+- DCF : valeur intrinsèque 8 000 FCFA
+- Cours actuel : 7 200 FCFA → décote de 10–11% 🟢
+- AT : RSI 44, support 7 100, tendance haussière → ACHAT ✅
+
+## Quiz (10 questions)
+1. Quelle est la différence entre prix de marché et valeur intrinsèque ?
+2. Pourquoi actualise-t-on les flux futurs dans le DCF ?
+3. Cite les 5 étapes du DCF simplifié.
+4. Qu'est-ce que la valeur terminale dans un DCF ?
+5. Pourquoi le DCF est-il inadapté aux banques ?
+6. Explique la méthode des comparables en 3 étapes.
+7. Avantage et inconvénient principal des comparables vs DCF.
+8. Qu'est-ce que la marge de sécurité ? Quel seuil recommande-t-on ?
+9. Valeur intrinsèque SONATEL = 29 000, cours = 25 800 → action sous ou surévaluée ?
+10. Comment combiner DCF + comparables + AT dans une décision d'investissement ?
+
+## Barème : ≥7/10 → débloquer 5.4

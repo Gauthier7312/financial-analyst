@@ -1,0 +1,99 @@
+---
+module: "8.1"
+titre: "Fiscalité des investissements boursiers en zone UEMOA"
+niveau: 8
+duree: "45min"
+prerequis: "quiz-n7"
+suivant: "8.2"
+---
+
+# Module 8.1 — Fiscalité UEMOA & BRVM
+
+## Objectifs pédagogiques
+- Connaître la fiscalité applicable aux dividendes et plus-values en zone UEMOA
+- Comprendre les différences entre pays membres de l'UEMOA
+- Optimiser légalement son imposition boursière
+- Ne pas avoir de mauvaises surprises lors des encaissements
+
+## Concepts à enseigner
+
+### 1. Fiscalité des dividendes — le principal revenu BRVM
+
+**Principe général :**
+- Les dividendes versés par les sociétés cotées BRVM sont soumis à une retenue à la source
+- La retenue est prélevée AUTOMATIQUEMENT avant versement → tu reçois le net
+
+**Taux par pays (retenue à la source sur dividendes) :**
+| Pays | Taux retenue dividendes |
+|------|------------------------|
+| Côte d'Ivoire | 15% |
+| Sénégal | 10% |
+| Burkina Faso | 12.5% |
+| Bénin | 10% |
+| Togo | 10% |
+| Autres UEMOA | 10–15% |
+
+**Exemple concret :**
+- SONATEL distribue 1 740 FCFA de dividende brut
+- Retenue Sénégal (10%) : 174 FCFA
+- Tu reçois : 1 566 FCFA net
+
+**Cas des non-résidents :**
+- Si tu résides hors UEMOA → des conventions fiscales peuvent réduire ou éliminer la double imposition
+- Vérifier la convention fiscale entre ton pays et le pays de la société
+
+### 2. Fiscalité des plus-values
+
+**Côte d'Ivoire (où la majorité des sociétés BRVM sont cotées) :**
+- Plus-values sur actions cotées BRVM : **exonérées** en Côte d'Ivoire pour les particuliers
+- C'est un avantage fiscal majeur comparé à la France (30% flat tax) ou d'autres marchés
+
+**Sénégal :**
+- Plus-values mobilières des particuliers : tendance à l'exonération mais vérifier la loi fiscale annuelle
+
+**Burkina Faso :**
+- Traitement similaire, exonération sous conditions
+
+**Règle générale :** La BRVM est conçue pour encourager l'investissement en Afrique de l'Ouest → fiscalité intentionnellement favorable aux plus-values.
+
+### 3. Déclaration fiscale — ce que tu dois faire
+
+**Si tu résides en Côte d'Ivoire :**
+- Dividendes : retenue à la source libératoire → rien à déclarer en plus
+- Plus-values : généralement exonérées → rien à déclarer
+- MAIS : conserver toutes ses attestations de transactions SGI (en cas de contrôle)
+
+**Si tu résides dans un pays à fiscalité plus stricte (France, Belgique…) :**
+- Tu es imposable dans ton pays de résidence sur les revenus mondiaux
+- Les dividendes BRVM sont à déclarer → crédit d'impôt possible pour la retenue UEMOA
+- Les plus-values sont à déclarer et imposées selon les règles locales
+- Consulter un fiscaliste pour optimiser
+
+### 4. Documents fiscaux à conserver
+
+- Attestations de détention (reçues de ton SGI)
+- Avis de paiement de dividendes (avec montant brut et retenue)
+- Relevés de compte-titres annuels
+- Confirmations d'ordre d'achat et de vente
+- Délai de conservation recommandé : 10 ans
+
+### 5. Optimisation fiscale légale — les bonnes pratiques
+
+1. **Privilégier les actions à fort rendement dividende** : si exonération plus-value, le dividende reste la source de revenu principal imposée mais à taux réduit
+2. **Holding de long terme** : moins de transactions = moins d'événements fiscaux
+3. **Calendrier des dividendes** : certaines sociétés permettent le réinvestissement des dividendes (DRIP) → différer l'imposition
+4. **SGI dans le bon pays** : choisir une SGI dans un pays à fiscalité favorable
+
+## Quiz (10 questions)
+1. Quel est le taux de retenue à la source sur les dividendes en Côte d'Ivoire ?
+2. SONATEL dividende brut 1 740 FCFA, retenue Sénégal 10% → montant net reçu ?
+3. Les plus-values sur actions BRVM sont-elles imposées en Côte d'Ivoire pour les particuliers ?
+4. Qu'est-ce qu'une "retenue libératoire" ?
+5. Quels documents fiscaux conserver et pendant combien de temps ?
+6. Si tu résides en France et détiens des actions BRVM, dois-tu déclarer les dividendes ?
+7. Cite 2 avantages fiscaux de la BRVM par rapport à des marchés européens.
+8. Qu'est-ce qu'un crédit d'impôt pour retenue à la source étrangère ?
+9. Pourquoi une stratégie Buy & Hold est-elle plus efficace fiscalement qu'un trading actif ?
+10. Que faire en cas de doute sur sa situation fiscale personnelle ?
+
+## Barème : ≥7/10 → débloquer 8.2

@@ -1,0 +1,115 @@
+---
+module: "7.1"
+titre: "Les biais cognitifs — FOMO, biais de confirmation, ancrage"
+niveau: 7
+duree: "1h"
+prerequis: "quiz-n6"
+suivant: "7.2"
+---
+
+# Module 7.1 — Biais Cognitifs du Trader
+
+## Objectifs pédagogiques
+- Identifier les 8 biais cognitifs les plus destructeurs en bourse
+- Reconnaître ces biais dans ses propres pensées et décisions
+- Mettre en place des règles concrètes pour les contrecarrer
+- Comprendre pourquoi la psychologie est souvent plus importante que l'analyse
+
+## Concepts à enseigner
+
+### 1. Pourquoi la psychologie est capitale
+
+- 90% des traders particuliers perdent de l'argent sur le long terme
+- La cause principale : pas le manque d'analyse, mais les erreurs psychologiques
+- Le cerveau humain n'est pas câblé pour la bourse (il optimise pour la survie, pas le rendement)
+- Peter Lynch : "Le marché ne blessera pas autant vos portefeuilles que votre propre comportement"
+- Objectif : devenir un investisseur RATIONNEL, pas RÉACTIF
+
+### 2. Les 8 biais cognitifs majeurs
+
+#### Biais 1 — FOMO (Fear Of Missing Out)
+- Définition : acheter parce que tout le monde achète et qu'on a peur de "rater"
+- Symptôme : "SONATEL a pris +20% ce mois, je dois en acheter maintenant !"
+- Conséquence : acheter au plus haut, juste avant la correction
+- Remède : vérifier systématiquement le RSI et le ratio risque/rendement AVANT d'acheter
+
+#### Biais 2 — Biais de Confirmation
+- Définition : ne chercher que les informations qui confirment ce qu'on croit déjà
+- Symptôme : "Je suis convaincu que BOA CI va monter → je lis uniquement les analyses positives"
+- Conséquence : ignorer les signaux d'alerte, rester trop longtemps sur un perdant
+- Remède : chercher ACTIVEMENT des arguments contre sa thèse
+
+#### Biais 3 — Ancrage
+- Définition : s'accrocher à un prix de référence passé (souvent son prix d'achat)
+- Symptôme : "J'ai acheté ORANGE CI à 8 500, il est à 7 200, je ne vends pas — il reviendra à 8 500"
+- Conséquence : conserver des perdants trop longtemps
+- Remède : évaluer l'action à son prix ACTUEL, pas au prix d'achat. "L'action ne sait pas que tu l'as achetée à 8 500"
+
+#### Biais 4 — Aversion à la perte
+- Définition : la douleur d'une perte est psychologiquement 2× plus forte que le plaisir d'un gain
+- Symptôme : vendre trop tôt les gagnants (sécuriser le gain) et garder trop longtemps les perdants
+- Conséquence : couper les fleurs et laisser pousser les mauvaises herbes
+- Remède : règle de Warren Buffett inversée pour les particuliers → laisser courir les gagnants avec trailing stop
+
+#### Biais 5 — Excès de confiance (Overconfidence)
+- Définition : surestimer ses capacités à prédire le marché
+- Symptôme : "J'ai eu raison 3 fois de suite, je suis doué pour la bourse → je mise plus gros"
+- Conséquence : prise de risque excessive, concentration sur une seule valeur
+- Remède : tenir un journal de trading, mesurer objectivement son taux de réussite
+
+#### Biais 6 — Biais de récence
+- Définition : extrapoler le passé récent vers l'avenir
+- Symptôme : "Le marché monte depuis 6 mois, il va continuer à monter"
+- Conséquence : acheter au sommet d'une tendance
+- Remède : toujours vérifier les indicateurs de retournement (RSI, figures chartistes)
+
+#### Biais 7 — Comportement grégaire (Herd Behavior)
+- Définition : suivre la foule par peur d'avoir tort seul
+- Symptôme : "Si tout le marché vend, je dois vendre aussi"
+- Conséquence : renforcer les krachs (tout le monde vend en même temps)
+- Remède : "Sois avide quand les autres sont craintifs" (Warren Buffett)
+
+#### Biais 8 — Comptabilité mentale
+- Définition : traiter différemment l'argent selon son origine
+- Symptôme : "C'est de l'argent de dividendes, je peux prendre plus de risques avec"
+- Conséquence : prise de risque incohérente selon les "catégories" d'argent
+- Remède : tout l'argent est identique → appliquer les mêmes règles de risque
+
+### 3. La spirale émotionnelle du marché
+
+```
+Optimisme → Enthousiasme → Euphorie (SOMMET) → Anxiété → Déni
+     ↑                                                           ↓
+Espoir                                                     Panique (CREUX)
+     ↑                                                           ↓
+Dépression ← Capitulation ← Découragement ← Peur ← Désespoir
+```
+
+- La plupart des particuliers achètent en euphorie et vendent en panique → exact inverse du bon timing
+- L'investisseur intelligent achète dans la dépression/capitulation et vend dans l'euphorie
+
+### 4. Checklist anti-biais avant chaque ordre
+
+Avant d'acheter ou vendre, répondre honnêtement :
+```
+☐ Est-ce que j'achète à cause du FOMO ? (tout le monde en parle)
+☐ Ai-je cherché des arguments CONTRE ma thèse ?
+☐ Est-ce que mon ancrage à un prix passé influence ma décision ?
+☐ Mon stop-loss est-il défini AVANT l'entrée ?
+☐ Mon ratio R/R est-il ≥ 2:1 ?
+☐ Est-ce que je suis la foule ou j'ai une conviction propre ?
+```
+
+## Quiz (10 questions)
+1. Définir le FOMO et donner un exemple sur la BRVM.
+2. Qu'est-ce que le biais de confirmation ? Comment le combattre ?
+3. Pourquoi "l'action ne sait pas que tu l'as achetée à 8 500" est-elle une règle sage ?
+4. Qu'est-ce que l'aversion à la perte et quelle erreur typique génère-t-elle ?
+5. Comment mesurer objectivement son excès de confiance ?
+6. Dans la spirale émotionnelle, où se situent le sommet et le creux ?
+7. "Le marché a baissé 3 jours de suite, il va continuer" — quel biais est-ce ?
+8. Qu'est-ce que la comptabilité mentale ?
+9. Cite 3 questions de la checklist anti-biais.
+10. Pourquoi 90% des traders particuliers perdent-ils de l'argent à long terme ?
+
+## Barème : ≥7/10 → débloquer 7.2

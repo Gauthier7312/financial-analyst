@@ -1,0 +1,135 @@
+---
+module: "6.4"
+titre: "Indicateurs macro à surveiller — PIB, inflation, balance commerciale"
+niveau: 6
+duree: "1h"
+prerequis: "6.3"
+suivant: null
+---
+
+# Module 6.4 — Tableau de Bord Macro UEMOA
+
+## Objectifs pédagogiques
+- Connaître et interpréter les 8 indicateurs macro clés de l'UEMOA
+- Construire un tableau de bord macro-économique personnel
+- Relier chaque indicateur à une implication concrète pour la BRVM
+- Savoir où trouver ces données en temps réel
+
+## Concepts à enseigner
+
+### 1. Les 8 indicateurs macro essentiels
+
+#### 1. PIB et croissance économique
+- Mesure : variation annuelle du Produit Intérieur Brut
+- UEMOA 2025 : ~6% en moyenne (parmi les zones les plus dynamiques du monde)
+- Côte d'Ivoire : ~6.5% | Sénégal : ~8% (effet pétrole/gaz) | Burkina Faso : <3% (instabilité)
+- Impact BRVM : croissance PIB > 5% → bénéfices en hausse → actions en hausse
+- Signal d'alerte : PIB < 3% → marchés atones → prudence
+
+#### 2. Inflation (IPC)
+- Cible BCEAO : ≤ 3%/an
+- UEMOA 2025 : ~3.5–5% (légèrement au-dessus de cible)
+- Impact positif modéré sur les entreprises (peuvent augmenter prix)
+- Impact négatif si > 6% : BCEAO monte les taux → pression sur les valorisations
+- Inflation importée : hausse prix alimentaires mondiaux → impact consommateur local
+
+#### 3. Balance commerciale
+- Exports − Imports
+- Côte d'Ivoire : légèrement excédentaire (cacao, café, pétrole)
+- Sénégal : déficitaire (mais amélioré avec pétrole)
+- Impact : déficit commercial → pression sur les réserves de change → risque systémique
+
+#### 4. Réserves de change
+- Niveau actuel : ~5–6 mois d'importations pour la zone UEMOA
+- Seuil minimal : 3 mois d'importations (norme FMI)
+- Impact : réserves élevées → parité CFA/EUR sécurisée → stabilité pour investisseur BRVM
+
+#### 5. Dette publique / PIB
+- UEMOA : ~65–70% du PIB en moyenne
+- Critère de convergence UEMOA : ≤ 70%
+- Au-delà → risque souverain → impact sur les banques BRVM très exposées aux bons d'État
+- Sénégal et CI : en limite du critère → surveiller
+
+#### 6. Bancarisation et inclusion financière
+- UEMOA : ~30% de la population bancarisée (vs 90%+ en Europe)
+- Mobile money en forte croissance (Wave, Orange Money)
+- Signal : forte bancarisation encore possible → croissance structurelle des banques BRVM
+
+#### 7. Prix des matières premières clés
+- Cacao : CI = 1er producteur mondial → corrélation directe avec le PIB ivoirien
+- Pétrole : CI, Sénégal, Ghana voisin → impact coûts et revenus
+- Huile de palme : PALM CI, SAPH CI directement impactés
+- Or : Burkina Faso, Mali → économies de la région
+- Ces prix se consultent sur Bloomberg, Reuters, ou simplement Google
+
+#### 8. Taux de chômage et emploi informel
+- Difficile à mesurer en zone UEMOA (fort secteur informel)
+- Indicateur proxy : croissance du crédit à la consommation + immatriculations automobiles
+- Fort chômage urbain → risque social → instabilité politique potentielle
+
+### 2. Où trouver ces données
+
+| Source | Données disponibles |
+|--------|---------------------|
+| bceao.int | Taux directeurs, inflation, M2, crédit bancaire |
+| uemoa.int | PIB, convergence, balance des paiements |
+| imf.org (WEO) | Projections PIB, dette/PIB par pays |
+| worldbank.org | Indicateurs de développement, inclusion financière |
+| sikafinance.com | Actualités macro-économiques BRVM |
+| brvm.org | Indices BRVM, capitalisation, volumes |
+| Banque Mondiale UEMOA | Bulletins trimestriels économiques |
+
+### 3. Construire son tableau de bord macro — cadence mensuelle
+
+**À surveiller chaque mois :**
+```
+TABLEAU DE BORD MACRO UEMOA — [Mois/Année]
+
+Indicateur               | Valeur  | Tendance | Signal BRVM
+─────────────────────────┼─────────┼──────────┼────────────
+PIB CI (dernière est.)   | +6.5%   | ↗        | 🟢 Positif
+Inflation UEMOA          | 4.2%    | → Stable | 🟡 Neutre
+Taux directeur BCEAO     | 3.50%   | → Stable | 🟢 Neutre
+Cours cacao ($/tonne)    | 8 200   | ↗        | 🟢 CI positif
+Cours pétrole ($/baril)  | 72      | ↘        | 🟢 Coûts OK
+Réserves change (mois)   | 5.8     | → Stable | 🟢 Sécurisé
+Volume BRVM (M FCFA/j)   | 680     | ↗        | 🟢 Actif
+BRVM Composite           | +8.2%   | ↗        | 🟢 Haussier
+```
+
+### 4. Relier les indicateurs aux décisions d'investissement
+
+**Grille de lecture :**
+
+- PIB > 5% + Inflation < 4% + Taux stables → **Investir pleinement** 🟢
+- PIB > 5% + Inflation 4–6% + Taux en hausse → **Surpondérer défensifs, banques** 🟡
+- PIB 3–5% + Instabilité politique → **Réduire positions, augmenter liquidités** 🟡
+- PIB < 3% + Inflation > 6% + Crise → **Cash et valeurs très défensives uniquement** 🔴
+
+### 5. Cas d'étude — Sénégal 2025 (pétrole et gaz)
+
+- Sénégal a démarré l'exploitation de pétrole et gaz offshore en 2024
+- PIB attendu : +8% en 2025 → un des taux de croissance les plus élevés d'Afrique
+- Impact BRVM Sénégal : BOA SN (banques profitent des investissements), SONATEL SN
+- Risque : gestion des revenus pétroliers, "malédiction des ressources naturelles"
+- Opportunité à 5–10 ans : développement infrastructure → nouvelles sociétés cotées ?
+
+## Quiz (10 questions)
+1. Cite les 8 indicateurs macro essentiels pour un investisseur BRVM.
+2. Quelle est la cible d'inflation de la BCEAO ?
+3. Pourquoi le cours du cacao impacte-t-il directement la bourse ivoirienne ?
+4. Qu'est-ce que la bancarisation et pourquoi est-elle un moteur pour les banques BRVM ?
+5. Réserves de change = 2.5 mois d'importations → signal positif ou négatif ?
+6. PIB CI +6.5% + Inflation 3.5% + Taux stables → quelle posture d'investissement ?
+7. Où consulter les données de taux directeurs BCEAO ?
+8. Quel est l'impact d'un cours du pétrole bas sur les sociétés de distribution BRVM ?
+9. Pourquoi la dette publique élevée représente-t-elle un risque pour les banques BRVM ?
+10. Quels indicateurs proxy utiliser pour estimer l'emploi en zone UEMOA ?
+
+## Barème : ≥7/10 → Certification Macro UEMOA 🏆
+
+---
+
+## Récompense de fin de Niveau 6
+Badge : 🏆 **Économiste UEMOA Certifié**
+Débloqué : lecture autonome du contexte macro et positionnement sectoriel adapté

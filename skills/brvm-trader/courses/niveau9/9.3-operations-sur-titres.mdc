@@ -1,0 +1,137 @@
+---
+module: "9.3"
+titre: "Opérations sur titres — augmentations de capital, splits, OPA, OPR"
+niveau: 9
+duree: "1h"
+prerequis: "9.2"
+suivant: "9.4"
+---
+
+# Module 9.3 — Opérations sur Titres Avancées
+
+## Objectifs pédagogiques
+- Analyser l'impact financier précis de chaque opération sur titres
+- Savoir si participer ou non à une augmentation de capital
+- Comprendre comment réagir face à une OPA ou une OPR
+- Calculer la valeur théorique du DPS et du droit d'attribution
+
+## Concepts à enseigner
+
+### 1. Augmentation de capital avec DPS — analyse complète
+
+**Terminologie :**
+- **Prix de souscription** : prix auquel les nouvelles actions sont émises (souvent < cours)
+- **DPS (Droit Préférentiel de Souscription)** : droit de souscrire aux nouvelles actions
+- **Parité** : nombre de DPS nécessaires pour une nouvelle action
+
+**Calcul de la valeur théorique du DPS :**
+
+Formule : DPS = (Cours − Prix souscription) × [nouvelles actions / (anciennes + nouvelles actions)]
+
+**Exemple BRVM :**
+- SONATEL cours = 26 000 FCFA
+- Prix souscription = 22 000 FCFA
+- Parité : 5 anciens DPS pour 2 nouvelles actions
+- DPS théorique = (26 000 − 22 000) × 2/7 = 4 000 × 0.286 = 1 143 FCFA
+
+**Décision : souscrire ou vendre le DPS ?**
+- Si tu crois en l'entreprise → souscrire (tu achètes à prix réduit)
+- Si tu as besoin de liquidités → vendre le DPS en bourse
+- Le DPS lui-même est coté en bourse pendant la période de souscription
+- NE PAS laisser le DPS expirer sans rien faire → perte sèche !
+
+### 2. Augmentation de capital par incorporation de réserves
+
+- La société distribue des actions gratuites aux actionnaires existants
+- Pas de nouveau cash levé → recapitalisation comptable
+- Droit d'attribution : droit de recevoir les actions gratuites
+- Effet : le cours baisse proportionnellement (but : améliorer la liquidité)
+- Pour l'actionnaire : valeur totale inchangée mais plus d'actions à prix plus bas
+
+**Exemple :**
+- ORANGE CI : 1 action gratuite pour 4 actions détenues
+- Cours avant : 8 000 FCFA
+- Cours théorique après : 8 000 × 4/5 = 6 400 FCFA
+- 4 actions × 8 000 = 32 000 → 5 actions × 6 400 = 32 000 ✅ (valeur inchangée)
+
+### 3. OPA (Offre Publique d'Achat) — stratégie optimale
+
+**Situations possibles :**
+
+**OPA amicale :**
+- Le conseil d'administration soutient l'offre
+- Prix généralement attractif (prime de 20–40% sur le cours)
+- Recommandation du CA d'accepter
+- Décision : comparer prix offert vs valeur intrinsèque estimée
+
+**OPA hostile :**
+- L'initiateur fait l'offre sans accord du CA
+- CA peut émettre des mesures défensives
+- Souvent suivi d'une surenchère → attendre pour maximiser
+
+**Tactiques d'un actionnaire face à une OPA :**
+1. **Attente active** : ne pas vendre immédiatement (une contre-offre peut venir)
+2. **Vente si prime élevée** : prime > 30% et valeur intrinsèque < prix offert → vendre
+3. **Conservation** : si tu penses que la nouvelle entité sera plus performante → rester
+
+**Que se passe-t-il si tu ne réponds pas à l'OPA ?**
+- Si l'OPA réussit : tu peux conserver tes actions dans la nouvelle entité
+- Si OPA à 100% + retrait de cote : tu seras forcé de vendre (OPR déclenchée automatiquement)
+
+### 4. OPR (Offre Publique de Retrait) — tes droits
+
+- Se produit quand un actionnaire majoritaire veut retirer la société de la BRVM
+- Déclenche quand l'actionnaire détient > 90–95% du capital
+- Le minoritaire DOIT vendre à un prix fixé (encadré par le CREPMF)
+- Tu ne peux pas refuser (rachat forcé) si l'actionnaire dépasse 95%
+
+**Protections :**
+- Le CREPMF vérifie que le prix est équitable
+- Un expert indépendant évalue la juste valeur
+- Si le prix te semble injuste → recours possible auprès du CREPMF
+
+### 5. Split et regroupement — impact pratique
+
+**Split :**
+- Exemple : split 1 pour 10 (1 action → 10 actions)
+- Ton cours de 50 000 FCFA → 5 000 FCFA × 10 actions
+- Valeur totale : inchangée
+- Ajustement automatique sur ton compte SGI
+- Impact psychologique : plus d'actions à prix accessible → souvent hausse à court terme
+
+**Regroupement :**
+- Exemple : regroupement 10 pour 1
+- 10 actions à 500 FCFA → 1 action à 5 000 FCFA
+- Souvent signe que le cours était trop bas → peut être un signal de vigilance
+
+**Ce qui change pour toi :**
+- Nombre d'actions dans ton compte
+- Cours de référence
+- Prix de revient moyen (ajusté automatiquement)
+
+### 6. Calendrier opérations sur titres — ne pas rater les délais
+
+Sur la BRVM, chaque opération a des délais stricts :
+
+| Opération | Délai à respecter |
+|-----------|------------------|
+| Souscription AK avec DPS | Fenêtre de 2–3 semaines |
+| Attribution actions gratuites | Automatique, rien à faire |
+| Réponse à une OPA | Délai de l'offre (4–6 semaines) |
+| OPR | Délai de retrait fixé par CREPMF |
+
+**Conseil :** Configurer des alertes sikafinance.com pour les opérations sur tes valeurs
+
+## Quiz (10 questions)
+1. Formule de calcul de la valeur théorique du DPS.
+2. Que se passe-t-il si tu laisses ton DPS expirer sans rien faire ?
+3. Différence entre AK avec DPS et AK par incorporation de réserves.
+4. OPA avec prime de 35% sur le cours → réflexe immédiat ?
+5. Quand une OPR est-elle déclenchée automatiquement ?
+6. ORANGE CI split 1:5 depuis 8 000 FCFA → nouveau cours et nouvelles actions pour 10 détenues ?
+7. Qu'est-ce qu'une OPA hostile et comment réagir ?
+8. Si tu ne réponds pas à une OPA et qu'elle réussit, que se passe-t-il ?
+9. Quel organisme protège le prix en cas d'OPR ?
+10. Quelle est la fenêtre typique pour souscrire à une AK sur la BRVM ?
+
+## Barème : ≥7/10 → débloquer 9.4

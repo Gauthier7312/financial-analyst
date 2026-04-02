@@ -1,0 +1,175 @@
+---
+module: "9.4"
+titre: "Suivi de performance — TRI, benchmark BRVM, tableau de bord investisseur"
+niveau: 9
+duree: "1h"
+prerequis: "9.3"
+suivant: null
+---
+
+# Module 9.4 — Mesurer sa Performance d'Investisseur
+
+## Objectifs pédagogiques
+- Calculer correctement le rendement de son portefeuille BRVM
+- Comparer sa performance au bon benchmark
+- Construire un tableau de bord investisseur personnel
+- Distinguer chance et compétence dans ses résultats
+
+## Concepts à enseigner
+
+### 1. Les métriques de performance fondamentales
+
+**Performance simple (pour débuter) :**
+- Rendement = (Valeur finale − Valeur initiale + Dividendes) / Valeur initiale × 100
+- Exemple : 500 000 → 580 000 FCFA + 28 000 FCFA dividendes reçus
+- Rendement = (580 000 − 500 000 + 28 000) / 500 000 = 21.6%
+
+**Rendement annualisé (si horizon > 1 an) :**
+- Formule : (1 + rendement total)^(1/nombre d'années) − 1
+- Exemple : +60% sur 3 ans = (1.60)^(1/3) − 1 = +16.96%/an
+
+**TRI (Taux de Rendement Interne) :**
+- Plus précis car tient compte des flux intermédiaires (achats supplémentaires, dividendes réinvestis)
+- Prend en compte QUAND les flux sont entrés ou sortis
+- Calculable avec Excel (fonction TRI ou XIRR) ou une calculatrice financière
+- Le TRI est la mesure professionnelle de la performance
+
+**Exemple TRI :**
+- Janvier : investis 200 000 FCFA
+- Juillet : investis 100 000 FCFA supplémentaires
+- Décembre : portefeuille vaut 360 000 FCFA + 15 000 FCFA dividendes = 375 000 FCFA
+- TRI ≠ simple rendement → Excel calcule : ~18%/an
+
+### 2. Les benchmarks — contre qui te comparer ?
+
+**Benchmark principal :**
+- **BRVM Composite** : indice de toutes les valeurs cotées (pondéré par capitalisation)
+- Si ton portefeuille fait +12% et BRVM Composite +15% → tu as SOUS-performé le marché
+
+**BRVM 10 :**
+- Indice des 10 plus grandes capitalisations
+- Plus représentatif des grandes valeurs liquides
+- Utile si ton portefeuille est concentré sur les blue chips
+
+**Benchmark de dividendes :**
+- Rendement dividende moyen BRVM : ~4–6%/an
+- Si tu joues la capture de dividendes → comparer à ce benchmark
+
+**Benchmark de référence externe :**
+- Dépôt à terme bancaire UEMOA : ~5–7%/an
+- Question : est-ce que mes actions font mieux que le taux sans risque ?
+- Si non sur 3+ ans → peut-être revoir la stratégie
+
+### 3. Alpha et Beta — mesurer la qualité
+
+**Beta du portefeuille :**
+- Beta < 1 : portefeuille moins volatile que le marché → défensif
+- Beta = 1 : portefeuille suit le marché exactement
+- Beta > 1 : portefeuille plus volatile → risque plus élevé
+
+**Alpha :**
+- Alpha = rendement portefeuille − (taux sans risque + Beta × rendement marché)
+- Alpha > 0 : tu as généré de la valeur au-delà du risque pris → tu as de la compétence ✅
+- Alpha < 0 : tu n'as pas été payé pour le risque pris → revoir la stratégie ❌
+
+**Ratio de Sharpe :**
+- Formule : (Rendement portefeuille − Taux sans risque) / Volatilité
+- Mesure le rendement par unité de risque
+- > 1 : bon | > 2 : excellent | < 0.5 : insuffisant
+
+### 4. Construire son tableau de bord investisseur
+
+**Revue mensuelle :**
+```
+TABLEAU DE BORD PORTEFEUILLE — [Mois/Année]
+
+Valeur totale                  : 543 200 FCFA
+Coût total investi             : 500 000 FCFA
+Plus-value latente             : +43 200 FCFA (+8.6%)
+Dividendes reçus (cumul)       : +14 500 FCFA
+Performance totale             : +57 700 FCFA (+11.5%)
+
+Benchmark BRVM Composite (YTD): +9.2%
+Mon rendement YTD              : +11.5%
+Alpha (simplifié)              : +2.3% ✅
+
+Valeur la plus performante     : SONATEL +18%
+Valeur la moins performante    : PALM CI −5%
+
+Cash disponible                : 50 000 FCFA (9.2% du portefeuille)
+Prochains dividendes attendus  : BOA BF en avril (estimé +14 000 FCFA)
+```
+
+**Revue annuelle :**
+- TRI sur l'année
+- Comparaison vs dépôt à terme bancaire
+- Comparaison vs BRVM Composite
+- Calcul de l'Alpha
+- Réflexion stratégique : maintenir ou réviser l'approche ?
+
+### 5. Distinguer chance et compétence
+
+**La question fondamentale :**
+- Ton portefeuille a fait +25% cette année → est-ce de la compétence ou de la chance ?
+
+**Tests :**
+1. Le marché a fait +20% → ton alpha est de +5% → modeste mais réel
+2. Le marché a fait +30% → tu as fait +25% → tu as SOUS-performé malgré un bon rendement absolu
+3. Sur 1 an : peut être de la chance | Sur 3+ ans : commence à refléter la compétence
+
+**Règle des 3 ans :**
+- Une stratégie doit être évaluée sur au moins 3 ans pour distinguer chance et compétence
+- 1 an d'alpha positif → insuffisant pour conclure
+- 3 ans d'alpha positif constant → signal de compétence réelle
+
+**L'investisseur passif — la référence difficile à battre :**
+- Statistiquement, 80–85% des gestionnaires actifs sous-performent leur benchmark sur 10 ans
+- Si tu bats régulièrement le BRVM Composite → tu fais partie des 15–20% → félicitations
+- Si pas → considérer une stratégie passive (acheter les 10 plus grandes caps BRVM en DCA)
+
+### 6. Objectifs de performance réalistes sur la BRVM
+
+**Rendement annuel attendu selon stratégie :**
+| Stratégie | Rendement attendu | Risque |
+|-----------|------------------|--------|
+| DCA Blue Chips + dividendes | 8–12%/an | Faible |
+| Stratégie momentum active | 12–20%/an | Modéré |
+| Trading court terme | Variable (souvent < marché) | Élevé |
+| Buy & Hold dividendes | 7–10%/an + yield 5–7% | Faible |
+
+**Objectif raisonnable pour un débutant BRVM :** battre le taux d'épargne bancaire (~5%) dès la 1ère année, viser 10–15%/an une fois expérimenté.
+
+## Quiz (10 questions)
+1. Formule de la performance simple d'un portefeuille.
+2. Quelle différence entre rendement simple et TRI ?
+3. BRVM Composite +15%, ton portefeuille +12% → as-tu sur- ou sous-performé ?
+4. Qu'est-ce que l'Alpha et qu'indique un Alpha positif ?
+5. Qu'est-ce que le Ratio de Sharpe et quel seuil viser ?
+6. Pourquoi comparer son rendement au taux du dépôt à terme ?
+7. Ton portefeuille fait +30% cette année → est-ce forcément de la compétence ?
+8. Quelle est la "règle des 3 ans" en matière de performance ?
+9. Quel rendement annuel viser pour une stratégie DCA Blue Chips BRVM ?
+10. Comment calculer son TRI avec des apports irréguliers ?
+
+## Barème : ≥7/10 → Certification Gestion de Portefeuille Avancée 🏆
+
+---
+
+## Récompense de fin de Niveau 9
+Badge : 🏆 **Gestionnaire de Portefeuille BRVM Certifié**
+Débloqué : maîtrise complète de la construction, du suivi et de l'optimisation d'un portefeuille BRVM
+
+---
+
+## Félicitations — Parcours Complet
+
+En complétant les 9 niveaux, tu maîtrises :
+✅ Les bases du marché boursier et de la BRVM
+✅ L'analyse technique complète (débutant → avancé)
+✅ L'analyse fondamentale complète
+✅ Le contexte macro-économique UEMOA
+✅ La psychologie et la discipline du trader
+✅ La fiscalité, la régulation et les droits des actionnaires
+✅ La gestion avancée de portefeuille
+
+**Tu es prêt à investir réellement sur la BRVM.**

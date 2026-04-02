@@ -43,6 +43,12 @@ Ce projet est un **plugin Claude Code** installable et distribuable.
 - `niveau1/` — 5 modules initiation (vocabulaire, BRVM, acteurs, ordres)
 - `niveau2/` — 4 modules analyse (graphiques, RSI, fondamentale, timing)
 - `niveau3/` — 4 modules stratégies (portefeuille, risque, DCA, dividendes)
+- `niveau4/` — 5 modules analyse technique débutant → avancé (MM, MACD, figures, multi-timeframe)
+- `niveau5/` — 5 modules analyse fondamentale avancée (bilan, ratios, DCF, sectorielle, rapport annuel)
+- `niveau6/` — 4 modules macro-économie UEMOA (CFA, BCEAO, cycles, indicateurs)
+- `niveau7/` — 3 modules psychologie & discipline (biais cognitifs, émotions, journal de trading)
+- `niveau8/` — 3 modules fiscalité & régulation (impôts UEMOA, CREPMF, droits actionnaire)
+- `niveau9/` — 4 modules gestion de portefeuille avancée (diversification, rebalancement, opérations sur titres, performance)
 
 ### Progression
 - `.claude/courses/progress.md` — créé automatiquement au premier `/brvm-trader`

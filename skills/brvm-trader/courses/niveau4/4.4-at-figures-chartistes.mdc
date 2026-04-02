@@ -1,0 +1,131 @@
+---
+module: "4.4"
+titre: "Figures chartistes avancées — patterns de continuation et retournement"
+niveau: 4
+duree: "1h30"
+prerequis: "4.3"
+suivant: "4.5"
+---
+
+# Module 4.4 — Figures Chartistes Avancées
+
+## Objectifs pédagogiques
+- Identifier et trader les figures de retournement majeures (ETE, double fond/sommet)
+- Maîtriser les figures de continuation (triangles, drapeaux, wedges)
+- Comprendre les chandeliers japonais avancés (patterns multi-bougies)
+- Appliquer les calculs d'objectifs de cours (price targets)
+- Adapter l'identification des figures au marché BRVM
+
+## Concepts à enseigner
+
+### 1. Figures de retournement
+
+#### Épaule-Tête-Épaule (ETE) — la plus fiable
+- Structure : 3 sommets avec le central plus haut (tête) et 2 épaules symétriques
+- Ligne de cou (neckline) : relie les 2 creux entre les 3 sommets
+- Signal de vente : cassure de la neckline avec volume élevé 🔴🔴
+- Objectif baissier : hauteur tête − neckline, projetée sous la neckline
+- ETE inversée : même figure mais à l'envers → signal achat 🟢🟢
+- Sur BRVM : rare mais très fiable quand identifiée (SONATEL, ORANGE CI)
+- Piège : ne pas anticiper la cassure de neckline !
+
+#### Double Sommet (M) et Double Fond (W)
+- Double sommet : 2 tests du même niveau de résistance → signal baissier à la cassure du support intermédiaire 🔴
+- Double fond : 2 tests du même niveau de support → signal haussier à la cassure de la résistance intermédiaire 🟢
+- Validation : le 2e test doit se faire avec MOINS de volume que le 1er
+- Objectif : hauteur du M ou W projetée dans la direction de la cassure
+- Application BOA CI : double fond sur support 5 200 → objectif 6 800 (+30%)
+
+#### Triple sommet / Triple fond
+- Version renforcée du double : 3 tests au même niveau
+- Signal encore plus fiable (résistance/support très validé)
+- Objectif calculé identiquement
+
+### 2. Figures de continuation
+
+#### Triangles — compression avant explosion
+- **Triangle symétrique** : ligne de tendance basse montante + ligne haute descendante
+  - Direction de cassure inconnue → attendre la cassure
+  - Volume diminue pendant formation → explose à la cassure
+  - Objectif : hauteur de la base du triangle projetée depuis le point de cassure
+- **Triangle ascendant** : résistance horizontale + support montant → biais haussier 🟢
+- **Triangle descendant** : support horizontal + résistance descendante → biais baissier 🔴
+- Sur BRVM : fréquents sur TOTAL CI et SG CI (actions à faible volatilité)
+
+#### Drapeaux et Fanions (Flag & Pennant)
+- Se forment après un mouvement fort et rapide (le mât)
+- Drapeau : consolidation en parallélogramme légèrement contre-tendance
+- Fanion : mini-triangle de consolidation
+- Signal : cassure dans le sens du mât initial (continuation)
+- Objectif : projeter la longueur du mât depuis le point de cassure
+- Volume : fort pendant le mât, très faible pendant le drapeau, fort à la cassure ✅
+
+#### Biseau (Wedge) — attention aux inversions
+- **Rising wedge** (biseau haussier) : 2 lignes convergentes haussières → signal BAISSIER 🔴
+  (contre-intuitif : une hausse qui s'essouffle progressivement)
+- **Falling wedge** (biseau baissier) : 2 lignes convergentes baissières → signal HAUSSIER 🟢
+  (le marché baisse de moins en moins fort → rebond probable)
+- Ces figures sont particulièrement fiables sur la BRVM
+
+### 3. Chandeliers japonais avancés — patterns multi-bougies
+
+#### Patterns de retournement haussier
+- **Marteau** : corps petit en haut, longue mèche basse (≥ 2x corps) → rebond possible
+- **Marteau inversé** : corps petit en bas, longue mèche haute → rebond si confirmé J+1
+- **Avalement haussier** (bullish engulfing) : grande bougie verte englobe petite rouge → fort signal achat 🟢🟢
+- **Morning star** : bougie rouge | doji | bougie verte → retournement haussier 🟢🟢🟢
+- **Harami haussier** : grande bougie rouge suivie d'une petite verte à l'intérieur → hésitation → surveiller
+
+#### Patterns de retournement baissier
+- **Étoile filante** (shooting star) : corps petit en bas, longue mèche haute → essoufflement 🔴
+- **Pendu** (hanging man) : identique au marteau mais en haut d'une tendance haussière → danger 🔴
+- **Avalement baissier** : grande bougie rouge englobe petite verte → signal vente 🔴🔴
+- **Evening star** : bougie verte | doji | bougie rouge → retournement baissier 🔴🔴🔴
+- **Étoile du soir doji** : le doji est parfait (corps = 0) → signal encore plus fort
+
+#### Règle de confirmation
+- Un pattern de chandelier SEUL n'est pas suffisant
+- Toujours confirmer avec :
+  1. Volume (doit être élevé sur la bougie signal)
+  2. RSI (en zone cohérente avec le signal)
+  3. Support/résistance (le signal est près d'un niveau clé)
+
+### 4. Calcul des objectifs de cours (Price Targets)
+
+**Méthode de projection standard :**
+- Mesurer la hauteur H de la figure (en FCFA)
+- Projeter H dans la direction de la cassure depuis le point de rupture
+
+**Exemples BRVM :**
+- ETE inversée SONATEL : tête à 23 000, neckline à 26 000 → H = 3 000 → objectif = 29 000 FCFA
+- Double fond BOA CI : fond à 5 200, résistance à 6 000 → H = 800 → objectif = 6 800 FCFA
+- Triangle ascendant TOTAL CI : base 300 FCFA → objectif = cassure + 300 FCFA
+
+**Stop-loss avec les figures :**
+- ETE : stop au-dessus de l'épaule droite
+- Double fond : stop sous le 2e fond
+- Triangle : stop sous le dernier creux avant cassure
+- Drapeau : stop sous le bas du drapeau
+
+### 5. Adapter à la BRVM — spécificités importantes
+
+- **Liquidité réduite** : les figures prennent plus de temps à se former (2–4 semaines vs 2–3 jours)
+- **Volume** : le marché BRVM a des volumes plus faibles → pondérer différemment
+- **Moins de manipulation** : les figures sont souvent plus "propres" qu'à Paris ou Wall Street
+- **Chiffres ronds** : respectés plus strictement (niveaux psychologiques forts)
+- **Figures les plus fiables sur BRVM** : ETE inversée, double fond, drapeaux
+- **Figures à éviter sur petites caps** : tout pattern complexe → trop de bruit
+
+## Quiz (10 questions)
+1. Décris la structure d'une Épaule-Tête-Épaule et quel signal elle donne.
+2. Quelle est la différence entre un Rising Wedge et un Triangle ascendant ?
+3. Dans un double fond, quand exactement le signal haussier est-il déclenché ?
+4. Qu'est-ce qu'un avalement baissier (bearish engulfing) ?
+5. Comment calcule-t-on l'objectif de cours d'un double fond ?
+6. Pendant la formation d'un drapeau, que se passe-t-il au volume ?
+7. Pourquoi un Rising Wedge est-il baissier malgré sa direction montante ?
+8. Qu'est-ce qu'un Morning Star ? Combien de bougies le composent ?
+9. Pourquoi les figures prennent-elles plus de temps à se former sur la BRVM ?
+10. Donne 3 conditions nécessaires pour valider un signal de chandelier.
+
+## Barème : ≥7/10 → débloquer 4.5

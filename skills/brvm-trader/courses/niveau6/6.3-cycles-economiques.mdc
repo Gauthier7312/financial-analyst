@@ -1,0 +1,137 @@
+---
+module: "6.3"
+titre: "Cycles économiques en Afrique de l'Ouest et impact sur la BRVM"
+niveau: 6
+duree: "1h"
+prerequis: "6.2"
+suivant: "6.4"
+---
+
+# Module 6.3 — Cycles Économiques & BRVM
+
+## Objectifs pédagogiques
+- Comprendre les 4 phases du cycle économique
+- Identifier dans quelle phase se trouve l'économie UEMOA
+- Savoir quels secteurs BRVM surperforment dans chaque phase
+- Utiliser le cycle économique pour orienter l'allocation sectorielle
+
+## Concepts à enseigner
+
+### 1. Les 4 phases du cycle économique
+
+```
+     EXPANSION ──────→ SURCHAUFFE
+         ↑                   ↓
+     REPRISE           RÉCESSION
+         ↑                   ↓
+     CREUX ←─────── CONTRACTION
+```
+
+**Phase 1 — Reprise :**
+- Fin de récession, croissance repart
+- Chômage encore élevé, taux bas
+- Actions cycliques commencent à remonter
+- Signal : PMI > 50, croissance > 0
+
+**Phase 2 — Expansion :**
+- Croissance forte, emploi en hausse
+- Entreprises investissent, bénéfices montent
+- Toutes les actions montent
+- C'est la meilleure phase pour la bourse
+
+**Phase 3 — Surchauffe :**
+- Croissance maximale, inflation monte
+- Banque centrale monte les taux
+- Actions de croissance commencent à plafonner
+- Secteurs défensifs résistent mieux
+
+**Phase 4 — Contraction/Récession :**
+- Croissance négative, chômage monte
+- Bénéfices des entreprises baissent
+- Marché baissier général
+- Valeurs défensives (utilities, santé, dividendes stables) résistent
+
+### 2. Cycle économique UEMOA — spécificités
+
+**Moteurs de croissance en Afrique de l'Ouest :**
+- Démographie : +2.7%/an → consommation structurellement en hausse
+- Urbanisation : 40% → 55% d'ici 2030 → infrastructure, immobilier, services
+- Matières premières : cacao, café, huile de palme, pétrole CI
+- Récoltes agricoles : variable selon saison des pluies (risque météo)
+- Transferts de fonds de la diaspora : ~5–8% du PIB de certains pays
+
+**Risques spécifiques à l'UEMOA :**
+- Instabilité politique (coups d'État Burkina Faso, Mali, Guinée depuis 2020)
+- Dépendance aux matières premières → vulnérabilité aux cycles des commodités
+- Sahel et sécurité : impact sur les activités économiques au nord
+- Dépendance aux importations alimentaires
+
+**PIB UEMOA (2025 estimé) :**
+- Côte d'Ivoire : +6.5% → moteur de la zone
+- Sénégal : +8% → boom pétrole/gaz
+- Autres : 4–6% en moyenne
+
+### 3. Rotation sectorielle selon le cycle — application BRVM
+
+| Phase | Secteurs à surpondérer | Secteurs à sous-pondérer |
+|-------|------------------------|--------------------------|
+| Reprise | Banques, Distribution | Défensifs |
+| Expansion | Toutes actions, Télécoms, Industrie | — |
+| Surchauffe | Matières premières, Banques | Télécoms, Croissance |
+| Contraction | SONATEL, NESTLE, TOTAL CI | Cycliques, Banques |
+
+**Valeurs défensives BRVM (résistent en récession) :**
+- SONATEL : télécoms essentielles, dividende stable
+- TOTAL CI : carburant, consommation non discrétionnaire
+- NESTLE CI : alimentation de base
+- BOA CI / SG CI : services financiers essentiels (avec nuance)
+
+**Valeurs cycliques BRVM (surperforment en expansion) :**
+- PALM CI, SAPH CI : prix matières premières
+- CFAO : distribution biens durables
+- Petites banques en forte croissance
+
+### 4. Les indicateurs avancés à surveiller pour la BRVM
+
+**Indicateurs macroéconomiques clés :**
+- **PMI Manufacturing UEMOA** : > 50 = expansion | < 50 = contraction
+- **Cours du cacao** : Côte d'Ivoire = 1er producteur mondial → impact PIB CI direct
+- **Cours du pétrole** : TOTAL CI sensible, mais aussi coûts d'exploitation BRVM
+- **Transferts de la diaspora** : soutient la consommation locale
+- **Pluviométrie saison agricole** : Ghana, CI → impact récoltes → revenus ruraux
+
+**Indicateurs de marché :**
+- BRVM Composite (indice général) : tendance générale
+- BRVM 10 (10 plus grandes caps) : baromètre des grandes valeurs
+- Volume journalier : > 500M FCFA = marché actif | < 200M = marché atone
+
+### 5. Cas pratique — positionner son portefeuille
+
+**Scénario : expansion économique UEMOA, taux stables, cacao en hausse**
+
+Allocation recommandée :
+- 40% Télécoms (SONATEL, ORANGE CI) → croissance + dividendes
+- 30% Banques (BOA CI, SG CI) → expansion crédit
+- 20% Agro-industrie (PALM CI) → cours cacao/huile élevés
+- 10% Liquidités → pour opportunités
+
+**Scénario : ralentissement, instabilité politique régionale, taux en hausse**
+
+Allocation recommandée :
+- 50% Défensifs (SONATEL, TOTAL CI, NESTLE CI)
+- 20% Banques solides (BOA CI — diversifié géographiquement)
+- 30% Liquidités → attendre la reprise
+
+## Quiz (10 questions)
+1. Cite les 4 phases du cycle économique dans l'ordre.
+2. Dans quelle phase la bourse monte-t-elle le plus fortement ?
+3. Quels secteurs BRVM résistent le mieux en récession ?
+4. Pourquoi la démographie est-elle un moteur de croissance structurel pour la BRVM ?
+5. Quel impact le cours du cacao a-t-il sur l'économie ivoirienne et la BRVM ?
+6. PMI UEMOA = 47 → quelle phase du cycle cela indique-t-il ?
+7. En phase de surchauffe, quels secteurs sous-pondères-tu ? Pourquoi ?
+8. Cite 2 risques spécifiques à l'économie UEMOA absents des marchés développés.
+9. Volume journalier BRVM de 150M FCFA → que cela suggère-t-il ?
+10. Scénario récession : comment rééquilibrerais-tu un portefeuille BRVM ?
+
+## Barème : ≥7/10 → débloquer 6.4

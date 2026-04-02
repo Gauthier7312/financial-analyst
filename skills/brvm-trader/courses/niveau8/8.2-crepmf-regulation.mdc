@@ -1,0 +1,111 @@
+---
+module: "8.2"
+titre: "CREPMF, régulation et protection de l'investisseur"
+niveau: 8
+duree: "45min"
+prerequis: "8.1"
+suivant: "8.3"
+---
+
+# Module 8.2 — CREPMF & Protection de l'Investisseur
+
+## Objectifs pédagogiques
+- Connaître le rôle du CREPMF et ses pouvoirs
+- Comprendre les obligations des sociétés cotées envers les investisseurs
+- Savoir comment exercer ses droits en cas de litige
+- Identifier les protections dont bénéficie l'investisseur BRVM
+
+## Concepts à enseigner
+
+### 1. Le CREPMF — Conseil Régional de l'Épargne Publique et des Marchés Financiers
+
+- Créé en 1996, siège à Abidjan
+- Équivalent de l'AMF (France) ou de la SEC (USA) pour la zone UEMOA
+- Autorité de régulation des marchés financiers des 8 pays UEMOA
+
+**Missions principales :**
+- Protéger l'épargne investie en valeurs mobilières
+- Agréer et contrôler les intervenants (SGI, OPCVM, émetteurs)
+- Surveiller la régularité des transactions boursières
+- Sanctionner les abus de marché et délits d'initié
+- Informer et éduquer le public
+
+**Pouvoirs :**
+- Agréer ou retirer l'agrément à une SGI
+- Sanctionner administrativement (amendes)
+- Saisir la justice pour les délits pénaux
+- Suspendre la cotation d'un titre
+
+### 2. Obligations des sociétés cotées
+
+**Information permanente :**
+- Publication des résultats annuels dans les 4 mois de clôture
+- Publication des résultats semestriels dans les 3 mois
+- Déclaration immédiate de tout fait susceptible d'influencer le cours (profit warning, acquisition, fusion)
+- Rapport annuel disponible sur le site BRVM et du CREPMF
+
+**Gouvernance :**
+- Conseil d'administration avec administrateurs indépendants
+- Comité d'audit obligatoire
+- Auditeurs (commissaires aux comptes) indépendants certifiés
+
+**Assemblée Générale (AG) :**
+- Convoquée au moins 1 fois par an (AG Ordinaire)
+- Actionnaire = droit de vote (proportionnel au nombre d'actions)
+- Peut convoquer AG Extraordinaire pour modifications majeures (capital, fusion)
+
+### 3. Les protections de l'investisseur BRVM
+
+**Protection contre les abus de marché :**
+- Délit d'initié : interdit d'acheter/vendre sur la base d'informations non publiques
+  → Sanctions : amendes + emprisonnement
+- Manipulation de cours : interdit de créer de faux volumes ou de fausses tendances
+- Obligation de déclaration : dirigeants doivent déclarer leurs transactions sur les actions de leur société
+
+**Protection dans le processus de cotation :**
+- Prospectus obligatoire pour toute nouvelle introduction en bourse (IPO)
+- Prix d'introduction encadré et validé par le CREPMF
+- Période de stabilisation post-IPO (le garant intervient si le cours chute trop)
+
+**Protection en cas de OPA (Offre Publique d'Achat) :**
+- Si une société veut racheter plus de 33% d'une cotée → OPA obligatoire à tous les actionnaires
+- Prix minimum de l'OPA encadré (ne peut pas être trop bas)
+- Droit de retrait : actionnaire minoritaire peut forcer le rachat de ses titres si OPA
+
+### 4. En cas de problème — recours disponibles
+
+**Litige avec ta SGI :**
+1. D'abord : réclamation écrite à la SGI (service client, direction)
+2. Si non résolu : saisir le CREPMF (formulaire de plainte sur crepmf.org)
+3. Si toujours non résolu : tribunal compétent
+
+**Anomalie de cours (manipulation suspectée) :**
+- Signaler au CREPMF via son site → enquête possible
+- Le CREPMF peut suspendre la cotation le temps de l'enquête
+
+**Non-respect des obligations d'information :**
+- Signaler au CREPMF
+- Engager la responsabilité civile de la société si préjudice prouvé
+
+### 5. Ce que le CREPMF ne peut pas faire
+
+- Garantir que ton investissement sera rentable
+- Empêcher les fluctuations normales de cours
+- Forcer une société à verser des dividendes
+- Protéger contre les risques de marché normaux (baisse du cours)
+
+**Ce que cela signifie :** La régulation protège contre la fraude et les abus, pas contre le risque inhérent à l'investissement en bourse.
+
+## Quiz (10 questions)
+1. Que signifie l'acronyme CREPMF et quel est son rôle ?
+2. Dans quel délai une société cotée doit-elle publier ses résultats annuels ?
+3. Qu'est-ce qu'un délit d'initié ? Donne un exemple.
+4. Qu'est-ce qu'une OPA et quels droits donne-t-elle à l'actionnaire minoritaire ?
+5. Quelle est la première étape en cas de litige avec ta SGI ?
+6. Pourquoi le CREPMF exige-t-il un prospectus pour les introductions en bourse ?
+7. Le CREPMF peut-il garantir la rentabilité de ton investissement ?
+8. Qu'est-ce que le droit de vote en AG et comment s'exerce-t-il ?
+9. Qu'est-ce qu'une manipulation de cours et pourquoi est-ce interdit ?
+10. Où trouver les informations publiées par le CREPMF ?
+
+## Barème : ≥7/10 → débloquer 8.3
