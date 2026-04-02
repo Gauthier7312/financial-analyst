@@ -1,0 +1,94 @@
+---
+module: "6.1"
+titre: "Zone franc CFA, ancrage euro et implications pour l'investisseur BRVM"
+niveau: 6
+duree: "1h"
+prerequis: "quiz-n5"
+suivant: "6.2"
+---
+
+# Module 6.1 — Zone Franc CFA & Ancrage Euro
+
+## Objectifs pédagogiques
+- Comprendre le système monétaire CFA et son ancrage à l'euro
+- Mesurer l'impact de cet ancrage sur le risque de l'investisseur BRVM
+- Comprendre les avantages et critiques du franc CFA
+- Intégrer le contexte monétaire dans ses décisions d'investissement
+
+## Concepts à enseigner
+
+### 1. Le Franc CFA — histoire et structure
+
+- Créé en 1945, anciennement "Franc des Colonies Françaises d'Afrique"
+- Aujourd'hui : FCFA = Franc de la Communauté Financière Africaine
+- Deux zones distinctes :
+  - **UEMOA** (8 pays, dont Côte d'Ivoire, Sénégal, Burkina Faso, Bénin, etc.) : BCEAO
+  - **CEMAC** (6 pays, dont Cameroun, Gabon) : BEAC
+- La BRVM couvre les 8 pays de l'UEMOA
+
+### 2. L'ancrage à l'euro — mécanisme et implications
+
+**Parité fixe :**
+- 1 euro = 655.957 FCFA (taux fixe depuis 1999, lié au franc français depuis 1945)
+- Ce taux NE CHANGE PAS — c'est une parité fixe garantie par la France/UE
+
+**Conséquences pour l'investisseur BRVM :**
+
+✅ **Avantages :**
+- **Zéro risque de change** pour un investisseur européen ou francophone
+- **Stabilité monétaire** : pas d'hyperinflation comme au Zimbabwe ou Nigeria
+- Inflation maîtrisée : cible BCEAO ≤ 3%/an (inflation zone UEMOA ~3–5%)
+- Importations moins chères → bénéficie aux entreprises importatrices
+
+❌ **Inconvénients / Critiques :**
+- Politique monétaire non autonome → la BCEAO ne peut pas dévaluer pour relancer l'économie
+- Taux d'intérêt liés indirectement aux décisions BCE (Banque Centrale Européenne)
+- Compétitivité-prix limitée face aux pays à monnaie flottante (Nigeria, Ghana)
+- 50% des réserves de change déposées au Trésor français (en cours de réforme)
+
+### 3. Comparaison FCFA vs monnaies flottantes africaines
+
+| Indicateur | Zone FCFA/UEMOA | Nigeria (Naira) | Ghana (Cedi) |
+|-----------|-----------------|-----------------|--------------|
+| Stabilité | Très haute ✅✅ | Faible ❌ | Modérée 🟡 |
+| Inflation (moy) | ~3–5% | ~20–30% | ~15–25% |
+| Risque dévaluation | Nul | Élevé | Modéré |
+| Attractivité étrangers | Forte | Faible | Modérée |
+
+→ La BRVM est une des bourses africaines les plus attractives pour les investisseurs étrangers grâce à la stabilité CFA
+
+### 4. Impact direct sur les sociétés cotées BRVM
+
+**Sociétés importatrices (TOTAL CI, NESTLE CI) :**
+- Achètent en euros ou dollars → parité CFA/EUR fixe → pas de surcoût lié au change
+- Si l'euro se renforce face au dollar → leurs achats en USD deviennent moins chers
+
+**Sociétés exportatrices (PALM CI, SAPH CI) :**
+- Vendent à l'international (souvent en USD) → exposition au change USD/FCFA
+- Si dollar fort → revenus en FCFA augmentent ✅
+
+**Sociétés purement locales (banques, télécoms) :**
+- Revenus et charges en FCFA → impact change limité
+- Mais sensibles à la politique monétaire BCEAO
+
+### 5. Ce que l'investisseur BRVM doit retenir
+
+1. Pas de risque de change → focus sur les fondamentaux de l'entreprise
+2. Inflation modérée → le rendement réel des dividendes est préservé
+3. La BRVM peut s'apprécier en termes réels face aux marchés voisins instables
+4. Un investisseur européen qui achète des actions BRVM n'a aucun risque de change
+5. En cas de crise économique, pas de "planche à billets" → solidité systémique
+
+## Quiz (10 questions)
+1. Combien vaut 1 euro en FCFA ? Ce taux change-t-il ?
+2. Quels sont les 8 pays membres de l'UEMOA ?
+3. Cite 2 avantages de l'ancrage euro pour l'investisseur BRVM.
+4. Pourquoi dit-on que la zone FCFA a une politique monétaire "non autonome" ?
+5. Impact de l'ancrage CFA sur le risque de change d'un investisseur européen sur la BRVM ?
+6. Compares l'inflation zone FCFA vs Nigeria → quelle conséquence pour l'investisseur ?
+7. PALM CI exporte de l'huile de palme vendue en dollars → quel impact si le dollar monte ?
+8. Pourquoi la BRVM est-elle attractive pour les investisseurs étrangers ?
+9. Que signifie "50% des réserves déposées au Trésor français" ?
+10. Une banque 100% locale BRVM — a-t-elle un risque de change significatif ? Pourquoi ?
+
+## Barème : ≥7/10 → débloquer 6.2

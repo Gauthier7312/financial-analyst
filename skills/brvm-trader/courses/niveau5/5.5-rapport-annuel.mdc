@@ -1,0 +1,127 @@
+---
+module: "5.5"
+titre: "Décrypter un rapport annuel et un communiqué de résultats"
+niveau: 5
+duree: "1h"
+prerequis: "5.4"
+suivant: null
+---
+
+# Module 5.5 — Rapport Annuel & Communiqués de Résultats
+
+## Objectifs pédagogiques
+- Naviguer efficacement dans un rapport annuel BRVM
+- Extraire les informations essentielles en moins de 30 minutes
+- Analyser un communiqué de résultats (semestriel ou annuel)
+- Identifier les signaux entre les lignes (ce que le management ne dit pas clairement)
+
+## Concepts à enseigner
+
+### 1. Structure d'un rapport annuel BRVM
+
+Un rapport annuel d'une société cotée BRVM contient typiquement :
+
+1. **Message du Président** → vision stratégique, résultats clés de l'année
+2. **Rapport de gestion** → analyse détaillée de l'activité et des résultats
+3. **États financiers** → bilan, CR, tableau des flux de trésorerie
+4. **Notes annexes** → détails sur chaque ligne des états financiers
+5. **Rapport des commissaires aux comptes** → opinion des auditeurs
+6. **Résolutions d'AG** → dividende proposé, nominations, augmentations de capital
+
+### 2. Lecture rapide — les 8 éléments à lire en priorité
+
+En moins de 30 minutes, extraire :
+
+1. **Faits marquants** : croissance CA, résultat net, dividende proposé
+2. **Perspectives** : que dit le management pour l'exercice suivant ?
+3. **Rapport des auditeurs** : opinion "sans réserve" = OK | avec réserves = enquêter
+4. **Flux de trésorerie opérationnels** : positifs ? supérieurs au résultat net ?
+5. **Niveau d'endettement** : ratio dette/EBITDA vs l'année précédente
+6. **Dividende** : versé, maintenu, augmenté, ou coupé ?
+7. **Engagements hors bilan** : garanties, litiges, engagements de retraite
+8. **Rémunération des dirigeants** : signal sur la culture de l'entreprise
+
+### 3. Analyser un communiqué de résultats
+
+Les sociétés BRVM publient des communiqués 2× par an (semestriel + annuel).
+Structure typique :
+
+```
+[Titre] : SONATEL — Résultats annuels 2025
+[Faits saillants] : CA +8%, Résultat net +5%, Dividende 1 740 FCFA
+[Tableau résumé] : comparaison N vs N-1
+[Commentaires DG] : contexte, défis, perspectives
+[Calendrier] : date paiement dividende, prochaine AG
+```
+
+**Ce qu'on cherche dans le communiqué :**
+- Croissance des revenus vs attentes du marché → surprise positive ou négative ?
+- Évolution de la marge → s'améliore ou se comprime ?
+- Cash-flow vs résultat net → cohérents ?
+- Guideline (prévision) pour l'année suivante → ambitieuse ou prudente ?
+
+### 4. Lire entre les lignes — les signaux cachés
+
+**Signaux d'alerte à repérer :**
+- Auditeurs qui changent → désaccord sur les comptes ?
+- Résultat net en hausse mais cash-flow en baisse → bénéfices "papier" sans cash
+- "Résultat exceptionnel" élevé → sans lui, le résultat serait négatif
+- Provisions en forte hausse → l'entreprise anticipe des pertes futures
+- Dirigeants qui vendent leurs actions au même moment → confiance limitée
+- Communiqué publié tard le soir ou un vendredi → mauvaise nouvelle minimisée
+- Mots flous : "contexte difficile", "situation maîtrisée" → chercher ce qui se cache
+
+**Signaux positifs :**
+- Résultat net < cash-flow opérationnel → génération de cash réelle
+- Rachat d'actions → le management pense l'action sous-évaluée
+- Augmentation du dividende → confiance dans les flux futurs
+- Nouveau contrat ou partenariat majeur annoncé
+- Expansion dans un nouveau pays
+
+### 5. Tableau de bord AF — synthèse d'une analyse fondamentale complète
+
+Après lecture du rapport + communiqué, remplir ce tableau :
+
+| Critère | Données | Signal |
+|---------|---------|--------|
+| Croissance CA (3 ans) | ex. +7%/an | ✅ |
+| Croissance RN (3 ans) | ex. +5%/an | ✅ |
+| Marge nette | ex. 22% | ✅ |
+| ROE | ex. 24% | ✅✅ |
+| PER vs secteur | ex. 14× vs moy 12× | 🟡 |
+| P/B | ex. 3.2× | 🟡 |
+| Dividend yield | ex. 6.1% | ✅ |
+| Dette/EBITDA | ex. 0.8× | ✅✅ |
+| Opinion auditeurs | Sans réserve | ✅ |
+| Perspectives DG | Optimiste | ✅ |
+| **SCORE AF** | **8/10** | **🟢 SOLIDE** |
+
+Score AF ≥ 7/10 → rechercher timing d'entrée avec l'AT (N4)
+
+### 6. Où trouver les rapports et communiqués BRVM
+
+- **brvm.org** → section "Publications et communiqués"
+- **sikafinance.com** → actualités et communiqués par société
+- **Sites des sociétés** → section "Relations Investisseurs"
+- **CREPMF** → crepmf.org → publications réglementaires obligatoires
+- **Délai légal** : rapport annuel dans les 4 mois suivant la clôture de l'exercice
+
+## Quiz (10 questions)
+1. Cite les 5 grandes sections d'un rapport annuel BRVM.
+2. Que signifie une opinion d'auditeur "avec réserves" ?
+3. Résultat net +10% mais cash-flow opérationnel −5% → que penses-tu ?
+4. Pourquoi un communiqué publié un vendredi soir mérite-t-il attention ?
+5. Qu'est-ce qu'un "résultat exceptionnel" et pourquoi faut-il l'isoler ?
+6. Cite 3 signaux d'alerte à lire entre les lignes d'un rapport.
+7. Pourquoi le rachat d'actions est-il un signal positif ?
+8. Dans le tableau de bord AF, quel score minimum pour chercher l'entrée technique ?
+9. Où trouver les rapports annuels des sociétés BRVM (3 sources) ?
+10. Explique pourquoi cash-flow > résultat net est un signal de qualité.
+
+## Barème : ≥7/10 → Certification Analyse Fondamentale BRVM 🏆
+
+---
+
+## Récompense de fin de Niveau 5
+Badge : 🏆 **Analyste Fondamental BRVM Certifié**
+Débloqué : capacité de produire une analyse fondamentale complète sur toute valeur BRVM

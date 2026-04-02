@@ -1,0 +1,171 @@
+---
+module: "4.5"
+titre: "Analyse multi-timeframe & système de trading complet"
+niveau: 4
+duree: "1h30"
+prerequis: "4.4"
+suivant: null
+---
+
+# Module 4.5 — Analyse Multi-Timeframe & Système de Trading Complet
+
+## Objectifs pédagogiques
+- Maîtriser l'analyse multi-timeframe (AMT) pour affiner les entrées
+- Construire un plan de trading structuré (setup complet)
+- Gérer une position ouverte avec les outils de l'AT (trailing stop, objectifs partiels)
+- Construire son propre système d'analyse technique adapté à la BRVM
+- Éviter les erreurs classiques du trader débutant
+
+## Concepts à enseigner
+
+### 1. Analyse Multi-Timeframe (AMT) — voir le marché en 3D
+
+**Principe :**
+- Chaque action doit s'analyser sur PLUSIEURS horizons temporels simultanément
+- Règle : toujours commencer par le plus long timeframe (vue macro) puis descendre
+
+**Les 3 niveaux pour la BRVM :**
+| Timeframe | Vue | Usage |
+|-----------|-----|-------|
+| Hebdomadaire | Tendance primaire | QUOI acheter (direction générale) |
+| Quotidien | Tendance secondaire | QUAND entrer (timing principal) |
+| Intraday (si dispo) | Tendance court terme | OÙ exactement entrer (précision) |
+
+**Règle d'alignement :**
+- Tendance hebdo haussière + quotidien qui revient sur support → configuration idéale 🟢🟢
+- Tendance hebdo baissière mais quotidien haussier → CONTRE-TENDANCE → risque élevé ❌
+- Tendance hebdo neutre + quotidien haussier → signal valide mais moins puissant 🟡
+
+**Application pratique sur sikafinance.com :**
+1. Regarder courbe 1 an → tendance primaire
+2. Regarder courbe 3 mois → tendance secondaire
+3. Regarder courbe 1 mois → timing d'entrée
+
+### 2. Construire un Setup de Trading Complet
+
+Un setup (ou plan de trade) se définit AVANT d'entrer. Pas après.
+
+**Les 7 éléments d'un setup :**
+
+1. **Contexte macro** : tendance primaire (hebdo) → favorable ?
+2. **Signal déclencheur** : quelle figure ou quel indicateur génère le signal ?
+3. **Point d'entrée** : à quel cours exactement tu rentres ? (pas "autour de")
+4. **Stop-loss** : à quel cours tu sors si tu as tort ? (toujours défini avant l'entrée)
+5. **Objectif 1** (partiel) : +10 à +15% → vendre 50% de la position
+6. **Objectif 2** (final) : +25 à +40% → vendre le reste
+7. **Ratio risque/rendement** : objectif / stop-loss — minimum 2:1
+
+**Exemple complet — SONATEL :**
+1. Contexte : tendance hebdo haussière ✅
+2. Signal : double fond + RSI 42 + Stochastique croisement haussier
+3. Entrée : 25 200 FCFA (cassure confirmée du double fond)
+4. Stop-loss : 23 900 FCFA (−5.2%) — sous le 2e fond
+5. Objectif 1 : 27 500 FCFA (+9.1%) → vendre 50%
+6. Objectif 2 : 30 000 FCFA (+19%) → vendre reste
+7. Ratio : 19% gain / 5.2% risque = **3.7:1** ✅✅
+
+**Ratio risque/rendement :**
+- < 1:1 : ne jamais trader
+- 1:1 à 2:1 : acceptable mais sous-optimal
+- 2:1 à 3:1 : bon trade
+- > 3:1 : excellent trade 🟢
+
+### 3. Gestion de Position — après l'entrée
+
+**Trailing Stop (stop suiveur) :**
+- Au lieu d'un stop fixe, on remonte le stop avec le cours
+- Méthode MM : le stop = cours de la MM20 (ou MM50 pour moins de bruit)
+- Tant que le cours est au-dessus de la MM20 → on conserve la position
+- Le cours clôture sous la MM20 → on sort
+
+**Prises de bénéfices partielles :**
+- À +10/+15% → vendre 30 à 50% → sécuriser des gains
+- Conserver le reste pour capturer la tendance complète
+- Avantage psychologique : supprime le stress de "devoir sortir au bon moment"
+
+**Pyramiding (renforcer un gagnant) :**
+- Position initiale : 100K FCFA sur SONATEL
+- Cours monte de +10% → ajouter 50K FCFA (nouvelle entrée)
+- Réserver uniquement si le nouveau setup est valide
+- Ne JAMAIS renforcer une position perdante (moyen à la baisse = erreur grave)
+
+**Breakeven stop :**
+- Dès que le cours dépasse ton premier objectif → remonter stop au prix d'entrée
+- Résultat : tu ne peux plus perdre sur ce trade
+
+### 4. Bâtir son Propre Système d'AT
+
+Un système d'analyse technique doit être :
+- **Reproductible** : mêmes règles → mêmes décisions
+- **Testé** : vérifier les signaux passés sur des données historiques
+- **Simple** : 3–5 indicateurs maximum (au-delà → paralysie)
+
+**Système recommandé débutant/intermédiaire BRVM :**
+
+```
+FILTRE 1 — Tendance (MM50 hebdo)
+  → Cours > MM50 hebdo ? Si non → PASS
+
+FILTRE 2 — Momentum (RSI quotidien)
+  → RSI entre 35 et 60 ? Si non → PASS
+
+FILTRE 3 — Timing (Stochastique)
+  → %K vient de croiser %D en zone < 30 ? Si non → attendre
+
+FILTRE 4 — Figure ou Support
+  → Le cours est sur un support ou une figure de retournement ? Si non → PASS
+
+FILTRE 5 — Volume
+  → Volume supérieur à la moyenne récente ? Si non → signal faible
+
+RÉSULTAT :
+  5/5 → ACHAT FORT (mettre 100% de l'allocation prévue)
+  4/5 → ACHAT PARTIEL (50% de l'allocation)
+  ≤3/5 → PASS
+```
+
+### 5. Les Erreurs Classiques — ce que les pros ont appris à éviter
+
+| Erreur | Conséquence | Solution |
+|--------|-------------|----------|
+| Analyser sans timeframe macro | Acheter en tendance baissière | Toujours vérifier le hebdo d'abord |
+| Modifier le stop-loss à la baisse | Pertes illimitées | Stop = contrat sacré avec soi-même |
+| Trop d'indicateurs | Signaux contradictoires → paralysie | Max 4 indicateurs dans son système |
+| Renforcer une position perdante | Explosion de la perte | N'ajouter que sur les gagnants |
+| Chercher le "perfect entry" | Rater les trades | "Approximately right > precisely wrong" |
+| Trader sans ratio 2:1 minimum | Statistiquement perdant à long terme | Calculer le ratio AVANT d'entrer |
+| Suivre un signal sans plan | Sortie émotionnelle | Définir entrée + stop + objectif avant |
+
+### 6. Checklist Finale — AT Complète avant tout achat BRVM
+
+```
+☐ Tendance hebdo favorable (MM50) ?
+☐ RSI en zone saine (35–60) ?
+☐ Stochastique / MACD confirment ?
+☐ Figure chartiste ou support identifié ?
+☐ Volume au rendez-vous ?
+☐ Stop-loss défini (max −15%) ?
+☐ Ratio risque/rendement ≥ 2:1 ?
+☐ Taille de position conforme (max 40% du portefeuille) ?
+→ 8/8 = TRADE VALIDE
+```
+
+## Quiz Final (10 questions)
+1. Pourquoi analyser le timeframe hebdomadaire AVANT le quotidien ?
+2. Tendance hebdo baissière + signal quotidien haussier → trades-tu ? Pourquoi ?
+3. Quels sont les 7 éléments d'un setup de trading complet ?
+4. Calcule le ratio R/R : entrée 6 000, stop 5 500, objectif 7 500.
+5. Qu'est-ce qu'un trailing stop sur MM20 ? Comment fonctionne-t-il ?
+6. Pourquoi ne jamais renforcer une position perdante (moyenner à la baisse) ?
+7. Qu'est-ce que le "breakeven stop" et quand l'activer ?
+8. Ton système donne 3/5 filtres positifs → quelle décision ?
+9. Cite 3 erreurs classiques des traders débutants et leur solution.
+10. Présente la checklist complète avant un achat BRVM (8 points).
+
+## Barème : ≥7/10 → Certification Analyse Technique BRVM 🏆
+
+---
+
+## Récompense de fin de Niveau 4
+Badge obtenu : 🏆 **Analyste Technique BRVM Certifié**
+Débloqué : capacité de produire une analyse technique complète sur toute valeur BRVM

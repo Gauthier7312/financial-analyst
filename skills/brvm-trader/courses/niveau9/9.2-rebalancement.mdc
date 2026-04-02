@@ -1,0 +1,110 @@
+---
+module: "9.2"
+titre: "Rebalancement périodique — quand et comment rééquilibrer"
+niveau: 9
+duree: "45min"
+prerequis: "9.1"
+suivant: "9.3"
+---
+
+# Module 9.2 — Rebalancement de Portefeuille
+
+## Objectifs pédagogiques
+- Comprendre pourquoi un portefeuille se "dérive" naturellement dans le temps
+- Maîtriser les deux méthodes de rebalancement (calendaire et par seuil)
+- Calculer le coût d'un rebalancement et l'optimiser sur la BRVM
+- Intégrer le rebalancement dans une stratégie long terme
+
+## Concepts à enseigner
+
+### 1. Pourquoi rebalancer — la dérive naturelle
+
+**Exemple concret :**
+- Portefeuille initial : SONATEL 25% | BOA CI 20% | TOTAL CI 20% | ORANGE CI 15% | PALM CI 10% | Cash 10%
+- 1 an plus tard : SONATEL +30%, BOA CI +5%, PALM CI −10%
+
+**Nouveau portefeuille sans rebalancement :**
+- SONATEL : 33% (au lieu de 25%) → surpondéré
+- PALM CI : 9% (au lieu de 10%) → légèrement sous-pondéré
+- BOA CI : 21% → quasi-inchangé
+
+**Problème :** Le portefeuille ne reflète plus ton allocation cible → exposition au risque modifiée → tu prends plus de risque SONATEL que prévu
+
+### 2. Les deux méthodes de rebalancement
+
+**Méthode 1 — Rebalancement calendaire**
+- Fréquence fixe : mensuel, trimestriel, annuel
+- Rebalancer quoi qu'il arrive à cette date
+- Avantage : simple, discipliné, pas de décision subjective
+- Inconvénient : peut générer des coûts de transaction inutiles si peu de dérive
+- Recommandation BRVM : trimestriel (tous les 3 mois)
+
+**Méthode 2 — Rebalancement par seuil**
+- Rebalancer uniquement si une position dépasse X% de sa cible
+- Exemple : seuil de ±5% → si SONATEL cible 25% et monte à 31% → rebalancer
+- Avantage : ne rebalance que quand nécessaire → moins de coûts
+- Inconvénient : demande un suivi régulier
+- Recommandation : seuil de ±7–10% pour la BRVM (moins liquide = moins de transactions)
+
+**Méthode hybride (recommandée) :**
+- Revue trimestrielle + rebalancement uniquement si dérive > 8%
+
+### 3. Comment rebalancer concrètement
+
+**Option A — Vendre les surpondérés, acheter les sous-pondérés**
+- La plus logique mais génère des frais de transaction dans les deux sens
+- Sur la BRVM : coût aller-retour ~0.8–1.2% (à minimiser)
+
+**Option B — Orienter les nouvelles liquidités vers les sous-pondérés**
+- Si tu as du cash à investir → l'orienter vers les positions sous-pondérées
+- Zéro coût de transaction (tu n'as pas à vendre)
+- Idéal si tu investis régulièrement (DCA)
+
+**Option C — Réinvestir les dividendes vers les sous-pondérés**
+- Utiliser les dividendes reçus pour acheter les positions sous leur cible
+- Très élégant : pas de vente, renforcement naturel, pas de fiscalité supplémentaire
+
+### 4. Coût du rebalancement sur la BRVM
+
+**Frais de transaction SGI (estimation) :**
+- Commission achat : ~0.5–0.7% du montant
+- Commission vente : ~0.5–0.7% du montant
+- Aller-retour : ~1.0–1.4%
+
+**Calcul avant de rebalancer :**
+- Si la dérive = 5% de ton portefeuille (ex. 25 000 FCFA sur 500 000)
+- Coût du rebalancement : ~0.6% × 50 000 FCFA (achat + vente) = ~300 FCFA
+- → Rebalancement rentable ici
+
+- Si la dérive = 1% (5 000 FCFA)
+- Coût = ~300 FCFA pour 5 000 FCFA de correction → 6% de frais → PAS RENTABLE ❌
+- → Attendre une dérive plus significative
+
+**Règle pratique :** Ne rebalancer que si les frais de transaction < 10% du gain attendu
+
+### 5. Rebalancement et fiscalité
+
+- Chaque vente peut générer une plus-value imposable (selon pays de résidence)
+- En Côte d'Ivoire : plus-values exonérées → rebalancement libre ✅
+- Dans d'autres pays : calculer l'impact fiscal avant de vendre
+
+### 6. Le rebalancement comme discipline psychologique
+
+- Rebalancer = vendre ce qui a monté pour acheter ce qui a baissé
+- C'est psychologiquement difficile (biais de récence : "SONATEL va continuer à monter")
+- Mais c'est exactement ce que fait un investisseur rationnel
+- Cela force à "acheter bas et vendre haut" de manière systématique
+
+## Quiz (10 questions)
+1. Pourquoi un portefeuille se dérive-t-il naturellement sans rebalancement ?
+2. Quelle est la différence entre rebalancement calendaire et par seuil ?
+3. Quel seuil de dérive recommande-t-on pour déclencher un rebalancement sur la BRVM ?
+4. Option A vs Option B vs Option C de rebalancement — laquelle minimise les coûts ?
+5. Calcule : dérive de 30 000 FCFA à corriger, commission 0.6% aller-retour → coût ?
+6. Pourquoi orienter les dividendes vers les sous-pondérés est-il élégant ?
+7. Rebalancement rentable si frais < X% du gain attendu → quel X ?
+8. Quel impact fiscal le rebalancement a-t-il en Côte d'Ivoire ?
+9. Pourquoi le rebalancement est-il psychologiquement difficile ?
+10. Quel outil aide à discipliner le rebalancement (calendaire) ?
+
+## Barème : ≥7/10 → débloquer 9.3

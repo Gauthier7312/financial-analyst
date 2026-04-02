@@ -1,0 +1,125 @@
+---
+module: "7.2"
+titre: "Gérer ses émotions — panique, euphorie, patience"
+niveau: 7
+duree: "1h"
+prerequis: "7.1"
+suivant: "7.3"
+---
+
+# Module 7.2 — Gestion Émotionnelle du Trader
+
+## Objectifs pédagogiques
+- Comprendre comment la peur et l'euphorie sabotent les décisions
+- Développer des mécanismes concrets de gestion émotionnelle
+- Apprendre à rester discipliné lors des krachs et des corrections
+- Construire une routine émotionnelle de l'investisseur
+
+## Concepts à enseigner
+
+### 1. Les 2 ennemis principaux : Peur et Cupidité
+
+**La Peur :**
+- Se manifeste : correction de -10% → panique → vente au plus bas
+- Variante : peur de se tromper → paralysie → incapacité à agir
+- Variante : peur de manquer → FOMO → achat au plus haut
+- Effets physiques réels : le cerveau en mode "danger" prend des décisions irrationnelles
+
+**La Cupidité :**
+- Se manifeste : action +30% → "elle peut encore monter" → refus de sécuriser
+- Variante : "je double la mise car j'en suis sûr"
+- Variante : ignorer le stop-loss car "ça va remonter"
+
+**Règle fondamentale :** Un plan défini à froid (sans émotion) vaut toujours mieux qu'une décision prise à chaud.
+
+### 2. La correction boursière — comment réagir
+
+**Les chiffres réels :**
+- Corrections de -10% : arrivent ~1 fois par an en moyenne
+- Corrections de -20% (bear market) : ~tous les 4–5 ans
+- Krachs de -40% ou plus : ~tous les 10–15 ans
+- APRÈS chaque correction historique → le marché a toujours rebondi
+
+**Protocole lors d'une correction sur la BRVM :**
+
+1. **Ne pas regarder son portefeuille toutes les heures** → augmente l'anxiété
+2. **Relire son plan d'investissement** → la thèse a-t-elle changé ?
+3. **Vérifier les fondamentaux** → l'entreprise est-elle toujours solide ?
+4. **Respecter son stop-loss** → s'il est atteint, sortir sans exception
+5. **Chercher des opportunités** → la correction crée des prix intéressants
+
+**Ce qu'il NE FAUT PAS faire :**
+- Vendre tout dans la panique
+- Regarder son portfolio en temps réel pendant une chute
+- Appeler son SGI pour annuler ses stop-loss
+- Doubler la mise sur un perdant ("moyenner à la baisse")
+
+### 3. L'euphorie — le danger invisible
+
+L'euphorie est plus dangereuse que la peur car elle est agréable.
+
+**Signaux d'euphorie sur la BRVM :**
+- Tout le monde parle d'une action dans son entourage
+- Les médias couvrent positivement la bourse
+- Le RSI de plusieurs valeurs dépasse 70 simultanément
+- Les volumes sont au plus haut depuis 12 mois
+
+**Que faire en période d'euphorie :**
+- Réviser ses stop-loss à la hausse (trailing stop)
+- Prendre des bénéfices partiels (vendre 30–50% de la position)
+- Augmenter le cash du portefeuille
+- Ne pas ouvrir de nouvelles positions importantes
+
+### 4. Techniques concrètes de gestion émotionnelle
+
+**Technique 1 — La règle des 24 heures**
+- Avant tout ordre IMPULSIF (achat ou vente non planifié) → attendre 24 heures
+- Écrire la raison de l'ordre → relire le lendemain
+- L'urgence de la veille paraît souvent ridicule au calme
+
+**Technique 2 — Le plan pré-écrit**
+- Écrire le plan avant chaque trade : entrée, stop, objectif, taille
+- Ne pas dévier du plan sauf si les fondamentaux changent (pas le cours)
+- "Si l'action baisse à X, je sors. Pas de discussion avec moi-même."
+
+**Technique 3 — La vue détachée**
+- Se demander : "Si je ne détenais pas cette action, l'achèterais-je aujourd'hui ?"
+- Si non → la vendre, même avec une perte
+- Permet de se libérer du biais d'ancrage au prix d'achat
+
+**Technique 4 — Le seuil de tolérance personnel**
+- Définir avant d'investir : quel est le montant maximum que je peux perdre sans que cela affecte ma vie ?
+- N'investir que ce montant maximum
+- "Smart money" ne risque jamais l'argent du loyer
+
+**Technique 5 — Limitation du monitoring**
+- Débutant : ne regarder son portefeuille qu'1 fois par semaine
+- Intermédiaire : 1 fois par jour maximum
+- Professionnel : suivi automatique avec alertes de cours
+
+### 5. La patience — l'arme secrète de l'investisseur
+
+- Warren Buffett : "La bourse est un dispositif de transfert de richesse des impatients vers les patients"
+- Horizon d'investissement recommandé sur la BRVM : minimum 2–3 ans par position
+- Les dividendes BRVM (5–7%) compensent largement les années sans hausse
+- Un investisseur patient qui achète les corrections gagne sur le long terme
+
+**Calcul de patience — BRVM :**
+- SONATEL il y a 10 ans : ~15 000 FCFA → aujourd'hui ~26 000 FCFA (+73%)
+- + dividendes accumulés sur 10 ans : +~60% cumulé
+- Rendement total estimé sur 10 ans : +130% (sans aucune activité de trading)
+- Avec des achats stratégiques sur les corrections : potentiellement +200%
+
+## Quiz (10 questions)
+1. Cite les 2 ennemis principaux de l'investisseur et leurs manifestations.
+2. Que faire en PREMIER lors d'une correction de -15% sur son portefeuille ?
+3. Quelle est la fréquence moyenne des corrections de -10% sur les marchés ?
+4. Cite 3 signaux d'euphorie sur la BRVM.
+5. Qu'est-ce que la règle des 24 heures et quand l'appliquer ?
+6. Comment la "vue détachée" aide-t-elle à se libérer du biais d'ancrage ?
+7. Pourquoi doubler la mise sur un perdant est-il une erreur grave ?
+8. Quelle fréquence de monitoring recommande-t-on à un débutant ?
+9. Que signifie "n'investir que l'argent qu'on peut se permettre de perdre" ?
+10. Calcule mentalement : si SONATEL fait +73% en prix + ~60% en dividendes sur 10 ans, quel est le rendement total approximatif ?
+
+## Barème : ≥7/10 → débloquer 7.3

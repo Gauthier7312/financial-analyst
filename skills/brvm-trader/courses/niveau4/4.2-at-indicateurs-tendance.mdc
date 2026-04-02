@@ -1,0 +1,112 @@
+---
+module: "4.2"
+titre: "Indicateurs de tendance — MM, MACD, Bandes de Bollinger"
+niveau: 4
+duree: "1h15"
+prerequis: "4.1"
+suivant: "4.3"
+---
+
+# Module 4.2 — Indicateurs de Tendance
+
+## Objectifs pédagogiques
+- Maîtriser les Moyennes Mobiles (MM20, MM50, MM200) et leurs croisements
+- Comprendre et utiliser le MACD comme outil de timing
+- Lire les Bandes de Bollinger pour mesurer la volatilité
+- Combiner ces 3 indicateurs pour valider une tendance sur la BRVM
+
+## Concepts à enseigner
+
+### 1. Moyennes Mobiles (MM) — le thermomètre de la tendance
+- Définition : moyenne du cours sur N dernières séances, recalculée chaque jour
+- MM20 (court terme) : réactive, nombreux faux signaux, bonne pour swing trading
+- MM50 (moyen terme) : équilibre signal/bruit, la plus utilisée sur BRVM
+- MM200 (long terme) : la ligne de vie — cours au-dessus = bull market, en dessous = bear market
+
+**Interprétations clés :**
+- Cours > MM20 > MM50 : tendance haussière forte ✅ (ordre haussier parfait)
+- Cours < MM20 < MM50 : tendance baissière ❌
+- MM20 > MM50 mais cours < MM20 : correction en tendance haussière 🟡 (possible opportunité)
+
+**Les croisements :**
+- Golden Cross : MM20 croise MM50 par le haut → signal achat fort 🟢🟢
+- Death Cross : MM20 croise MM50 par le bas → signal vente 🔴🔴
+- Sur BRVM : préférer MM50 + MM200 pour les grandes caps (moins de faux signaux)
+
+**Limites :**
+- Les MM sont des indicateurs RETARDÉS (lagging) — elles confirment, n'anticipent pas
+- En marché latéral, génèrent beaucoup de faux signaux
+- Sur BRVM, liquidité plus faible → attendre confirmation 2–3 séances
+
+### 2. MACD — Moving Average Convergence Divergence
+- Composé de 3 éléments :
+  1. Ligne MACD : MM12 rapide − MM26 lente (mesure la divergence)
+  2. Ligne Signal : MM9 du MACD (lissage)
+  3. Histogramme : MACD − Signal (visualisation de la convergence)
+
+**Signaux d'entrée/sortie :**
+- MACD croise Signal par le haut + histogramme passe positif → ACHAT 🟢
+- MACD croise Signal par le bas + histogramme passe négatif → VENTE 🔴
+- MACD positif (au-dessus de zéro) : tendance haussière confirmée
+- MACD négatif (sous zéro) : tendance baissière confirmée
+
+**Divergences MACD — signal avancé puissant :**
+- Divergence haussière : cours fait nouveau plus bas, MACD fait plus haut → retournement probable 🟢
+- Divergence baissière : cours fait nouveau plus haut, MACD fait plus bas → essoufflement 🔴
+- Sur BRVM : divergences très fiables sur SONATEL, ORANGE CI, BOA CI
+
+**Limites :**
+- Retardé comme les MM (car basé sur des MM)
+- Peu efficace en tendance forte (génère trop tôt le signal de sortie)
+
+### 3. Bandes de Bollinger — mesurer la volatilité
+- Composées de 3 lignes :
+  - Bande centrale : MM20
+  - Bande supérieure : MM20 + 2 écarts-types
+  - Bande inférieure : MM20 − 2 écarts-types
+- 95% du temps, le cours reste DANS les bandes
+
+**Interprétations :**
+- Cours touche bande supérieure : zone de surachat → prudence ⚠️
+- Cours touche bande inférieure : zone de survente → opportunité possible 🟡
+- Squeeze (bandes très serrées) : faible volatilité → explosion imminente (direction inconnue !)
+- Expansion des bandes : forte volatilité → tendance en cours confirmée
+
+**Stratégie Bollinger + RSI (très efficace sur BRVM) :**
+- Cours touche bande inférieure + RSI < 35 → signal d'achat fort 🟢🟢
+- Cours touche bande supérieure + RSI > 65 → signal de vente/prudence 🔴
+
+### 4. Combiner les 3 indicateurs — méthode pro
+
+Avant d'entrer sur une position :
+
+| Étape | Indicateur | Condition favorable |
+|-------|-----------|---------------------|
+| 1 | MM50 | Cours au-dessus → tendance haussière |
+| 2 | MACD | Histogramme positif ou divergence haussière |
+| 3 | Bollinger | Cours proche bande inférieure (pas surachat) |
+| 4 | Volume | En hausse avec le signal |
+
+Score : 3–4 conditions ✅ → signal fiable | 1–2 conditions → attendre
+
+**Exemple concret BRVM :**
+SONATEL avec cours 25 800 FCFA :
+- MM50 = 25 000 → cours au-dessus ✅
+- MACD histogramme légèrement positif ✅
+- Bollinger : cours à 60% de la bande → neutre 🟡
+- Volume : stable → 🟡
+→ Signal modéré : ACHAT PARTIEL, attendre confirmation
+
+## Quiz (10 questions)
+1. Qu'est-ce qu'un Golden Cross ? Entre quelles deux MM se produit-il ?
+2. Pourquoi dit-on que les MM sont des indicateurs "retardés" ?
+3. Le MACD est négatif et l'histogramme diminue. Que signifie c'est ?
+4. Explique ce qu'est une divergence haussière sur le MACD.
+5. Que signifie un "squeeze" sur les Bandes de Bollinger ?
+6. Cours touche bande inférieure + RSI 28 → quelle décision ?
+7. Cours > MM20 > MM50 : décris la structure de tendance.
+8. En marché latéral, quel problème posent les MM ?
+9. Quelle combinaison MM50 + MACD + Bollinger justifie un ACHAT FORT ?
+10. Pourquoi confirmer un croisement MM sur 2–3 séances sur la BRVM ?
+
+## Barème : ≥7/10 → débloquer 4.3

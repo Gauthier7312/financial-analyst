@@ -1,0 +1,111 @@
+---
+module: "6.2"
+titre: "Rôle de la BCEAO et impact des taux sur les marchés BRVM"
+niveau: 6
+duree: "1h"
+prerequis: "6.1"
+suivant: "6.3"
+---
+
+# Module 6.2 — BCEAO & Politique Monétaire
+
+## Objectifs pédagogiques
+- Comprendre le rôle de la BCEAO et ses outils de politique monétaire
+- Mesurer l'impact des décisions de taux sur les secteurs BRVM
+- Savoir lire une décision de politique monétaire et ses implications boursières
+- Positionner son portefeuille en fonction du cycle de taux
+
+## Concepts à enseigner
+
+### 1. La BCEAO — Banque Centrale des États de l'Afrique de l'Ouest
+
+- Fondée en 1962, siège à Dakar
+- Gère la politique monétaire des 8 pays UEMOA
+- Missions principales :
+  - Stabilité des prix (cible : inflation ≤ 3%)
+  - Stabilité financière du système bancaire
+  - Gestion des réserves de change
+  - Émission et gestion du franc CFA
+
+### 2. Les outils de la BCEAO
+
+**Taux directeurs (les plus importants pour le marché) :**
+- **Taux de politique monétaire (TPM)** : taux auquel la BCEAO prête aux banques
+  - Hausse TPM → crédit plus cher → moins d'investissement → ralentissement économique
+  - Baisse TPM → crédit moins cher → plus d'investissement → relance
+- **Taux de facilité de dépôt** : rémunération des réserves des banques à la BCEAO
+- **Taux de facilité de prêt marginal** : taux d'urgence pour les banques en difficulté
+
+**Réserves obligatoires :**
+- % des dépôts que les banques doivent bloquer à la BCEAO
+- Augmentation → moins de liquidités → crédit se resserre
+- Diminution → plus de liquidités → crédit se détend
+
+**Open Market Operations :**
+- La BCEAO injecte ou retire des liquidités via des achats/ventes de titres
+- Influence directe sur les taux courts du marché interbancaire
+
+### 3. Impact des taux sur les différents secteurs BRVM
+
+**Hausse des taux BCEAO :**
+
+| Secteur | Impact | Explication |
+|---------|--------|-------------|
+| Banques | ✅ Positif | NIM (marge intérêt) s'élargit → plus rentables |
+| Télécoms | ❌ Négatif | Endettement plus cher → valorisation DCF baisse |
+| Distribution | ❌ Négatif | Coûts de financement augmentent |
+| Obligations | ❌ Négatif | Prix des obligations existantes baissent |
+| Actions value | ✅ Neutre/positif | Moins sensibles que les actions de croissance |
+
+**Baisse des taux BCEAO :**
+
+| Secteur | Impact | Explication |
+|---------|--------|-------------|
+| Banques | ❌ Léger négatif | NIM se compresse |
+| Télécoms | ✅ Positif | Valorisation DCF augmente |
+| Immobilier/REIT | ✅ Très positif | Crédit immobilier moins cher |
+| Toutes actions | ✅ Positif général | Actifs risqués plus attractifs vs obligations |
+
+### 4. Le marché des Bons du Trésor UEMOA — concurrent de la BRVM
+
+- Les États UEMOA (Côte d'Ivoire, Sénégal, etc.) émettent des bons du Trésor
+- Rendement actuel : 5–7% pour les bons à 2–5 ans
+- Impact : si les bons offrent 7%, une action BRVM avec yield 5% est moins attractive
+- Phénomène de "substitution" : quand les taux d'État montent, les actions peuvent baisser
+- Formule mentale : Dividend yield action doit > Taux bon Trésor + prime de risque (~2–3%)
+
+### 5. Lire une décision de politique monétaire
+
+Quand la BCEAO publie un communiqué (environ 4 fois par an) :
+
+**Ce qu'on cherche :**
+1. Décision de taux : hausse / baisse / statu quo
+2. Justification : inflation ? croissance ? liquidités ?
+3. Guidance future : signaux sur la prochaine décision
+4. Évaluation macro : vision de la BCEAO sur l'économie
+
+**Réaction habituelle de la BRVM :**
+- Hausse surprise → baisse immédiate des actions de croissance, hausse des bancaires
+- Baisse → hausse générale du marché (reflation trade)
+- Statu quo attendu → peu d'impact
+
+### 6. La courbe des taux UEMOA
+
+- Court terme (3 mois–1 an) : taux les plus sensibles aux décisions BCEAO
+- Long terme (5–10 ans) : reflète les anticipations de croissance et d'inflation
+- Courbe normale : court < long (économie saine)
+- Inversion de courbe : court > long → signal de récession à venir
+
+## Quiz (10 questions)
+1. Quel est le rôle principal de la BCEAO ?
+2. Que se passe-t-il quand la BCEAO monte son taux directeur ?
+3. Quel secteur BRVM bénéficie directement d'une hausse des taux ? Pourquoi ?
+4. Pourquoi une hausse des taux pénalise-t-elle la valorisation des télécoms ?
+5. Qu'est-ce qu'une réserve obligatoire et quel est son impact sur le crédit ?
+6. Taux bon Trésor CI = 7%, dividend yield SONATEL = 6.1% → quelle conclusion ?
+7. Qu'est-ce qu'une inversion de courbe des taux ? Quel signal envoie-t-elle ?
+8. Pourquoi dit-on que les bons du Trésor "concurrencent" les actions BRVM ?
+9. Baisse surprise des taux BCEAO → quel impact immédiat sur les actions de croissance BRVM ?
+10. Que cherche-t-on en priorité dans un communiqué de politique monétaire ?
+
+## Barème : ≥7/10 → débloquer 6.3

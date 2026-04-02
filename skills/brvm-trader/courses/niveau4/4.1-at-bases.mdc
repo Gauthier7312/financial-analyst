@@ -1,0 +1,90 @@
+---
+module: "4.1"
+titre: "Analyse technique — Les bases absolues"
+niveau: 4
+duree: "1h"
+prerequis: "quiz-n3"
+suivant: "4.2"
+---
+
+# Module 4.1 — Analyse Technique : Les Bases
+
+## Objectifs pédagogiques
+- Comprendre ce qu'est vraiment l'analyse technique et pourquoi elle fonctionne
+- Distinguer analyse technique vs analyse fondamentale
+- Lire un graphique en chandeliers japonais comme un professionnel
+- Identifier les 3 tendances et savoir dans laquelle on se trouve
+- Maîtriser supports et résistances sur des valeurs BRVM réelles
+
+## Concepts à enseigner
+
+### 1. Qu'est-ce que l'analyse technique ?
+- Définition : étudier les mouvements de prix passés pour anticiper les futurs
+- Hypothèse de base : le cours intègre toutes les informations disponibles
+- Le marché est un vote collectif de milliers d'investisseurs → le graphique reflète leur psychologie
+- 3 axiomes fondamentaux :
+  1. Le cours intègre tout (news, fondamentaux, émotions)
+  2. Les cours évoluent en tendances
+  3. L'histoire se répète (comportements humains constants)
+
+### 2. AT vs AF — complémentaires, pas opposées
+- Analyse Fondamentale (AF) : répond à "QUOI acheter ?" (valeur intrinsèque, bénéfices, dividendes)
+- Analyse Technique (AT) : répond à "QUAND acheter ?" (timing d'entrée et sortie)
+- Méthode professionnelle : AF pour sélectionner → AT pour timer
+- Exemple BRVM : AF dit "SONATEL est solide" → AT dit "attendre RSI <50 et support 25 000"
+
+### 3. Chandeliers japonais — lecture avancée
+- Corps large vert : forte conviction acheteurs ✅
+- Corps large rouge : forte conviction vendeurs ❌
+- Petits corps (doji) : hésitation, retournement possible
+- Mèche haute longue : les acheteurs ont poussé mais vendeurs ont résisté ⚠️
+- Mèche basse longue : les vendeurs ont poussé mais acheteurs ont récupéré 🟡
+- Marteau (hammer) : mèche basse 2x le corps, rare mèche haute → signal de rebond fort 🟢
+- Étoile filante (shooting star) : inverse du marteau → signal de retournement baissier 🔴
+- Englobante haussière : bougie verte englobe complètement la rouge précédente → achat 🟢
+
+### 4. Les 3 tendances — identification pratique
+- **Haussière** : chaque sommet est plus haut que le précédent, chaque creux aussi ↗
+- **Baissière** : chaque sommet est plus bas que le précédent, chaque creux aussi ↘
+- **Latérale** : les prix oscillent dans un range défini ↔
+- Comment identifier la tendance sur BRVM : regarder la courbe 3 mois sur sikafinance
+- Règle d'or : NE JAMAIS acheter contre la tendance dominante
+- Exception : retournement confirmé par volume + indicateurs
+
+### 5. Supports et résistances — tracer comme un pro
+- Support : zone de prix où les acheteurs reviennent régulièrement → plancher
+- Résistance : zone de prix où les vendeurs bloquent régulièrement → plafond
+- Validation : un niveau n'est fiable qu'après 2–3 tests minimum
+- Inversion : un support cassé devient résistance (et vice versa)
+- Niveaux psychologiques : les chiffres ronds (25 000, 30 000 FCFA) attirent plus d'ordres
+- Application BRVM 2026 :
+  - SONATEL : support 24 500 / résistance 28 000
+  - BOA CI : support 5 200 / résistance 6 800
+  - ORANGE CI : support 7 200 / résistance 8 500
+
+### 6. Le volume — la clé de la fiabilité
+- Hausse forte + volume élevé = acheteurs convaincus → signal très fiable ✅✅
+- Hausse forte + volume faible = mouvement artificiel → méfiance ⚠️
+- Baisse + volume record = panique → fin de tendance possible (opportunité)
+- Volume en baisse pendant une tendance = tendance qui s'épuise
+
+## Exercice pratique
+Sur sikafinance.com/marches/cotation_SNTS.sn :
+1. Identifier la tendance dominante sur 6 mois
+2. Tracer le support et la résistance les plus proches
+3. Repérer 1 signal chandelier significatif (marteau, englobante…)
+4. Évaluer le volume récent : valide-t-il la tendance ?
+
+## Quiz (10 questions)
+1. Quelle est la différence principale entre AT et AF ?
+2. Décris un marteau (hammer) en chandeliers. Quel signal donne-t-il ?
+3. Dans une tendance haussière, comment évolue chaque creux ?
+4. Un ancien support cassé devient quoi ?
+5. Hausse forte avec volume très faible — que penses-tu de ce signal ?
+6. Pourquoi les niveaux psychologiques (ex. 25 000 FCFA) sont-ils importants ?
+7. Qu'est-ce qu'une bougie englobante haussière ?
+8. Quelle est la règle d'or concernant la tendance ?
+9. Quel des 3 axiomes de l'AT explique que les mêmes figures se répètent ?
+10. SONATEL est en tendance haussière avec RSI 45 et volume en hausse. Que dis l'AT ?
+
+## Barème : ≥7/10 → débloquer 4.2

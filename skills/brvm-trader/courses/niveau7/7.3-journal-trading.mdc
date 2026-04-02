@@ -1,0 +1,130 @@
+---
+module: "7.3"
+titre: "Journal de trading — tenir son carnet de bord"
+niveau: 7
+duree: "45min"
+prerequis: "7.2"
+suivant: null
+---
+
+# Module 7.3 — Journal de Trading
+
+## Objectifs pédagogiques
+- Comprendre pourquoi le journal de trading est l'outil #1 de progression
+- Savoir quoi documenter avant, pendant et après chaque trade
+- Analyser ses trades pour identifier ses patterns d'erreurs
+- Mettre en place un rituel de review hebdomadaire et mensuel
+
+## Concepts à enseigner
+
+### 1. Pourquoi tenir un journal ?
+
+- Les professionnels tiennent TOUS un journal de trading
+- Seul outil qui permet de progresser par l'expérience (pas juste l'intuition)
+- Permet de détecter les biais cognitifs en action
+- Révèle les patterns : "je perds toujours quand j'achète après une forte hausse"
+- Mesure objective de sa performance → combat l'excès de confiance
+
+**Analogie :** Un footballeur professionnel regarde les vidéos de ses matchs pour s'améliorer. Le journal de trading, c'est ta vidéo.
+
+### 2. Structure d'une entrée de journal
+
+**AVANT le trade :**
+```
+Date : 02/04/2026
+Valeur : BOA CI
+Cours d'entrée envisagé : 6 200 FCFA
+Stop-loss : 5 550 FCFA (−10.5%)
+Objectif 1 : 6 800 FCFA (+9.7%)
+Objectif 2 : 7 200 FCFA (+16.1%)
+Ratio R/R : 9.7 / 10.5 = 0.92× → INSUFFISANT (< 2:1) ❌
+
+Signal déclencheur : double fond confirmé + RSI 44
+Contexte macro : PIB CI +6.5%, taux stables
+Taille de position : 150 000 FCFA (15% du portefeuille)
+
+Mon état émotionnel : neutre ✅ / enthousiaste ⚠️ / anxieux ⚠️
+Ai-je cherché des arguments contre ? Oui ✅ / Non ❌
+```
+
+**APRÈS le trade (à la clôture) :**
+```
+Résultat : Gain / Perte
+Cours de sortie : 6 780 FCFA
+P&L : +9.4% | +14 100 FCFA
+Raison de sortie : Objectif 1 atteint / Stop touché / Décision discrétionnaire
+
+Ce qui s'est passé : correction technique avant la hausse, j'aurais pu
+                     acheter un peu plus bas si j'avais attendu.
+
+Ce que j'ai bien fait : respecté mon plan, pas modifié mon stop
+Ce que j'aurais dû faire : attendre le RSI < 40 pour meilleur ratio R/R
+Biais identifié ce trade : légère impatience à l'entrée
+Note de discipline /10 : 8/10
+```
+
+### 3. Les métriques à suivre dans son journal
+
+**Performance objective :**
+- Taux de réussite : nombre de trades gagnants / total trades (viser > 50%)
+- Gain moyen par trade gagnant vs perte moyenne par trade perdant
+- Profit Factor = gains totaux / pertes totales (> 1.5 = bon)
+- Expectancy = (% gagnants × gain moyen) − (% perdants × perte moyenne)
+  - Si positive → système gagnant à long terme ✅
+
+**Analyse qualitative :**
+- Quel type de signal génère mes meilleures entrées ?
+- À quelle heure / jour de la semaine je prends mes meilleures décisions ?
+- Dans quel état émotionnel sont mes pires trades ?
+
+### 4. Rituel de review
+
+**Review hebdomadaire (30 min, chaque weekend) :**
+- Relire toutes les entrées de la semaine
+- Identifier 1 chose bien faite, 1 chose à améliorer
+- Mettre à jour les positions ouvertes (stop, objectifs)
+- Regarder les actualités macro de la semaine écoulée
+
+**Review mensuelle (1h, fin de mois) :**
+- Calculer les métriques du mois (Profit Factor, taux réussite)
+- Identifier le biais cognitif le plus fréquent du mois
+- Comparer performance vs BRVM Composite (bat-on le marché ?)
+- Fixer 1 règle de discipline pour le mois suivant
+
+**Review annuelle (2h, fin d'année) :**
+- Performance totale vs dividendes + plus-values
+- Comparaison vs un investissement passif en dividendes BRVM
+- Révision de la stratégie globale
+
+### 5. Format simplifié pour débutant
+
+Si la structure complète semble complexe, commencer par ce minimum :
+
+```
+Date | Valeur | Entrée | Sortie | % P&L | Raison sortie | Note discipline
+-----|--------|--------|--------|-------|---------------|----------------
+02/04 | BOA CI | 6200 | 6780 | +9.4% | OBJ1 atteint | 8/10
+05/04 | ORAC | 7800 | 7600 | -2.6% | Stop touché | 9/10 (respecté plan)
+```
+
+**L'essentiel :** même un journal minimal est infiniment mieux que pas de journal.
+
+## Quiz (10 questions)
+1. Cite 3 bénéfices concrets de tenir un journal de trading.
+2. Quels 6 éléments documenter AVANT un trade ?
+3. Qu'est-ce que le Profit Factor et quel seuil viser ?
+4. Comment calculer l'Expectancy d'un système de trading ?
+5. Qu'est-ce que la "Note de discipline" dans le journal ?
+6. Pourquoi mesurer l'état émotionnel au moment de l'entrée ?
+7. Quelle est la fréquence et la durée recommandées pour la review hebdomadaire ?
+8. Comment savoir si on "bat le marché" avec son trading actif ?
+9. Qu'est-ce que le pattern d'erreur qu'un journal aide à révéler ?
+10. Pourquoi l'analogie avec la vidéo du footballeur est-elle pertinente ?
+
+## Barème : ≥7/10 → Certification Psychologie du Trader 🏆
+
+---
+
+## Récompense de fin de Niveau 7
+Badge : 🏆 **Trader Discipliné Certifié**
+Débloqué : outils complets de gestion psychologique et journal de trading opérationnel

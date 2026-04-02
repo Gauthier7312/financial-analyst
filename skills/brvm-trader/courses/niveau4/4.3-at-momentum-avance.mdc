@@ -1,0 +1,117 @@
+---
+module: "4.3"
+titre: "Indicateurs de momentum avancés — RSI pro, Stochastique, CCI"
+niveau: 4
+duree: "1h15"
+prerequis: "4.2"
+suivant: "4.4"
+---
+
+# Module 4.3 — Indicateurs de Momentum Avancés
+
+## Objectifs pédagogiques
+- Maîtriser le RSI de manière avancée (divergences, zones dynamiques)
+- Comprendre et utiliser l'Oscillateur Stochastique
+- Découvrir le CCI (Commodity Channel Index) et son application BRVM
+- Construire un système de confirmation à 3 oscillateurs
+
+## Concepts à enseigner
+
+### 1. RSI avancé — au-delà des zones 30/70
+
+**Rappel base :**
+- RSI < 30 : survendu | RSI > 70 : suracheté
+
+**Utilisation professionnelle :**
+- Zones dynamiques selon la tendance :
+  - Tendance haussière : RSI oscille entre 40 et 80 → zone d'achat = 40–50 (pas 30 !)
+  - Tendance baissière : RSI oscille entre 20 et 60 → zone de vente = 50–60
+- Failure swings (cassures de structure RSI) :
+  - Haussier : RSI sous 30, remonte, reteste 30 sans le casser, repart → ACHAT fort 🟢🟢
+  - Baissier : RSI au-dessus 70, baisse, reteste 70 sans le franchir, repart en bas → VENTE 🔴
+
+**Divergences RSI — les plus fiables de la BRVM :**
+- Divergence haussière régulière : cours = nouveau plus bas, RSI = plus bas MOINS bas → retournement
+- Divergence baissière régulière : cours = nouveau plus haut, RSI = plus haut MOINS haut → essoufflement
+- Divergence cachée haussière : cours = plus bas PLUS haut, RSI = plus bas MOINS haut → continuation hausse
+- Règle : une divergence confirmée par une MM est quasi-infaillible sur les grandes caps BRVM
+
+**RSI multi-timeframe :**
+- Vérifier RSI sur 2 timeframes : hebdo + quotidien
+- Si RSI hebdo < 40 ET RSI quotidien < 35 → signal très fort
+- Éviter d'acheter si RSI hebdo > 65 même si quotidien est bas
+
+### 2. Oscillateur Stochastique — vitesse du momentum
+- Mesure la position du cours dans son range récent (0 à 100)
+- %K : ligne rapide | %D : MM3 de %K (ligne lente)
+- Zones : < 20 = survendu 🟢 | > 80 = suracheté 🔴
+
+**Signaux :**
+- %K croise %D par le haut en zone < 20 → signal achat fort 🟢🟢
+- %K croise %D par le bas en zone > 80 → signal vente 🔴🔴
+- Stochastique + RSI en zone de survente simultanément → signal exceptionnel
+
+**Stochastique vs RSI :**
+- Stochastique : plus réactif, meilleur sur marchés agités (court terme)
+- RSI : plus stable, meilleur sur marchés tendanciels (moyen terme)
+- Sur BRVM : RSI pour sélection + Stochastique pour timing précis d'entrée
+
+**Divergences Stochastique :**
+- Identiques au RSI mais encore plus réactives
+- Valider toujours avec RSI ou MACD pour éviter faux signaux
+
+### 3. CCI — Commodity Channel Index
+- Mesure l'écart du cours par rapport à sa moyenne statistique
+- Plage théorique illimitée, mais 80% du temps entre −100 et +100
+
+**Niveaux clés :**
+- CCI > +100 : entrée en tendance haussière forte (pas suracheté, plutôt momentum !)
+- CCI < −100 : entrée en tendance baissière forte
+- CCI entre −100 et +100 : marché sans tendance claire → attendre
+- CCI repasse sous +100 venant du haut → signal de sortie long 🔴
+- CCI repasse au-dessus de −100 venant du bas → signal d'entrée 🟢
+
+**CCI sur BRVM :**
+- Très utile pour les actions cycliques (TOTAL CI, SG CI)
+- Moins pertinent pour les actions à faible liquidité (petites caps)
+- Combiner avec volume pour confirmer les cassures de ±100
+
+### 4. Système de confirmation à 3 oscillateurs
+
+**Protocole avant tout achat :**
+
+| Oscillateur | Signal requis | Poids |
+|-------------|---------------|-------|
+| RSI | Entre 35 et 55 (zone saine/opportunité) | ★★★ |
+| Stochastique | %K vient de croiser %D à la hausse | ★★ |
+| CCI | En train de remonter depuis −100 | ★★ |
+
+- 3/3 signaux alignés → ACHAT FORT 🟢🟢🟢
+- 2/3 signaux → ACHAT PARTIEL 🟡
+- 1/3 ou 0/3 → ATTENDRE 🔴
+
+**Exemple BRVM — BOA CI :**
+Supposons : RSI = 42 ✅ | Stochastique %K croise %D en zone 25 ✅ | CCI remonte de −85 🟡
+→ 2.5/3 → ACHAT PARTIEL avec stop à −12%
+
+### 5. Les pièges classiques des oscillateurs
+
+- **Divergence sans confirmation** : une divergence RSI seule sans croisement MACD → attendre
+- **Suracheté ≠ vendre** : en tendance haussière forte, le RSI peut rester >70 longtemps
+- **Oscillateurs en range** : très efficaces | **en tendance forte** : génèrent faux signaux de sortie
+- **Sur-optimisation** : changer les paramètres (14→9→5) pour forcer un signal → ERREUR
+- **Règle des 3 confirmations** : aucun oscillateur seul ne justifie un trade
+
+## Quiz (10 questions)
+1. En tendance haussière, quelle zone RSI est une opportunité d'achat (pas 30) ?
+2. Décris une divergence haussière régulière sur le RSI.
+3. Quel signal donne le Stochastique quand %K croise %D en zone < 20 ?
+4. Quelle est la principale différence d'usage entre Stochastique et RSI ?
+5. Que signifie un CCI qui repasse au-dessus de −100 venant du bas ?
+6. RSI 72 en tendance haussière forte → vends-tu immédiatement ? Pourquoi ?
+7. Qu'est-ce qu'un "failure swing" haussier sur le RSI ?
+8. Pourquoi ne pas modifier les paramètres standard des oscillateurs ?
+9. Avec RSI=38 ✅, Stochastique neutre 🟡, CCI=−110 ❌ → quelle décision ?
+10. Explique la divergence cachée haussière et son utilité.
+
+## Barème : ≥7/10 → débloquer 4.4

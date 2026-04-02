@@ -1,0 +1,115 @@
+---
+module: "9.1"
+titre: "Diversification optimale et corrélations sectorielles BRVM"
+niveau: 9
+duree: "1h"
+prerequis: "quiz-n8"
+suivant: "9.2"
+---
+
+# Module 9.1 — Diversification Optimale BRVM
+
+## Objectifs pédagogiques
+- Comprendre la théorie de la diversification et son application pratique
+- Identifier les corrélations entre secteurs de la BRVM
+- Construire un portefeuille réellement diversifié sur la BRVM
+- Calculer le nombre optimal de valeurs pour un portefeuille BRVM
+
+## Concepts à enseigner
+
+### 1. Pourquoi diversifier ? La théorie de Markowitz
+
+- Harry Markowitz (Nobel d'économie) : la diversification réduit le risque SANS réduire le rendement espéré
+- Deux types de risque :
+  - **Risque systématique** (risque de marché) : touche toutes les actions → impossible à éliminer
+  - **Risque spécifique** (risque de l'entreprise) : propre à chaque action → ÉLIMINABLE par diversification
+
+**Frontière efficiente :**
+- Pour un même niveau de risque → maximiser le rendement
+- Pour un même rendement → minimiser le risque
+- Un portefeuille bien diversifié est sur la frontière efficiente
+
+**Nombre d'actions optimal :**
+- Moins de 5 actions : risque spécifique très élevé
+- 5–10 actions : 70–80% du risque spécifique éliminé
+- 10–15 actions : 85–90% éliminé → point de rendement décroissant
+- Au-delà de 20 : diversification apporte peu mais complexité monte
+- **Pour la BRVM (marché moins liquide) : 6–12 valeurs est optimal**
+
+### 2. Corrélations sectorielles sur la BRVM
+
+La diversification est efficace seulement si les actifs ne sont PAS corrélés.
+
+**Matrice de corrélation simplifiée BRVM :**
+
+| | Banques | Télécoms | Agro | Distribution | Industrie |
+|---|---------|---------|------|-------------|-----------|
+| **Banques** | 1.0 | 0.4 | 0.3 | 0.5 | 0.4 |
+| **Télécoms** | 0.4 | 1.0 | 0.2 | 0.3 | 0.3 |
+| **Agro** | 0.3 | 0.2 | 1.0 | 0.4 | 0.5 |
+| **Distribution** | 0.5 | 0.3 | 0.4 | 1.0 | 0.6 |
+| **Industrie** | 0.4 | 0.3 | 0.5 | 0.6 | 1.0 |
+
+- Corrélation 1.0 : évoluent exactement ensemble → pas de diversification
+- Corrélation 0.0 : aucune relation → diversification maximale
+- Corrélation négative : l'un monte quand l'autre baisse → parfait mais rare
+
+**Enseignement :** Télécoms + Agro est la meilleure combinaison (corrélation 0.2)
+Éviter : Distribution + Industrie (0.6 → trop corrélés)
+
+### 3. Diversification sur la BRVM — contraintes spécifiques
+
+**Limite 1 — Nombre de valeurs liquides réduit :**
+- Sur ~46 valeurs cotées, seulement ~15–20 ont une liquidité suffisante pour le trading régulier
+- Petites caps : risque de ne pas pouvoir vendre quand on veut
+
+**Limite 2 — Concentration sectorielle :**
+- Banques = 40% de la capitalisation BRVM → inévitables mais à doser
+
+**Limite 3 — Concentration géographique :**
+- Côte d'Ivoire = ~60–70% de la capitalisation → risque pays CI concentré
+
+**Solutions :**
+- Diversification géographique intra-BRVM : chercher des valeurs sénégalaises (SONATEL, BOA SN), burkinabè (CORIS, BOA BF)
+- Diversification temporelle : entrer progressivement (DCA) pour ne pas tout acheter au même moment
+- Diversification taille : combiner grandes caps (sécurité) et moyennes caps (croissance)
+
+### 4. Construire un portefeuille BRVM diversifié — exemple pratique
+
+**Profil : débutant, 500 000 FCFA, horizon 3–5 ans**
+
+| Valeur | Secteur | Pays | Poids | Montant |
+|--------|---------|------|-------|---------|
+| SONATEL | Télécom | Sénégal | 25% | 125 000 |
+| BOA CI | Banque | Côte d'Ivoire | 20% | 100 000 |
+| TOTAL CI | Distribution | Côte d'Ivoire | 20% | 100 000 |
+| ORANGE CI | Télécom | Côte d'Ivoire | 15% | 75 000 |
+| PALM CI | Agro | Côte d'Ivoire | 10% | 50 000 |
+| Liquidités | — | — | 10% | 50 000 |
+
+**Analyse de ce portefeuille :**
+- 3 secteurs différents ✅
+- 2 pays (Sénégal + CI) 🟡 (pourrait ajouter Burkina)
+- 2 télécoms = corrélation élevée entre elles ⚠️ → à améliorer
+- Rendement dividende estimé : ~5.5% brut ✅
+- Beta moyen : ~0.7 (défensif) ✅
+
+### 5. Rééquilibrage et suivi
+
+- Réviser l'allocation trimestriellement
+- Si une valeur dépasse 40% du portefeuille → écrêter pour revenir à la cible
+- Critère de remplacement d'une valeur : fondamentaux dégradés, pas juste baisse de cours
+
+## Quiz (10 questions)
+1. Quelle est la différence entre risque systématique et risque spécifique ?
+2. Combien d'actions est optimal pour un portefeuille BRVM ? Pourquoi ?
+3. Corrélation 0.2 entre Télécoms et Agro → bonne ou mauvaise diversification ?
+4. Cite 2 contraintes spécifiques à la diversification sur la BRVM.
+5. Pourquoi les banques BRVM sont-elles incontournables dans un portefeuille ?
+6. Qu'est-ce que la diversification temporelle (DCA) ?
+7. Si SONATEL représente 45% de ton portefeuille → que faire ?
+8. Pourquoi mettre 10% en liquidités dans un portefeuille BRVM débutant ?
+9. Quel est le problème de détenir SONATEL + ORANGE CI ensemble ?
+10. À quelle fréquence rééquilibrer son portefeuille BRVM ?
+
+## Barème : ≥7/10 → débloquer 9.2

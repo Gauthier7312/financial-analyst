@@ -1,0 +1,138 @@
+---
+module: "5.4"
+titre: "Analyse sectorielle BRVM — banques, télécoms, industrie, distribution"
+niveau: 5
+duree: "1h"
+prerequis: "5.3"
+suivant: "5.5"
+---
+
+# Module 5.4 — Analyse Sectorielle BRVM
+
+## Objectifs pédagogiques
+- Connaître les 4 secteurs principaux de la BRVM et leurs caractéristiques
+- Savoir quels ratios utiliser selon le secteur
+- Identifier les moteurs de croissance et risques propres à chaque secteur
+- Construire une analyse sectorielle comparative
+
+## Concepts à enseigner
+
+### 1. La BRVM — composition sectorielle
+
+La BRVM compte ~46 valeurs cotées réparties en secteurs :
+
+| Secteur | Poids approximate | Valeurs représentatives |
+|---------|-------------------|------------------------|
+| Finances (banques) | ~40% | BOA CI, SG CI, SIB CI, CORIS, NSIA |
+| Télécoms | ~25% | SONATEL, ORANGE CI |
+| Distribution/Industrie | ~20% | TOTAL CI, CFAO, NESTLE CI |
+| Agriculture/Agroindustrie | ~10% | PALM CI, SAPH CI, SUCRIVOIRE |
+| Autres | ~5% | NEI-CEDA, SETAO |
+
+### 2. Secteur Bancaire — le plus représenté
+
+**Modèle économique :**
+- Collecte des dépôts à taux bas → prête à taux plus élevés
+- Marge d'intérêt nette (NIM) = principale source de revenus
+- Commissions : transactions, gestion, conseil
+
+**Ratios spécifiques aux banques :**
+- NIM (Net Interest Margin) : > 5% = bon sur la BRVM
+- ROE bancaire BRVM : > 15% = excellent
+- Ratio de solvabilité (Tier 1) : > 10% (exigé par BCEAO)
+- Taux de créances douteuses (NPL) : < 5% = sain | > 10% = risque élevé
+- PER banques BRVM : historiquement 6–12× (plus bas que les télécoms)
+- P/B banques : 0.8–2× (normal en Afrique subsaharienne)
+
+**Moteurs de croissance :**
+- Bancarisation en hausse (< 30% de la population bancarisée en UEMOA)
+- Croissance du crédit aux PME
+- Mobile banking (BOA, Coris)
+- Expansion géographique (BOA présent dans 6 pays)
+
+**Risques spécifiques :**
+- Hausse des NPL en cas de ralentissement économique
+- Risque souverain (exposition aux bons du Trésor des États)
+- Pression réglementaire BCEAO
+
+**Valeurs phares :** BOA CI (liquidité), SG CI (qualité), CORIS BANK (croissance)
+
+### 3. Secteur Télécoms — les plus rentables
+
+**Modèle économique :**
+- Abonnements + data + services financiers (Orange Money, Wave)
+- Investissements lourds (capex réseau) mais récurrents une fois amortis
+- Marges EBITDA élevées : 35–45% → générateurs de cash
+
+**Ratios spécifiques :**
+- EV/EBITDA télécoms : 6–10× (référence internationale)
+- Marge EBITDA : > 35% = bon
+- Capex/CA : 15–25% (investissement réseau important)
+- Dividend payout élevé : SONATEL distribue ~80% de son bénéfice
+
+**Moteurs de croissance :**
+- Pénétration internet mobile encore faible (~40% en Afrique de l'Ouest)
+- Fintech/mobile money à forte croissance
+- 5G à venir dans les grandes métropoles
+
+**Risques spécifiques :**
+- Concurrence intense (guerre des prix data)
+- Risque réglementaire (taxes gouvernementales sur les télécoms)
+- Saturation du marché voix en milieu urbain
+
+**Valeurs phares :** SONATEL (leader rentabilité), ORANGE CI (croissance volume)
+
+### 4. Secteur Distribution/Industrie
+
+**Modèle économique :**
+- Distribution carburant (TOTAL CI) : marges faibles mais volumes élevés
+- Agroindustrie (PALM CI, SAPH) : cycles liés aux matières premières
+- Agroalimentaire (NESTLE CI) : marges moyennes, croissance démographique
+
+**Ratios spécifiques :**
+- PER distribution : 8–15× (en ligne avec BRVM moyenne)
+- Marge nette : 3–8% (faible pour distribution, 10–20% pour industrie)
+- Ratio de stock : important (risque d'obsolescence pour certains secteurs)
+
+**Moteurs de croissance :**
+- Croissance démographique UEMOA (+2.7%/an)
+- Urbanisation → hausse consommation
+- TOTAL CI : réseau de stations-service en expansion
+
+**Risques :**
+- Volatilité prix matières premières (pétrole, huile de palme)
+- Risque de change sur les importations (malgré l'ancrage CFA/EUR)
+
+### 5. Analyse sectorielle — méthode comparative
+
+**Pour comparer deux sociétés du même secteur :**
+
+| Critère | Poids |
+|---------|-------|
+| Croissance CA sur 3 ans | ★★★ |
+| Marge nette (tendance) | ★★★ |
+| ROE | ★★ |
+| PER vs médiane sectorielle | ★★ |
+| Dividend yield | ★★ |
+| Dette/EBITDA | ★ |
+| Qualité du management | ★ |
+
+**Rotation sectorielle — quand passer d'un secteur à l'autre :**
+- Hausse des taux BCEAO → banques bénéficiaires, télécoms pénalisées
+- Forte croissance économique → cycliques (industrie) surperforment
+- Récession/incertitude → valeurs défensives (SONATEL, TOTAL CI, NESTLE)
+- Saison dividendes (Jan–Juin) → attention aux télécoms et banques avant détachement
+
+## Quiz (10 questions)
+1. Quel secteur représente le plus grand poids sur la BRVM ?
+2. Qu'est-ce que le NIM et pourquoi est-il important pour une banque ?
+3. Pourquoi le PER des télécoms est-il souvent plus élevé que celui des banques BRVM ?
+4. Marge EBITDA 40% pour SONATEL → bon ou mauvais ? Pourquoi ?
+5. Quel risque spécifique pèse sur les banques BRVM lié aux États ?
+6. Pourquoi la bancarisation faible en UEMOA est-elle un moteur de croissance ?
+7. Dans quel secteur la hausse des taux BCEAO est-elle bénéfique ?
+8. Quelle valeur est considérée défensive en période d'incertitude sur la BRVM ?
+9. Cite 3 moteurs de croissance du secteur télécom en Afrique de l'Ouest.
+10. Comment la rotation sectorielle influence-t-elle le timing d'investissement ?
+
+## Barème : ≥7/10 → débloquer 5.5
