@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "brvm-trader",
-  "description": "Expert BRVM — Analyse technique & fondamentale des actions de la Bourse Régionale des Valeurs Mobilières (Zone UEMOA) + Formation interactive 3 niveaux",
+  "description": "Expert BRVM — Analyse technique & fondamentale des actions de la Bourse Régionale des Valeurs Mobilières (Zone UEMOA) + Formation interactive 9 niveaux / 37 modules",
   "owner": {
     "name": "elysee15",
     "email": ""
@@ -10,13 +10,13 @@
     {
       "name": "brvm-trader",
       "source": "./",
-      "description": "Plugin Claude Code pour trader et apprendre la BRVM : score d'achat /10, analyse RSI/Beta/dividendes, 13 modules de formation progressifs (débutant → stratège), suivi de progression automatique.",
-      "version": "1.0.0",
+      "description": "Plugin Claude Code pour trader et apprendre la BRVM : score d'achat /10, analyse RSI/Beta/dividendes sur données live sikafinance.com, et un parcours de formation de 37 modules sur 9 niveaux (débutant → gestionnaire de portefeuille), avec quiz, déblocage progressif et suivi de progression automatique.",
+      "version": "2.0.0",
       "author": {
         "name": "elysee15"
       },
-      "homepage": "https://github.com/elysee15/financial-analyst",
-      "repository": "https://github.com/elysee15/financial-analyst",
+      "homepage": "https://github.com/Gauthier7312/financial-analyst",
+      "repository": "https://github.com/Gauthier7312/financial-analyst",
       "license": "MIT",
       "keywords": [
         "brvm",

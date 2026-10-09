@@ -30,7 +30,7 @@ Quand `/brvm-trader` est invoqué sans intention précise :
    Données live sikafinance.com · Score /10 · Verdict ACHAT/ATTENDRE/ÉVITER
 
 📚 TE FORMER À LA BOURSE       → /formation
-   [TABLEAU DE PROGRESSION DEPUIS progress.md]
+   Progression : [████░░░░░░░░░░░░░░░░] [X]%  ([n]/37 modules sur 9 niveaux)
 
 🎯 STRATÉGIES & DIVIDENDES     → /dividendes · /portefeuille
    Calendrier dividendes 2026 · DCA · Buy&Hold · Momentum · Capture dividende
@@ -135,9 +135,7 @@ Ces règles s'appliquent à tous les agents et toutes les interactions :
 
 | Ressource | Chemin | Usage |
 |-----------|--------|-------|
-| Cours niveau 1 | `.claude/skills/brvm-trader/courses/niveau1/` | Syllabus 1.0 → 1.4 |
-| Cours niveau 2 | `.claude/skills/brvm-trader/courses/niveau2/` | Syllabus 2.1 → 2.4 |
-| Cours niveau 3 | `.claude/skills/brvm-trader/courses/niveau3/` | Syllabus 3.1 → 3.4 |
+| Cours niveaux 1 à 9 | `.claude/skills/brvm-trader/courses/niveau[1-9]/` | Syllabus 1.0 → 9.4 (37 modules) |
 | Tickers BRVM | `.claude/skills/brvm-trader/data/valeurs_brvm.md` | Référence tickers |
 | Stratégies avancées | `.claude/skills/brvm-trader/data/strategies_avancees.md` | Patterns trading |
 | Actualités | `.claude/skills/brvm-trader/data/news_et_communiques.md` | Alertes et news |

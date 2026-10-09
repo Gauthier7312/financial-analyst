@@ -1,7 +1,7 @@
 # 📈 BRVM Trader — Plugin Claude Code
 
 > **Expert financier IA spécialisé sur la BRVM** (Bourse Régionale des Valeurs Mobilières, Zone UEMOA).
-> 4 agents spécialisés · 5 commandes slash · 13 modules de formation · Données live sikafinance.com
+> 4 agents spécialisés · 6 commandes slash · 37 modules de formation · Données live sikafinance.com
 
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-orange?logo=anthropic)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
@@ -12,29 +12,42 @@
 
 ## ⚡ Installation
 
-**1. Ajouter le marketplace dans Claude Code (`~/.claude/settings.json`) :**
+Le plugin s'installe via le système de marketplace de Claude Code. Deux voies,
+au choix — tout se tape **dans Claude Code**, pas dans un terminal.
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "brvm-trader": {
-      "source": { "source": "github", "repo": "elysee15/financial-analyst" }
-    }
-  }
-}
+**Depuis GitHub :**
+
+```
+/plugin marketplace add Gauthier7312/financial-analyst
+/plugin install brvm-trader@brvm-trader
 ```
 
-**2. Installer le plugin :**
+**Depuis une copie locale du dépôt** (recommandé si tu modifies le plugin : tes
+changements sont pris en compte sans passer par un `git push`) :
 
-```bash
-claude plugin marketplace add brvm-trader@brvm-trader
+```
+/plugin marketplace add /chemin/vers/financial-analyst
+/plugin install brvm-trader@brvm-trader
 ```
 
-**3. Lancer :**
+La syntaxe est `<plugin>@<marketplace>` — ici les deux s'appellent `brvm-trader`.
+
+**Vérifier :** tape `/plugin` → `brvm-trader` doit apparaître dans « Installed
+plugins » avec 4 agents, 6 commandes et 2 skills. Puis tape `/` : `/brvm-trader`,
+`/formation`, `/analyse`, `/marche`, `/portefeuille`, `/dividendes` sont disponibles.
+
+**Lancer :**
 
 ```
 /brvm-trader
 ```
+
+Au premier lancement, ton fichier de progression est créé dans
+`.claude/courses/progress.md` et tu démarres au module 1.0.
+
+> Les équivalents en ligne de commande existent aussi :
+> `claude plugin marketplace add <dépôt-ou-chemin>` puis
+> `claude plugin install brvm-trader@brvm-trader`.
 
 ### Hooks recommandés (optionnels, dans `~/.claude/settings.json`)
 
@@ -75,7 +88,8 @@ financial-analyst/
 │   ├── formateur.md                ← Formation interactive + progression
 │   └── portefeuille.md             ← Positions + stop-loss + alertes
 │
-├── commands/                       ← 5 commandes slash
+├── commands/                       ← 6 commandes slash
+│   ├── brvm-trader.md              ← /brvm-trader (point d'entrée)
 │   ├── analyse.md                  ← /analyse [TICKER]
 │   ├── marche.md                   ← /marche
 │   ├── formation.md                ← /formation [module]
@@ -88,7 +102,13 @@ financial-analyst/
 │       ├── courses/
 │       │   ├── niveau1/            ← 5 modules .mdc (initiation)
 │       │   ├── niveau2/            ← 4 modules .mdc (analyse)
-│       │   └── niveau3/            ← 4 modules .mdc (stratégies)
+│       │   ├── niveau3/            ← 4 modules .mdc (stratégies)
+│       │   ├── niveau4/            ← 5 modules .mdc (technique approfondie)
+│       │   ├── niveau5/            ← 5 modules .mdc (fondamentale avancée)
+│       │   ├── niveau6/            ← 4 modules .mdc (macro UEMOA)
+│       │   ├── niveau7/            ← 3 modules .mdc (psychologie)
+│       │   ├── niveau8/            ← 3 modules .mdc (fiscalité)
+│       │   └── niveau9/            ← 4 modules .mdc (portefeuille avancé)
 │       └── data/
 │           ├── valeurs_brvm.md     ← Tickers + profils fondamentaux
 │           ├── strategies_avancees.md ← Patterns trading avancés
@@ -139,11 +159,12 @@ Transforme les données brutes en décisions d'investissement structurées.
 Gère intégralement le parcours pédagogique sans aucune ligne de commande.
 
 - Crée `progress.md` automatiquement si absent
-- Enseigne 13 modules (concept par concept, avec exemples BRVM réels)
+- Enseigne 37 modules sur 9 niveaux (concept par concept, exemples BRVM réels)
 - Quiz interactif oral avec correction détaillée
 - Système de déblocage par niveau (score ≥ 7/10)
 - Sauvegarde progression dans `progress.md` après chaque quiz
-- Badges : 🏅 Initié → 🥈 Analyste → 🏆 Stratège BRVM
+- Badges : 🏅 Initié → 🥈 Analyste → 🏆 Stratège → 📊 Chartiste → 🔍 Fondamentaliste →
+  🌍 Macro-Économiste → 🧠 Mental d'Acier → ⚖️ Averti → 👑 Gestionnaire de Portefeuille
 
 ### `brvm-portefeuille` — Suivi de Portefeuille
 
@@ -157,10 +178,11 @@ Tracker personnel des positions avec alertes automatiques.
 
 ---
 
-## ⌨️ Les 5 commandes
+## ⌨️ Les 6 commandes
 
 | Commande | Description | Exemple |
 |----------|-------------|---------|
+| `/brvm-trader` | Point d'entrée — accueil + progression | `/brvm-trader` |
 | `/analyse [valeur]` | Analyse complète + score /10 | `/analyse SONATEL` |
 | `/marche` | Palmarès + indices du jour | `/marche` |
 | `/formation [module]` | Formation interactive | `/formation 2.2` |
@@ -169,13 +191,23 @@ Tracker personnel des positions avec alertes automatiques.
 
 ---
 
-## 📚 Formation — 3 niveaux, 13 modules, ~15h
+## 📚 Formation — 9 niveaux, 37 modules, ~36h
 
 | Niveau | Modules | Durée | Déblocage |
 |--------|---------|-------|-----------|
-| **1 — Initiation** | Vocabulaire · Pourquoi investir · Organisation BRVM · Acteurs · Premier ordre | 4h30 | Dès l'installation |
-| **2 — Analyser** | Graphiques · RSI & supports · PER & dividendes · Timing achat/vente | 5h | Score N1 ≥ 7/10 |
-| **3 — Stratégies** | Portefeuille · Gestion risque · DCA/Momentum · Capture dividendes | 4h45 | Score N2 ≥ 7/10 |
+| **1 — Initiation** | Vocabulaire · Pourquoi investir · Organisation BRVM · Acteurs · Premier ordre | 3h15 | Dès l'installation |
+| **2 — Analyser** | Graphiques · RSI, MM, MACD · PER, ROE, dividendes · Timing achat/vente | 4h30 | Quiz N1 ≥ 7/10 |
+| **3 — Stratégies** | Portefeuille · Gestion risque · DCA/Momentum · Capture dividendes | 3h30 | Quiz N2 ≥ 7/10 |
+| **4 — Technique approfondie** | Bases · Bollinger · Momentum avancé · Figures chartistes · Multi-timeframe | 6h30 | Quiz N3 ≥ 7/10 |
+| **5 — Fondamentale avancée** | Bilan · Ratios · Valorisation DCF · Sectorielle · Rapport annuel | 5h45 | Quiz N4 ≥ 7/10 |
+| **6 — Macro UEMOA** | Franc CFA · BCEAO & taux · Cycles économiques · Indicateurs macro | 4h00 | Quiz N5 ≥ 7/10 |
+| **7 — Psychologie** | Biais cognitifs · Gestion des émotions · Journal de trading | 2h45 | Quiz N6 ≥ 7/10 |
+| **8 — Fiscalité & régulation** | Fiscalité UEMOA · CREPMF · Droits des actionnaires | 2h15 | Quiz N7 ≥ 7/10 |
+| **9 — Portefeuille avancé** | Diversification · Rebalancement · Opérations sur titres · Performance | 3h45 | Quiz N8 ≥ 7/10 |
+
+Chaque module se termine par un quiz oral de 5 questions noté /10. Il faut **7/10**
+pour débloquer la suite. La progression est sauvegardée dans `.claude/courses/progress.md`
+(fichier personnel, exclu du dépôt).
 
 ---
 

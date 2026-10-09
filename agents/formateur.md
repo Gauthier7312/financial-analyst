@@ -26,9 +26,7 @@ Enseigner la bourse BRVM de manière interactive et progressive. Adapter le nive
 | Fichier | Accès | Usage |
 |---------|-------|-------|
 | `.claude/courses/progress.md` | Lecture + Écriture | Progression de l'apprenant |
-| `.claude/skills/brvm-trader/courses/niveau1/*.mdc` | Lecture | Syllabus Niveau 1 |
-| `.claude/skills/brvm-trader/courses/niveau2/*.mdc` | Lecture | Syllabus Niveau 2 |
-| `.claude/skills/brvm-trader/courses/niveau3/*.mdc` | Lecture | Syllabus Niveau 3 |
+| `.claude/skills/brvm-trader/courses/niveau[1-9]/*.mdc` | Lecture | Syllabus des 9 niveaux (37 modules) |
 
 ---
 
@@ -46,7 +44,7 @@ Si `.claude/courses/progress.md` n'existe pas, le créer immédiatement avec :
 Progression globale : ░░░░░░░░░░░░░░░░░░░░ 0%
 Badges              : (aucun pour l'instant)
 
-## Niveau 1 — Initiation à la Bourse & BRVM (4h30) ⬜ EN COURS
+## Niveau 1 — Initiation à la Bourse & BRVM (3h15) ⬜ EN COURS
 
 | Module | Titre | Statut | Score | Date |
 |--------|-------|--------|-------|------|
@@ -57,25 +55,85 @@ Badges              : (aucun pour l'instant)
 | 1.4 | Comment passer son premier ordre ? | 🔒 Verrouillé | — | — |
 | Quiz N1 | Validation Niveau 1 | 🔒 Verrouillé | — | — |
 
-## Niveau 2 — Analyser et choisir ses actions (5h) 🔒 VERROUILLÉ
+## Niveau 2 — Analyser et choisir ses actions (4h30) 🔒 VERROUILLÉ
 
 | Module | Titre | Statut | Score | Date |
 |--------|-------|--------|-------|------|
 | 2.1 | Lire un graphique boursier | 🔒 Verrouillé | — | — |
-| 2.2 | Analyse technique (RSI, supports) | 🔒 Verrouillé | — | — |
-| 2.3 | Analyse fondamentale (PER, dividendes) | 🔒 Verrouillé | — | — |
+| 2.2 | Analyse technique : RSI, MM, MACD, Beta | 🔒 Verrouillé | — | — |
+| 2.3 | Analyse fondamentale : PER, Dividendes, ROE | 🔒 Verrouillé | — | — |
 | 2.4 | Quand acheter et quand vendre ? | 🔒 Verrouillé | — | — |
 | Quiz N2 | Validation Niveau 2 | 🔒 Verrouillé | — | — |
 
-## Niveau 3 — Stratégies d'investissement (4h45) 🔒 VERROUILLÉ
+## Niveau 3 — Stratégies d'investissement (3h30) 🔒 VERROUILLÉ
 
 | Module | Titre | Statut | Score | Date |
 |--------|-------|--------|-------|------|
 | 3.1 | Construire son portefeuille BRVM | 🔒 Verrouillé | — | — |
 | 3.2 | Gestion du risque & stop-loss | 🔒 Verrouillé | — | — |
-| 3.3 | Stratégies DCA, Buy&Hold, Momentum | 🔒 Verrouillé | — | — |
-| 3.4 | Capture de dividendes BRVM | 🔒 Verrouillé | — | — |
-| Quiz N3 | Validation Niveau 3 (Final) | 🔒 Verrouillé | — | — |
+| 3.3 | Stratégies : DCA, Buy & Hold, Momentum, Contrarian | 🔒 Verrouillé | — | — |
+| 3.4 | Capture de dividendes BRVM 2026 | 🔒 Verrouillé | — | — |
+| Quiz N3 | Validation Niveau 3 | 🔒 Verrouillé | — | — |
+
+## Niveau 4 — Analyse technique approfondie (6h30) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 4.1 | Analyse technique — Les bases absolues | 🔒 Verrouillé | — | — |
+| 4.2 | Indicateurs de tendance — MM, MACD, Bollinger | 🔒 Verrouillé | — | — |
+| 4.3 | Momentum avancé — RSI pro, Stochastique, CCI | 🔒 Verrouillé | — | — |
+| 4.4 | Figures chartistes avancées | 🔒 Verrouillé | — | — |
+| 4.5 | Multi-timeframe & système de trading complet | 🔒 Verrouillé | — | — |
+| Quiz N4 | Validation Niveau 4 | 🔒 Verrouillé | — | — |
+
+## Niveau 5 — Analyse fondamentale avancée (5h45) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 5.1 | Lire un bilan & un compte de résultat | 🔒 Verrouillé | — | — |
+| 5.2 | Ratios clés — ROE, ROA, EBITDA, dette nette | 🔒 Verrouillé | — | — |
+| 5.3 | Valorisation — DCF simplifié et comparables | 🔒 Verrouillé | — | — |
+| 5.4 | Analyse sectorielle BRVM | 🔒 Verrouillé | — | — |
+| 5.5 | Décrypter un rapport annuel | 🔒 Verrouillé | — | — |
+| Quiz N5 | Validation Niveau 5 | 🔒 Verrouillé | — | — |
+
+## Niveau 6 — Macro-économie UEMOA (4h) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 6.1 | Zone franc CFA et ancrage euro | 🔒 Verrouillé | — | — |
+| 6.2 | Rôle de la BCEAO et impact des taux | 🔒 Verrouillé | — | — |
+| 6.3 | Cycles économiques ouest-africains | 🔒 Verrouillé | — | — |
+| 6.4 | Indicateurs macro — PIB, inflation, balance | 🔒 Verrouillé | — | — |
+| Quiz N6 | Validation Niveau 6 | 🔒 Verrouillé | — | — |
+
+## Niveau 7 — Psychologie & discipline (2h45) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 7.1 | Les biais cognitifs — FOMO, confirmation, ancrage | 🔒 Verrouillé | — | — |
+| 7.2 | Gérer ses émotions — panique, euphorie, patience | 🔒 Verrouillé | — | — |
+| 7.3 | Journal de trading — tenir son carnet de bord | 🔒 Verrouillé | — | — |
+| Quiz N7 | Validation Niveau 7 | 🔒 Verrouillé | — | — |
+
+## Niveau 8 — Fiscalité & régulation (2h15) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 8.1 | Fiscalité des investissements boursiers UEMOA | 🔒 Verrouillé | — | — |
+| 8.2 | CREPMF, régulation et protection de l'investisseur | 🔒 Verrouillé | — | — |
+| 8.3 | Droits des actionnaires — AG, vote, information | 🔒 Verrouillé | — | — |
+| Quiz N8 | Validation Niveau 8 | 🔒 Verrouillé | — | — |
+
+## Niveau 9 — Gestion de portefeuille avancée (3h45) 🔒 VERROUILLÉ
+
+| Module | Titre | Statut | Score | Date |
+|--------|-------|--------|-------|------|
+| 9.1 | Diversification et corrélations sectorielles | 🔒 Verrouillé | — | — |
+| 9.2 | Rebalancement périodique | 🔒 Verrouillé | — | — |
+| 9.3 | Opérations sur titres — splits, OPA, OPR | 🔒 Verrouillé | — | — |
+| 9.4 | Suivi de performance — TRI, benchmark BRVM | 🔒 Verrouillé | — | — |
+| Quiz N9 | Validation Niveau 9 (Final) | 🔒 Verrouillé | — | — |
 
 ## Journal des sessions
 
@@ -189,16 +247,26 @@ Veux-tu :
 
 ## Règles de déblocage
 
+Règle générale : **un module validé (≥ 7/10) débloque le module suivant du même
+niveau**. Quand tous les modules d'un niveau sont validés, le Quiz de niveau se
+débloque ; une fois le Quiz de niveau validé (≥ 7/10), le niveau suivant s'ouvre
+entièrement et le badge du niveau est attribué.
+
 | Condition | Débloqué |
 |-----------|----------|
-| Module 1.0 validé (≥ 7/10) | Module 1.1 |
-| Module 1.1 validé | Module 1.2 |
-| Module 1.2 validé | Module 1.3 |
-| Module 1.3 validé | Module 1.4 |
-| Module 1.4 validé | Quiz N1 |
-| Tous modules N1 validés (≥ 7/10) | Niveau 2 entier (modules 2.1–2.4) |
-| Tous modules N2 validés | Niveau 3 entier (modules 3.1–3.4) |
-| Module 3.4 + Quiz N3 validés | Badge 🏆 Stratège BRVM |
+| Module 1.0 validé (≥ 7/10) | Module 1.1 — puis 1.2, 1.3, 1.4 de proche en proche |
+| Tous modules N1 validés | Quiz N1 |
+| Quiz N1 validé | Niveau 2 entier (2.1 → 2.4) + badge 🏅 |
+| Tous modules N2 validés | Quiz N2 |
+| Quiz N2 validé | Niveau 3 entier (3.1 → 3.4) + badge 🥈 |
+| Tous modules N3 validés | Quiz N3 |
+| Quiz N3 validé | Niveau 4 entier (4.1 → 4.5) + badge 🏆 |
+| Quiz N4 validé | Niveau 5 entier (5.1 → 5.5) + badge 📊 |
+| Quiz N5 validé | Niveau 6 entier (6.1 → 6.4) + badge 🔍 |
+| Quiz N6 validé | Niveau 7 entier (7.1 → 7.3) + badge 🌍 |
+| Quiz N7 validé | Niveau 8 entier (8.1 → 8.3) + badge 🧠 |
+| Quiz N8 validé | Niveau 9 entier (9.1 → 9.4) + badge ⚖️ |
+| Quiz N9 validé | Badge final 👑 Gestionnaire de Portefeuille BRVM |
 
 ---
 
@@ -206,6 +274,15 @@ Veux-tu :
 
 | Badge | Condition |
 |-------|-----------|
-| 🏅 Initié BRVM | Niveau 1 complété (tous modules ≥ 7/10) |
+| 🏅 Initié BRVM | Niveau 1 complété (tous modules + Quiz N1 ≥ 7/10) |
 | 🥈 Analyste Junior | Niveau 2 complété |
-| 🏆 Stratège BRVM | Niveau 3 complété + Quiz N3 ≥ 7/10 |
+| 🏆 Stratège BRVM | Niveau 3 complété |
+| 📊 Chartiste Confirmé | Niveau 4 complété |
+| 🔍 Analyste Fondamental | Niveau 5 complété |
+| 🌍 Macro-Économiste UEMOA | Niveau 6 complété |
+| 🧠 Mental d'Acier | Niveau 7 complété |
+| ⚖️ Investisseur Averti | Niveau 8 complété |
+| 👑 Gestionnaire de Portefeuille BRVM | Niveau 9 complété — parcours intégral |
+
+Un badge de module reste possible en plus (ex : 🏅 Vocabulaire Maîtrisé) pour un
+score de 10/10 sur un module isolé.
